@@ -63,7 +63,7 @@ one. Full reasoning, every hypothesis's disposition, and every limitation: see
 | [`src/foldings_edge/`](src/foldings_edge/) | The Python package: residue loading (`dataset.py`), the Mann–Whitney/KS/bootstrap/classifier statistics (`stats.py`), and the registry builder (`registry.py`). |
 | [`tests/`](tests/) | Unit tests (small synthetic fixtures, not real network calls) and a byte-comparison test against the frozen registry. |
 | [`reports/v0.1-foldings-edge-registry.json`](reports/v0.1-foldings-edge-registry.json) | The frozen, deterministic analysis output, generated from the real joined dataset. |
-| [`site/`](site/) | An accessible Next.js (vinext) interactive site: pLDDT-vs-disorder distribution view, classifier performance with uncertainty, full data tables, and a provenance page, built for Cloudflare Workers. |
+| [`site/`](site/) | An accessible Next.js (vinext) interactive site: a hero animation of a real protein's per-residue pLDDT driving a wiggling chain, pLDDT-vs-disorder distribution view, classifier performance with uncertainty, full data tables, and a provenance page, built for Cloudflare Workers. |
 
 ## Reproduce the analysis locally
 
