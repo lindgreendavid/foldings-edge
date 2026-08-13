@@ -7,6 +7,9 @@ interface EcdfChartProps {
   inside: number[];
   outside: number[];
   tableId: string;
+  /** Optional vertical marker (e.g. the currently-selected classifier threshold). */
+  markerValue?: number;
+  markerLabel?: string;
 }
 
 const WIDTH = 640;
@@ -19,13 +22,26 @@ const PADDING = 40;
  * survives grayscale printing, color-vision deficiency, and forced-colors
  * mode.
  */
-export function EcdfChart({ title, description, unit, inside, outside, tableId }: EcdfChartProps) {
+export function EcdfChart({
+  title,
+  description,
+  unit,
+  inside,
+  outside,
+  tableId,
+  markerValue,
+  markerLabel,
+}: EcdfChartProps) {
   const domain = domainOf(inside, outside);
   const insidePath = ecdfPath(ecdf(inside), domain, WIDTH, HEIGHT, PADDING);
   const outsidePath = ecdfPath(ecdf(outside), domain, WIDTH, HEIGHT, PADDING);
   const gridY = [0, 0.25, 0.5, 0.75, 1];
   const toY = (fraction: number) => HEIGHT - PADDING - fraction * (HEIGHT - 2 * PADDING);
   const [xMin, xMax] = domain;
+  const hasMarker = typeof markerValue === "number" && markerValue >= xMin && markerValue <= xMax;
+  const markerX = hasMarker
+    ? PADDING + ((markerValue! - xMin) / (xMax - xMin || 1)) * (WIDTH - 2 * PADDING)
+    : null;
 
   return (
     <div className="chart-card">
@@ -66,6 +82,14 @@ export function EcdfChart({ title, description, unit, inside, outside, tableId }
         </text>
         <path d={outsidePath} className="ecdf-line ecdf-line--outside" />
         <path d={insidePath} className="ecdf-line ecdf-line--inside" />
+        {markerX !== null && (
+          <g className="ecdf-marker">
+            <line x1={markerX} x2={markerX} y1={PADDING} y2={HEIGHT - PADDING} />
+            <text x={markerX} y={PADDING - 10} textAnchor="middle">
+              {markerLabel ?? `threshold ${markerValue}`}
+            </text>
+          </g>
+        )}
       </svg>
       <div className="chart-legend">
         <span>

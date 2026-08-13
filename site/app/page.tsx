@@ -1,14 +1,18 @@
 import registryJson from "./data/registry.json";
+import thresholdSweepJson from "./data/threshold-sweep.json";
 import type { Registry } from "./registry-types";
+import type { ThresholdSweep } from "./threshold-types";
 import { EcdfChart } from "./ecdf-chart";
 import { DistributionResult, ClassifierResult } from "./comparison-result";
 import { DistributionTable } from "./distribution-table";
 import { ProteinBreakdownTable } from "./protein-breakdown-table";
 import { EvidenceTable } from "./evidence-table";
+import { ThresholdExplorer } from "./threshold-explorer";
 import HeroChain from "./hero-chain";
 
 const registry = registryJson as unknown as Registry;
 const { dataset, h1_distribution, h2_classifier, protein_breakdown, distributions } = registry;
+const thresholdSweep = thresholdSweepJson as unknown as ThresholdSweep;
 
 const confidentDespiteDisorder = h2_classifier.overall.confusion.false_negative;
 const confidentDespiteDisorderPct = (
@@ -213,6 +217,11 @@ export default function Home() {
             et al.&apos;s own reported ~30% figure for DisProt, despite this project&apos;s
             different sample, ground-truth scope, and classifier.
           </p>
+          <ThresholdExplorer
+            sweep={thresholdSweep}
+            insideDistribution={distributions.inside_disorder}
+            outsideDistribution={distributions.outside_disorder}
+          />
         </section>
 
         <section className="evidence" id="breakdown" aria-labelledby="breakdown-heading">

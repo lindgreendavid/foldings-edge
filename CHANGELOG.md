@@ -7,6 +7,21 @@ All notable changes to this project are documented here. Format loosely follows
 
 ### Added
 
+- `scripts/generate_threshold_sweep.py` and `site/app/threshold-explorer.tsx`: an interactive
+  pLDDT-threshold explorer on the classifier section of the site. The script reads the real
+  `data/external/joined_residues.csv` and precomputes precision/recall/F1/MCC and confusion
+  counts at every integer threshold from 0 to 100, overall and split by the same protein-level
+  conditional-folding-flag breakdown `docs/research-report.md` already reports (verified
+  internally consistent with the frozen registry's own point estimates at threshold=70: see
+  `site/tests/threshold-explorer.test.mjs`), into `site/app/data/threshold-sweep.json`. The
+  slider is a real `<input type="range">` with a visible label, `aria-valuetext` describing the
+  selected threshold and its headline stats in words, an `aria-live="polite"` region for
+  screen-reader users, a "Reset to preregistered threshold (70)" control, a vertical marker on
+  the existing pLDDT ECDF chart showing where the threshold falls relative to both
+  distributions, and a static, always-visible reference table (thresholds 50/70/90, aggregate
+  and by conditional-folding flag) as a non-interactive fallback. This is a presentation-layer,
+  site-scoped addition: it does not touch `src/foldings_edge/`, the frozen registry, or the
+  research docs, and does not change any reported headline number.
 - `site/app/hero-chain.tsx`: a real-data hero animation — a 60-residue slice (residues
   645–704) of UniProt Q92793's actual per-residue AlphaFold2 pLDDT (`data/external/
   joined_residues.csv`), rendered as a connected chain on canvas whose per-residue jitter
