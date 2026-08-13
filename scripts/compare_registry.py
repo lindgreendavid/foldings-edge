@@ -16,7 +16,9 @@ CLASSIFIER_BOOTSTRAP_CI_ABS_TOLERANCE = 1e-5
 
 def _absolute_tolerance(path: str) -> float:
     """Allow only seeded classifier bootstrap boundaries to vary by one draw."""
-    is_classifier_bootstrap_ci = ".classifier.f1.ci_95_" in path or ".classifier.mcc.ci_95_" in path
+    is_classifier_bootstrap_ci = path.startswith("$.h2_classifier.") and (
+        ".f1.ci_95_" in path or ".mcc.ci_95_" in path
+    )
     return CLASSIFIER_BOOTSTRAP_CI_ABS_TOLERANCE if is_classifier_bootstrap_ci else ABS_TOLERANCE
 
 
