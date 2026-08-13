@@ -4,7 +4,7 @@ A reproducible reanalysis testing whether AlphaFold2's per-residue pLDDT confide
 predicts experimentally-curated intrinsic disorder (DisProt) — and where that relationship
 breaks down.
 
-**[Open the live interactive site](https://foldings-edge-interactive.lindgreendavid.workers.dev)**
+**[Open the live interactive site](https://foldings-edge-interactive.lindgreendavid.workers.dev)** · **[Read the plain-language write-up](https://blog-interactive.lindgreendavid.workers.dev/posts/foldings-edge-plddt-disorder)**
 
 **Research question:** does AlphaFold2's pLDDT confidence score predict DisProt-curated
 intrinsic disorder for human proteins, and where does that relationship break down? This
