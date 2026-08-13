@@ -48,6 +48,23 @@ test("ships accessible controls and research boundaries", async () => {
   assert.doesNotMatch(packageJson, /react-loading-skeleton|drizzle/);
 });
 
+test("ships the real-data hero chain animation with an accessible caption", async () => {
+  const [page, heroChain] = await Promise.all([
+    readFile(new URL("app/page.tsx", root), "utf8"),
+    readFile(new URL("app/hero-chain.tsx", root), "utf8"),
+  ]);
+  // The canvas is decorative (aria-hidden); the caption beside it must carry the real,
+  // accessible description — same pattern as the caption text asserted below.
+  assert.match(page, /<HeroChain \/>/);
+  assert.match(page, /hero__demo-caption/);
+  assert.match(page, /Q92793/);
+  assert.match(page, /joined_residues\.csv/);
+  assert.match(heroChain, /aria-hidden="true"/);
+  assert.match(heroChain, /prefers-reduced-motion: reduce/);
+  // Reduced motion must draw a single static frame, not start the requestAnimationFrame loop.
+  assert.match(heroChain, /if \(reduced\) \{[\s\S]*?drawFrame\(0\);[\s\S]*?return;[\s\S]*?\}/);
+});
+
 test("ships the complete frozen registry into the interactive release", async () => {
   const shipped = JSON.parse(await readFile(new URL("app/data/registry.json", root), "utf8"));
   const frozen = JSON.parse(

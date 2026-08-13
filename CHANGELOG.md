@@ -3,6 +3,22 @@
 All notable changes to this project are documented here. Format loosely follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [Unreleased]
+
+### Added
+
+- `site/app/hero-chain.tsx`: a real-data hero animation — a 60-residue slice (residues
+  645–704) of UniProt Q92793's actual per-residue AlphaFold2 pLDDT (`data/external/
+  joined_residues.csv`), rendered as a connected chain on canvas whose per-residue jitter
+  amplitude is driven by `(100 − pLDDT)` for that residue, so confidently-predicted residues
+  stay nearly still and low-pLDDT residues (the curated-disorder region this slice runs into,
+  starting at residue 674) wiggle visibly. Respects `prefers-reduced-motion` (a single static
+  frame instead of the loop), sized to its own numerically-verified content extent, and paired
+  with an accessible caption stating the real accession, residue range, and data source
+  (canvas itself is `aria-hidden`). This is a visualization-only, site-scoped change: no new
+  statistics, citations, or changes to `src/foldings_edge/`, the frozen registry, or the
+  research docs.
+
 ## [0.1.0] - 2026-08-13
 
 ### Added

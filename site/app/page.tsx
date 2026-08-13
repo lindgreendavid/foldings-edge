@@ -5,6 +5,7 @@ import { DistributionResult, ClassifierResult } from "./comparison-result";
 import { DistributionTable } from "./distribution-table";
 import { ProteinBreakdownTable } from "./protein-breakdown-table";
 import { EvidenceTable } from "./evidence-table";
+import HeroChain from "./hero-chain";
 
 const registry = registryJson as unknown as Registry;
 const { dataset, h1_distribution, h2_classifier, protein_breakdown, distributions } = registry;
@@ -56,6 +57,20 @@ export default function Home() {
             DisProt-curated disorder annotations, joined to real AlphaFold DB predictions — and
             reports exactly where the relationship holds and where it does not.
           </p>
+          <div className="hero__demo">
+            <HeroChain />
+            <p className="hero__demo-caption">
+              Real per-residue data, not decoration: UniProt Q92793 (DisProt DP02004), residues
+              645–704 — a 60-residue slice of this 2,442-residue protein. Q92793 carries the
+              largest curated-disorder region in this project&apos;s sample, and its
+              DisProt-curated disorder annotation begins at residue 674 (marked with a larger
+              node), which this slice runs into. Each segment&apos;s jitter amplitude is
+              (100 − that residue&apos;s real pLDDT) from{" "}
+              <code>data/external/joined_residues.csv</code>: nearly still above pLDDT 80,
+              visibly restless once pLDDT drops into the 20s and 30s entering the disorder
+              region.
+            </p>
+          </div>
           <div className="hero__actions">
             <a className="button button--primary" href="#distribution">
               See the pLDDT comparison
