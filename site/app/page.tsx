@@ -79,6 +79,9 @@ export default function Home() {
             <a className="button button--primary" href="#distribution">
               See the pLDDT comparison
             </a>
+            <a className="button button--ghost" href="#classifier">
+              Try the threshold explorer
+            </a>
             <a
               className="button button--ghost"
               href="https://github.com/lindgreendavid/foldings-edge/blob/main/docs/research-report.md"
