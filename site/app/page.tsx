@@ -47,7 +47,7 @@ export default function Home() {
         <section className="hero">
           <div className="eyebrow">
             <span>AlphaFold2 pLDDT vs. DisProt disorder</span>
-            <span>v0.1.0 · preregistered · frozen registry</span>
+            <span>Product v1.0.0 · preregistered frozen v0.1 registry</span>
           </div>
           <h1>
             Does confidence mean <em>order</em>?
@@ -423,7 +423,7 @@ export default function Home() {
           <span className="brand__mark" aria-hidden="true">
             ⌁
           </span>
-          <p>Foldings Edge v0.1.0 · MIT licensed · data used per DisProt and AlphaFold DB CC BY 4.0 terms</p>
+          <p>Folding’s Edge product v1.0.0 · frozen v0.1 study · MIT licensed · data used per DisProt and AlphaFold DB CC BY 4.0 terms</p>
         </div>
         <a href="https://github.com/lindgreendavid/foldings-edge/blob/main/ACCESSIBILITY.md">
           Accessibility statement
