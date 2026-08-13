@@ -1,0 +1,68 @@
+{
+  "datasets": {
+    "disprot": {
+      "name": "DisProt",
+      "endpoint": "https://disprot.org/api/search",
+      "query_params": {
+        "organism": "Homo sapiens",
+        "release": "current"
+      },
+      "accessed": "2026-08-13",
+      "total_human_entries_at_access": 1339,
+      "note_growth_since_paper": "The original Alderson et al. 2023 paper analyzed 932 human DisProt IDRs as of its own 2023 snapshot; this project's snapshot (2026-08-13) has 1339 human entries, reflecting three years of continued DisProt curation growth.",
+      "api_deviation_from_documented_behavior": "The /api/search endpoint's `limit` and `offset` query parameters do NOT paginate when an `organism` filter is present: requests with limit=5, 50, 500, and 2000 (verified directly against the live API) all returned the identical full 1339-entry `data` array with `size: 1339`. scripts/fetch_data.py was written to loop on offset per the original plan, discovered this during the actual fetch (it collected 9,373 = 7 x 1339 duplicate-laden entries from looping), and was corrected to make a single request and deduplicate by disprot_id defensively. This deviation is disclosed here and in docs/research-protocol.md rather than silently worked around.",
+      "ground_truth_region_definition": "Only regions with term_namespace == \"Structural state\" and term_name == \"disorder\" are used as the positive curated-disorder label. term_namespace == \"Structural transition\" / term_name == \"disorder to order\" regions (conditional folding) are recorded separately per protein (is_conditional flag) and used only in the breakdown analysis, never as part of the primary ground-truth label.",
+      "license": "CC BY 4.0 (DisProt's own stated license)",
+      "primary_database_citation": "DisProt: intrinsically disordered protein database, Nucleic Acids Research (see https://disprot.org for the current release citation; this project cites the database and API, not a specific NAR publication year, because the `release=current` snapshot spans multiple published DisProt releases)."
+    },
+    "alphafold_db": {
+      "name": "AlphaFold Protein Structure Database (EBI)",
+      "metadata_endpoint": "https://alphafold.ebi.ac.uk/api/prediction/{accession}",
+      "confidence_endpoint_pattern": "https://alphafold.ebi.ac.uk/files/AF-{accession}-F1-confidence_v{version}.json (the exact URL used per accession is read from each entry's own plddtDocUrl field, not constructed manually)",
+      "confidence_json_keys_verified": ["residueNumber", "confidenceScore", "confidenceCategory"],
+      "accessed": "2026-08-13",
+      "api_deviation_from_documented_behavior": "The metadata endpoint can return more than one record for a single queried accession, but in the live API (verified 2026-08-13) these additional records are overwhelmingly UniProt ISOFORM entries (e.g. querying O00273 also returns a record whose own uniprotAccession field is \"O00273-2\", not the long-protein -F1/-F2/-F3 sequence-fragmentation this project originally expected from AlphaFold DB documentation). scripts/fetch_data.py filters returned records to uniprotAccession == the queried accession before deciding an entry is genuinely fragmented; before this fix, the fetch spuriously excluded 250/400 sampled proteins as 'fragmented' when they were in fact single-fragment canonical entries alongside isoform records. After the fix, only 6/400 sampled proteins were genuinely excluded for having more than one exact-accession-matching record.",
+      "primary_citation": "Jumper, J., Evans, R., Pritzel, A. et al. Highly accurate protein structure prediction with AlphaFold. Nature 596, 583-589 (2021). DOI: 10.1038/s41586-021-03819-2 (verified independently: title, journal, volume/page, year, and DOI resolve correctly).",
+      "license": "CC BY 4.0 (AlphaFold DB's stated license)"
+    }
+  },
+  "sample_construction": {
+    "method": "Fixed-seed reproducible random sample of 400 of the 1339 human DisProt entries, numpy.random.default_rng(seed=20260813), sampled without replacement from the entries sorted by disprot_id.",
+    "seed": 20260813,
+    "sample_size_requested": 400,
+    "sampled": 400,
+    "included_proteins": 387,
+    "excluded_proteins": 13,
+    "exclusions_by_reason": {
+      "fragmented_alphafold_entry": 6,
+      "no_alphafold_prediction": 7,
+      "sequence_length_mismatch": 0
+    },
+    "exclusions_log_path": "data/external/exclusions_log.json"
+  },
+  "realized_dataset": {
+    "total_proteins": 387,
+    "total_residues": 228662,
+    "disorder_annotated_residues": 36988,
+    "non_disorder_residues": 191674,
+    "conditional_disorder_residues": 5435,
+    "non_conditional_disorder_residues": 31553,
+    "note": "conditional_disorder_residues counts disorder-annotated residues on a protein that ALSO has at least one 'disorder to order' (Structural transition) region annotated somewhere on that same protein — a protein-level proxy for 'looks like it may conditionally fold', not identical to Alderson et al. 2023's own five-database conditionally-folded-IDR definition."
+  },
+  "verification": {
+    "method": "structural: DisProt sequence length is required to exactly match the AlphaFold DB uniprotSequence length for the same accession before an entry is included; any mismatch is excluded and logged rather than silently truncated. AlphaFold DB metadata is filtered to exact-accession records before checking for genuine fragmentation.",
+    "checks": [
+      "every included residue's residue_number is drawn directly from the AlphaFold DB confidence JSON's own residueNumber array, not assumed to be a contiguous 1..N range",
+      "DisProt region start/end are used as inclusive 1-based bounds, matching both APIs' own indexing convention",
+      "0 of 400 sampled entries were excluded for a sequence-length mismatch in this run"
+    ],
+    "enforced_by": "scripts/fetch_data.py logs every exclusion with its reason to data/external/exclusions_log.json"
+  },
+  "raw_file_committed": {
+    "data/external/joined_residues.csv": true,
+    "data/external/exclusions_log.json": true,
+    "data/external/disprot_raw.json": false
+  },
+  "raw_file_reason": "The joined per-residue table (data/external/joined_residues.csv) is a bounded (387-protein), derived dataset licensed CC BY 4.0 downstream of two CC BY 4.0 sources, and is committed to make the frozen registry byte-reproducible in CI without depending on two live third-party APIs staying available and behaviorally identical on every run (both APIs already showed one undocumented-behavior deviation each during this project's own build, see above). The full raw DisProt fetch cache (data/external/disprot_raw.json, ~12 MB, all 1339 human entries before sampling) is NOT committed — it is a regenerable intermediate cache, not the dataset this project's results are computed from. scripts/fetch_data.py re-fetches and re-joins from live data at reproduction time; running it should reproduce the same 400-entry sample (fixed seed) and, absent upstream data changes, materially the same joined table.",
+  "accessed": "2026-08-13"
+}

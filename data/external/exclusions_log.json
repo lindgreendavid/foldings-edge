@@ -1,0 +1,98 @@
+{
+  "disorder_annotated_residues": 36988,
+  "excluded_proteins": 13,
+  "exclusions": [
+    {
+      "acc": "Q8WZ42",
+      "disprot_id": "DP00072",
+      "reason": "no_alphafold_prediction",
+      "status": "excluded"
+    },
+    {
+      "acc": "P10451",
+      "disprot_id": "DP00214",
+      "n_fragments": 2,
+      "reason": "fragmented_alphafold_entry",
+      "status": "excluded"
+    },
+    {
+      "acc": "O60356",
+      "disprot_id": "DP00510",
+      "n_fragments": 2,
+      "reason": "fragmented_alphafold_entry",
+      "status": "excluded"
+    },
+    {
+      "acc": "Q8N726-1",
+      "disprot_id": "DP02167",
+      "reason": "no_alphafold_prediction",
+      "status": "excluded"
+    },
+    {
+      "acc": "P01266",
+      "disprot_id": "DP02567",
+      "reason": "no_alphafold_prediction",
+      "status": "excluded"
+    },
+    {
+      "acc": "P13647",
+      "disprot_id": "DP02606",
+      "n_fragments": 2,
+      "reason": "fragmented_alphafold_entry",
+      "status": "excluded"
+    },
+    {
+      "acc": "P03956",
+      "disprot_id": "DP03257",
+      "n_fragments": 2,
+      "reason": "fragmented_alphafold_entry",
+      "status": "excluded"
+    },
+    {
+      "acc": "Q9Y237-1",
+      "disprot_id": "DP03387",
+      "reason": "no_alphafold_prediction",
+      "status": "excluded"
+    },
+    {
+      "acc": "P13051-1",
+      "disprot_id": "DP03397",
+      "reason": "no_alphafold_prediction",
+      "status": "excluded"
+    },
+    {
+      "acc": "O00584",
+      "disprot_id": "DP04100",
+      "n_fragments": 2,
+      "reason": "fragmented_alphafold_entry",
+      "status": "excluded"
+    },
+    {
+      "acc": "P42858",
+      "disprot_id": "DP04129",
+      "reason": "no_alphafold_prediction",
+      "status": "excluded"
+    },
+    {
+      "acc": "P18848",
+      "disprot_id": "DP04263",
+      "n_fragments": 2,
+      "reason": "fragmented_alphafold_entry",
+      "status": "excluded"
+    },
+    {
+      "acc": "O95714",
+      "disprot_id": "DP04325",
+      "reason": "no_alphafold_prediction",
+      "status": "excluded"
+    }
+  ],
+  "exclusions_by_reason": {
+    "fragmented_alphafold_entry": 6,
+    "no_alphafold_prediction": 7
+  },
+  "included_proteins": 387,
+  "sample_size_requested": 400,
+  "sampled": 400,
+  "total_residues": 228662
+}
