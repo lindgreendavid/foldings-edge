@@ -6681,9 +6681,9 @@
     {
       "acc": "A6NI73",
       "disprot_id": "DP02812",
-      "false_negative_residues": 78,
-      "false_positive_rate_of_disorder": 1.0,
-      "false_positive_residues": 11,
+      "false_negative_rate_of_disorder": 1.0,
+      "false_negative_residues": 11,
+      "false_positive_residues": 78,
       "is_conditional": false,
       "n_disorder_residues": 11,
       "n_residues": 299
@@ -6691,9 +6691,9 @@
     {
       "acc": "O00308",
       "disprot_id": "DP03092",
-      "false_negative_residues": 235,
-      "false_positive_rate_of_disorder": 1.0,
-      "false_positive_residues": 41,
+      "false_negative_rate_of_disorder": 1.0,
+      "false_negative_residues": 41,
+      "false_positive_residues": 235,
       "is_conditional": false,
       "n_disorder_residues": 41,
       "n_residues": 870
@@ -6701,9 +6701,9 @@
     {
       "acc": "P01111",
       "disprot_id": "DP03882",
-      "false_negative_residues": 15,
-      "false_positive_rate_of_disorder": 1.0,
-      "false_positive_residues": 12,
+      "false_negative_rate_of_disorder": 1.0,
+      "false_negative_residues": 12,
+      "false_positive_residues": 15,
       "is_conditional": false,
       "n_disorder_residues": 12,
       "n_residues": 189
@@ -6711,9 +6711,9 @@
     {
       "acc": "P02788",
       "disprot_id": "DP00616",
-      "false_negative_residues": 25,
-      "false_positive_rate_of_disorder": 1.0,
-      "false_positive_residues": 22,
+      "false_negative_rate_of_disorder": 1.0,
+      "false_negative_residues": 22,
+      "false_positive_residues": 25,
       "is_conditional": false,
       "n_disorder_residues": 22,
       "n_residues": 710
@@ -6721,9 +6721,9 @@
     {
       "acc": "P06239",
       "disprot_id": "DP01580",
-      "false_negative_residues": 91,
-      "false_positive_rate_of_disorder": 1.0,
-      "false_positive_residues": 36,
+      "false_negative_rate_of_disorder": 1.0,
+      "false_negative_residues": 36,
+      "false_positive_residues": 91,
       "is_conditional": false,
       "n_disorder_residues": 36,
       "n_residues": 509
@@ -6731,9 +6731,9 @@
     {
       "acc": "P08263",
       "disprot_id": "DP01506",
-      "false_negative_residues": 2,
-      "false_positive_rate_of_disorder": 1.0,
-      "false_positive_residues": 15,
+      "false_negative_rate_of_disorder": 1.0,
+      "false_negative_residues": 15,
+      "false_positive_residues": 2,
       "is_conditional": true,
       "n_disorder_residues": 15,
       "n_residues": 222
@@ -6741,9 +6741,9 @@
     {
       "acc": "P13674",
       "disprot_id": "DP03259",
-      "false_negative_residues": 45,
-      "false_positive_rate_of_disorder": 1.0,
-      "false_positive_residues": 10,
+      "false_negative_rate_of_disorder": 1.0,
+      "false_negative_residues": 10,
+      "false_positive_residues": 45,
       "is_conditional": false,
       "n_disorder_residues": 10,
       "n_residues": 534
@@ -6751,9 +6751,9 @@
     {
       "acc": "P16050",
       "disprot_id": "DP02162",
-      "false_negative_residues": 2,
-      "false_positive_rate_of_disorder": 1.0,
-      "false_positive_residues": 141,
+      "false_negative_rate_of_disorder": 1.0,
+      "false_negative_residues": 141,
+      "false_positive_residues": 2,
       "is_conditional": false,
       "n_disorder_residues": 141,
       "n_residues": 662
@@ -6761,9 +6761,9 @@
     {
       "acc": "P26196",
       "disprot_id": "DP03820",
-      "false_negative_residues": 79,
-      "false_positive_rate_of_disorder": 1.0,
-      "false_positive_residues": 13,
+      "false_negative_rate_of_disorder": 1.0,
+      "false_negative_residues": 13,
+      "false_positive_residues": 79,
       "is_conditional": false,
       "n_disorder_residues": 13,
       "n_residues": 483
@@ -6771,9 +6771,9 @@
     {
       "acc": "P33763",
       "disprot_id": "DP01552",
-      "false_negative_residues": 0,
-      "false_positive_rate_of_disorder": 1.0,
-      "false_positive_residues": 15,
+      "false_negative_rate_of_disorder": 1.0,
+      "false_negative_residues": 15,
+      "false_positive_residues": 0,
       "is_conditional": false,
       "n_disorder_residues": 15,
       "n_residues": 92
@@ -6781,9 +6781,9 @@
     {
       "acc": "P37268",
       "disprot_id": "DP03842",
-      "false_negative_residues": 65,
-      "false_positive_rate_of_disorder": 1.0,
-      "false_positive_residues": 13,
+      "false_negative_rate_of_disorder": 1.0,
+      "false_negative_residues": 13,
+      "false_positive_residues": 65,
       "is_conditional": false,
       "n_disorder_residues": 13,
       "n_residues": 417
@@ -6791,9 +6791,9 @@
     {
       "acc": "P49189",
       "disprot_id": "DP02783",
-      "false_negative_residues": 0,
-      "false_positive_rate_of_disorder": 1.0,
-      "false_positive_residues": 24,
+      "false_negative_rate_of_disorder": 1.0,
+      "false_negative_residues": 24,
+      "false_positive_residues": 0,
       "is_conditional": true,
       "n_disorder_residues": 24,
       "n_residues": 494
@@ -6801,9 +6801,9 @@
     {
       "acc": "P49257",
       "disprot_id": "DP03190",
-      "false_negative_residues": 131,
-      "false_positive_rate_of_disorder": 1.0,
-      "false_positive_residues": 10,
+      "false_negative_rate_of_disorder": 1.0,
+      "false_negative_residues": 10,
+      "false_positive_residues": 131,
       "is_conditional": true,
       "n_disorder_residues": 10,
       "n_residues": 510
@@ -6811,9 +6811,9 @@
     {
       "acc": "P52848",
       "disprot_id": "DP03254",
-      "false_negative_residues": 83,
-      "false_positive_rate_of_disorder": 1.0,
-      "false_positive_residues": 35,
+      "false_negative_rate_of_disorder": 1.0,
+      "false_negative_residues": 35,
+      "false_positive_residues": 83,
       "is_conditional": false,
       "n_disorder_residues": 35,
       "n_residues": 882
@@ -6821,9 +6821,9 @@
     {
       "acc": "Q10589",
       "disprot_id": "DP02885",
-      "false_negative_residues": 43,
-      "false_positive_rate_of_disorder": 1.0,
-      "false_positive_residues": 11,
+      "false_negative_rate_of_disorder": 1.0,
+      "false_negative_residues": 11,
+      "false_positive_residues": 43,
       "is_conditional": false,
       "n_disorder_residues": 11,
       "n_residues": 180
@@ -6831,9 +6831,9 @@
     {
       "acc": "Q7KZI7",
       "disprot_id": "DP03130",
-      "false_negative_residues": 371,
-      "false_positive_rate_of_disorder": 1.0,
-      "false_positive_residues": 16,
+      "false_negative_rate_of_disorder": 1.0,
+      "false_negative_residues": 16,
+      "false_positive_residues": 371,
       "is_conditional": true,
       "n_disorder_residues": 16,
       "n_residues": 788
@@ -6841,9 +6841,9 @@
     {
       "acc": "Q8IUQ4",
       "disprot_id": "DP02608",
-      "false_negative_residues": 31,
-      "false_positive_rate_of_disorder": 1.0,
-      "false_positive_residues": 35,
+      "false_negative_rate_of_disorder": 1.0,
+      "false_negative_residues": 35,
+      "false_positive_residues": 31,
       "is_conditional": false,
       "n_disorder_residues": 35,
       "n_residues": 282
@@ -6851,9 +6851,9 @@
     {
       "acc": "Q99958",
       "disprot_id": "DP02231",
-      "false_negative_residues": 403,
-      "false_positive_rate_of_disorder": 1.0,
-      "false_positive_residues": 11,
+      "false_negative_rate_of_disorder": 1.0,
+      "false_negative_residues": 11,
+      "false_positive_residues": 403,
       "is_conditional": false,
       "n_disorder_residues": 11,
       "n_residues": 501
@@ -6861,9 +6861,9 @@
     {
       "acc": "Q9UN86",
       "disprot_id": "DP03991",
-      "false_negative_residues": 272,
-      "false_positive_rate_of_disorder": 1.0,
-      "false_positive_residues": 10,
+      "false_negative_rate_of_disorder": 1.0,
+      "false_negative_residues": 10,
+      "false_positive_residues": 272,
       "is_conditional": false,
       "n_disorder_residues": 10,
       "n_residues": 482
@@ -6871,9 +6871,9 @@
     {
       "acc": "Q01094",
       "disprot_id": "DP01427",
-      "false_negative_residues": 270,
-      "false_positive_rate_of_disorder": 0.9803921568627451,
-      "false_positive_residues": 100,
+      "false_negative_rate_of_disorder": 0.9803921568627451,
+      "false_negative_residues": 100,
+      "false_positive_residues": 270,
       "is_conditional": true,
       "n_disorder_residues": 102,
       "n_residues": 437
@@ -6881,9 +6881,9 @@
     {
       "acc": "Q14691",
       "disprot_id": "DP03122",
-      "false_negative_residues": 0,
-      "false_positive_rate_of_disorder": 0.9803921568627451,
-      "false_positive_residues": 50,
+      "false_negative_rate_of_disorder": 0.9803921568627451,
+      "false_negative_residues": 50,
+      "false_positive_residues": 0,
       "is_conditional": false,
       "n_disorder_residues": 51,
       "n_residues": 196
@@ -6891,9 +6891,9 @@
     {
       "acc": "Q07812",
       "disprot_id": "DP02540",
-      "false_negative_residues": 23,
-      "false_positive_rate_of_disorder": 0.9714285714285714,
-      "false_positive_residues": 34,
+      "false_negative_rate_of_disorder": 0.9714285714285714,
+      "false_negative_residues": 34,
+      "false_positive_residues": 23,
       "is_conditional": true,
       "n_disorder_residues": 35,
       "n_residues": 192
@@ -6901,9 +6901,9 @@
     {
       "acc": "O15392",
       "disprot_id": "DP03719",
-      "false_negative_residues": 0,
-      "false_positive_rate_of_disorder": 0.9595959595959596,
-      "false_positive_residues": 95,
+      "false_negative_rate_of_disorder": 0.9595959595959596,
+      "false_negative_residues": 95,
+      "false_positive_residues": 0,
       "is_conditional": false,
       "n_disorder_residues": 99,
       "n_residues": 142
@@ -6911,9 +6911,9 @@
     {
       "acc": "P50148",
       "disprot_id": "DP03235",
-      "false_negative_residues": 6,
-      "false_positive_rate_of_disorder": 0.9537037037037037,
-      "false_positive_residues": 206,
+      "false_negative_rate_of_disorder": 0.9537037037037037,
+      "false_negative_residues": 206,
+      "false_positive_residues": 6,
       "is_conditional": false,
       "n_disorder_residues": 216,
       "n_residues": 359
@@ -6921,9 +6921,9 @@
     {
       "acc": "Q7RTP6",
       "disprot_id": "DP02396",
-      "false_negative_residues": 1160,
-      "false_positive_rate_of_disorder": 0.9363636363636364,
-      "false_positive_residues": 103,
+      "false_negative_rate_of_disorder": 0.9363636363636364,
+      "false_negative_residues": 103,
+      "false_positive_residues": 1160,
       "is_conditional": false,
       "n_disorder_residues": 110,
       "n_residues": 2002
@@ -6931,9 +6931,9 @@
     {
       "acc": "S6B291",
       "disprot_id": "DP02531",
-      "false_negative_residues": 37,
-      "false_positive_rate_of_disorder": 0.9203539823008849,
-      "false_positive_residues": 208,
+      "false_negative_rate_of_disorder": 0.9203539823008849,
+      "false_negative_residues": 208,
+      "false_positive_residues": 37,
       "is_conditional": false,
       "n_disorder_residues": 226,
       "n_residues": 466
@@ -6941,9 +6941,9 @@
     {
       "acc": "Q99523",
       "disprot_id": "DP01551",
-      "false_negative_residues": 159,
-      "false_positive_rate_of_disorder": 0.9166666666666666,
-      "false_positive_residues": 11,
+      "false_negative_rate_of_disorder": 0.9166666666666666,
+      "false_negative_residues": 11,
+      "false_positive_residues": 159,
       "is_conditional": false,
       "n_disorder_residues": 12,
       "n_residues": 831
@@ -6951,9 +6951,9 @@
     {
       "acc": "P80303",
       "disprot_id": "DP03424",
-      "false_negative_residues": 45,
-      "false_positive_rate_of_disorder": 0.9134199134199135,
-      "false_positive_residues": 211,
+      "false_negative_rate_of_disorder": 0.9134199134199135,
+      "false_negative_residues": 211,
+      "false_positive_residues": 45,
       "is_conditional": true,
       "n_disorder_residues": 231,
       "n_residues": 420
@@ -6961,9 +6961,9 @@
     {
       "acc": "P04271",
       "disprot_id": "DP01738",
-      "false_negative_residues": 1,
-      "false_positive_rate_of_disorder": 0.9130434782608695,
-      "false_positive_residues": 21,
+      "false_negative_rate_of_disorder": 0.9130434782608695,
+      "false_negative_residues": 21,
+      "false_positive_residues": 1,
       "is_conditional": false,
       "n_disorder_residues": 23,
       "n_residues": 92
@@ -6971,9 +6971,9 @@
     {
       "acc": "P23280",
       "disprot_id": "DP02680",
-      "false_negative_residues": 35,
-      "false_positive_rate_of_disorder": 0.9090909090909091,
-      "false_positive_residues": 10,
+      "false_negative_rate_of_disorder": 0.9090909090909091,
+      "false_negative_residues": 10,
+      "false_positive_residues": 35,
       "is_conditional": false,
       "n_disorder_residues": 11,
       "n_residues": 308
@@ -6981,9 +6981,9 @@
     {
       "acc": "Q01081",
       "disprot_id": "DP01456",
-      "false_negative_residues": 56,
-      "false_positive_rate_of_disorder": 0.9043478260869565,
-      "false_positive_residues": 104,
+      "false_negative_rate_of_disorder": 0.9043478260869565,
+      "false_negative_residues": 104,
+      "false_positive_residues": 56,
       "is_conditional": true,
       "n_disorder_residues": 115,
       "n_residues": 240
@@ -6991,9 +6991,9 @@
     {
       "acc": "O60568",
       "disprot_id": "DP03260",
-      "false_negative_residues": 36,
-      "false_positive_rate_of_disorder": 0.896551724137931,
-      "false_positive_residues": 26,
+      "false_negative_rate_of_disorder": 0.896551724137931,
+      "false_negative_residues": 26,
+      "false_positive_residues": 36,
       "is_conditional": true,
       "n_disorder_residues": 29,
       "n_residues": 738
@@ -7001,9 +7001,9 @@
     {
       "acc": "P21583",
       "disprot_id": "DP00917",
-      "false_negative_residues": 114,
-      "false_positive_rate_of_disorder": 0.8888888888888888,
-      "false_positive_residues": 24,
+      "false_negative_rate_of_disorder": 0.8888888888888888,
+      "false_negative_residues": 24,
+      "false_positive_residues": 114,
       "is_conditional": false,
       "n_disorder_residues": 27,
       "n_residues": 273
@@ -7011,9 +7011,9 @@
     {
       "acc": "Q16611",
       "disprot_id": "DP02539",
-      "false_negative_residues": 44,
-      "false_positive_rate_of_disorder": 0.8857142857142857,
-      "false_positive_residues": 31,
+      "false_negative_rate_of_disorder": 0.8857142857142857,
+      "false_negative_residues": 31,
+      "false_positive_residues": 44,
       "is_conditional": true,
       "n_disorder_residues": 35,
       "n_residues": 211
@@ -7021,9 +7021,9 @@
     {
       "acc": "O14727",
       "disprot_id": "DP03173",
-      "false_negative_residues": 67,
-      "false_positive_rate_of_disorder": 0.8653846153846154,
-      "false_positive_residues": 90,
+      "false_negative_rate_of_disorder": 0.8653846153846154,
+      "false_negative_residues": 90,
+      "false_positive_residues": 67,
       "is_conditional": false,
       "n_disorder_residues": 104,
       "n_residues": 1248
@@ -7031,9 +7031,9 @@
     {
       "acc": "Q96Q11",
       "disprot_id": "DP02803",
-      "false_negative_residues": 31,
-      "false_positive_rate_of_disorder": 0.8571428571428571,
-      "false_positive_residues": 54,
+      "false_negative_rate_of_disorder": 0.8571428571428571,
+      "false_negative_residues": 54,
+      "false_positive_residues": 31,
       "is_conditional": false,
       "n_disorder_residues": 63,
       "n_residues": 434
@@ -7041,9 +7041,9 @@
     {
       "acc": "P02647",
       "disprot_id": "DP04271",
-      "false_negative_residues": 82,
-      "false_positive_rate_of_disorder": 0.85,
-      "false_positive_residues": 85,
+      "false_negative_rate_of_disorder": 0.85,
+      "false_negative_residues": 85,
+      "false_positive_residues": 82,
       "is_conditional": true,
       "n_disorder_residues": 100,
       "n_residues": 267
@@ -7051,9 +7051,9 @@
     {
       "acc": "Q9H0E2",
       "disprot_id": "DP03713",
-      "false_negative_residues": 55,
-      "false_positive_rate_of_disorder": 0.8301886792452831,
-      "false_positive_residues": 44,
+      "false_negative_rate_of_disorder": 0.8301886792452831,
+      "false_negative_residues": 44,
+      "false_positive_residues": 55,
       "is_conditional": true,
       "n_disorder_residues": 53,
       "n_residues": 274
@@ -7061,9 +7061,9 @@
     {
       "acc": "P15311",
       "disprot_id": "DP00775",
-      "false_negative_residues": 1,
-      "false_positive_rate_of_disorder": 0.8096774193548387,
-      "false_positive_residues": 251,
+      "false_negative_rate_of_disorder": 0.8096774193548387,
+      "false_negative_residues": 251,
+      "false_positive_residues": 1,
       "is_conditional": false,
       "n_disorder_residues": 310,
       "n_residues": 586
@@ -7071,9 +7071,9 @@
     {
       "acc": "O95155",
       "disprot_id": "DP03116",
-      "false_negative_residues": 348,
-      "false_positive_rate_of_disorder": 0.8,
-      "false_positive_residues": 16,
+      "false_negative_rate_of_disorder": 0.8,
+      "false_negative_residues": 16,
+      "false_positive_residues": 348,
       "is_conditional": false,
       "n_disorder_residues": 20,
       "n_residues": 1302
@@ -7081,9 +7081,9 @@
     {
       "acc": "P09132",
       "disprot_id": "DP00570",
-      "false_negative_residues": 0,
-      "false_positive_rate_of_disorder": 0.7916666666666666,
-      "false_positive_residues": 114,
+      "false_negative_rate_of_disorder": 0.7916666666666666,
+      "false_negative_residues": 114,
+      "false_positive_residues": 0,
       "is_conditional": false,
       "n_disorder_residues": 144,
       "n_residues": 144
@@ -7091,9 +7091,9 @@
     {
       "acc": "Q13464",
       "disprot_id": "DP02365",
-      "false_negative_residues": 372,
-      "false_positive_rate_of_disorder": 0.7894736842105263,
-      "false_positive_residues": 15,
+      "false_negative_rate_of_disorder": 0.7894736842105263,
+      "false_negative_residues": 15,
+      "false_positive_residues": 372,
       "is_conditional": false,
       "n_disorder_residues": 19,
       "n_residues": 1354
@@ -7101,9 +7101,9 @@
     {
       "acc": "Q9Y3B4",
       "disprot_id": "DP01458",
-      "false_negative_residues": 0,
-      "false_positive_rate_of_disorder": 0.782608695652174,
-      "false_positive_residues": 36,
+      "false_negative_rate_of_disorder": 0.782608695652174,
+      "false_negative_residues": 36,
+      "false_positive_residues": 0,
       "is_conditional": false,
       "n_disorder_residues": 46,
       "n_residues": 125
@@ -7111,9 +7111,9 @@
     {
       "acc": "Q92945",
       "disprot_id": "DP01590",
-      "false_negative_residues": 415,
-      "false_positive_rate_of_disorder": 0.7752808988764045,
-      "false_positive_residues": 69,
+      "false_negative_rate_of_disorder": 0.7752808988764045,
+      "false_negative_residues": 69,
+      "false_positive_residues": 415,
       "is_conditional": true,
       "n_disorder_residues": 89,
       "n_residues": 711
@@ -7121,9 +7121,9 @@
     {
       "acc": "A5YKK6",
       "disprot_id": "DP02524",
-      "false_negative_residues": 501,
-      "false_positive_rate_of_disorder": 0.7725631768953068,
-      "false_positive_residues": 214,
+      "false_negative_rate_of_disorder": 0.7725631768953068,
+      "false_negative_residues": 214,
+      "false_positive_residues": 501,
       "is_conditional": false,
       "n_disorder_residues": 277,
       "n_residues": 2376
@@ -7131,9 +7131,9 @@
     {
       "acc": "Q9NRR4",
       "disprot_id": "DP02463",
-      "false_negative_residues": 423,
-      "false_positive_rate_of_disorder": 0.7711267605633803,
-      "false_positive_residues": 219,
+      "false_negative_rate_of_disorder": 0.7711267605633803,
+      "false_negative_residues": 219,
+      "false_positive_residues": 423,
       "is_conditional": false,
       "n_disorder_residues": 284,
       "n_residues": 1374
@@ -7141,9 +7141,9 @@
     {
       "acc": "Q86UX7",
       "disprot_id": "DP01784",
-      "false_negative_residues": 102,
-      "false_positive_rate_of_disorder": 0.7710843373493976,
-      "false_positive_residues": 64,
+      "false_negative_rate_of_disorder": 0.7710843373493976,
+      "false_negative_residues": 64,
+      "false_positive_residues": 102,
       "is_conditional": false,
       "n_disorder_residues": 83,
       "n_residues": 667
@@ -7151,9 +7151,9 @@
     {
       "acc": "P16035",
       "disprot_id": "DP03255",
-      "false_negative_residues": 10,
-      "false_positive_rate_of_disorder": 0.75,
-      "false_positive_residues": 9,
+      "false_negative_rate_of_disorder": 0.75,
+      "false_negative_residues": 9,
+      "false_positive_residues": 10,
       "is_conditional": false,
       "n_disorder_residues": 12,
       "n_residues": 220
@@ -7161,9 +7161,9 @@
     {
       "acc": "Q6ZT98",
       "disprot_id": "DP04032",
-      "false_negative_residues": 273,
-      "false_positive_rate_of_disorder": 0.7481481481481481,
-      "false_positive_residues": 101,
+      "false_negative_rate_of_disorder": 0.7481481481481481,
+      "false_negative_residues": 101,
+      "false_positive_residues": 273,
       "is_conditional": false,
       "n_disorder_residues": 135,
       "n_residues": 887
@@ -7171,9 +7171,9 @@
     {
       "acc": "O76070",
       "disprot_id": "DP00630",
-      "false_negative_residues": 0,
-      "false_positive_rate_of_disorder": 0.7401574803149606,
-      "false_positive_residues": 94,
+      "false_negative_rate_of_disorder": 0.7401574803149606,
+      "false_negative_residues": 94,
+      "false_positive_residues": 0,
       "is_conditional": false,
       "n_disorder_residues": 127,
       "n_residues": 127
@@ -7181,9 +7181,9 @@
     {
       "acc": "P09237",
       "disprot_id": "DP03301",
-      "false_negative_residues": 31,
-      "false_positive_rate_of_disorder": 0.7333333333333333,
-      "false_positive_residues": 33,
+      "false_negative_rate_of_disorder": 0.7333333333333333,
+      "false_negative_residues": 33,
+      "false_positive_residues": 31,
       "is_conditional": true,
       "n_disorder_residues": 45,
       "n_residues": 267
@@ -7191,9 +7191,9 @@
     {
       "acc": "Q9HD36",
       "disprot_id": "DP02676",
-      "false_negative_residues": 32,
-      "false_positive_rate_of_disorder": 0.7333333333333333,
-      "false_positive_residues": 11,
+      "false_negative_rate_of_disorder": 0.7333333333333333,
+      "false_negative_residues": 11,
+      "false_positive_residues": 32,
       "is_conditional": false,
       "n_disorder_residues": 15,
       "n_residues": 204
@@ -7201,9 +7201,9 @@
     {
       "acc": "Q9Y296",
       "disprot_id": "DP00562",
-      "false_negative_residues": 7,
-      "false_positive_rate_of_disorder": 0.7333333333333333,
-      "false_positive_residues": 11,
+      "false_negative_rate_of_disorder": 0.7333333333333333,
+      "false_negative_residues": 11,
+      "false_positive_residues": 7,
       "is_conditional": false,
       "n_disorder_residues": 15,
       "n_residues": 219
@@ -7211,9 +7211,9 @@
     {
       "acc": "O00522",
       "disprot_id": "DP01333",
-      "false_negative_residues": 141,
-      "false_positive_rate_of_disorder": 0.7272727272727273,
-      "false_positive_residues": 8,
+      "false_negative_rate_of_disorder": 0.7272727272727273,
+      "false_negative_residues": 8,
+      "false_positive_residues": 141,
       "is_conditional": false,
       "n_disorder_residues": 11,
       "n_residues": 736
@@ -7221,9 +7221,9 @@
     {
       "acc": "P01034",
       "disprot_id": "DP03297",
-      "false_negative_residues": 18,
-      "false_positive_rate_of_disorder": 0.7272727272727273,
-      "false_positive_residues": 8,
+      "false_negative_rate_of_disorder": 0.7272727272727273,
+      "false_negative_residues": 8,
+      "false_positive_residues": 18,
       "is_conditional": false,
       "n_disorder_residues": 11,
       "n_residues": 146
@@ -7231,9 +7231,9 @@
     {
       "acc": "P40692",
       "disprot_id": "DP03062",
-      "false_negative_residues": 191,
-      "false_positive_rate_of_disorder": 0.7096774193548387,
-      "false_positive_residues": 22,
+      "false_negative_rate_of_disorder": 0.7096774193548387,
+      "false_negative_residues": 22,
+      "false_positive_residues": 191,
       "is_conditional": false,
       "n_disorder_residues": 31,
       "n_residues": 756
@@ -7241,9 +7241,9 @@
     {
       "acc": "P81274",
       "disprot_id": "DP03926",
-      "false_negative_residues": 293,
-      "false_positive_rate_of_disorder": 0.6938775510204082,
-      "false_positive_residues": 102,
+      "false_negative_rate_of_disorder": 0.6938775510204082,
+      "false_negative_residues": 102,
+      "false_positive_residues": 293,
       "is_conditional": false,
       "n_disorder_residues": 147,
       "n_residues": 684
@@ -7251,9 +7251,9 @@
     {
       "acc": "Q9NV23",
       "disprot_id": "DP02795",
-      "false_negative_residues": 4,
-      "false_positive_rate_of_disorder": 0.6904761904761905,
-      "false_positive_residues": 29,
+      "false_negative_rate_of_disorder": 0.6904761904761905,
+      "false_negative_residues": 29,
+      "false_positive_residues": 4,
       "is_conditional": false,
       "n_disorder_residues": 42,
       "n_residues": 265
@@ -7261,9 +7261,9 @@
     {
       "acc": "P12081",
       "disprot_id": "DP01668",
-      "false_negative_residues": 19,
-      "false_positive_rate_of_disorder": 0.6875,
-      "false_positive_residues": 44,
+      "false_negative_rate_of_disorder": 0.6875,
+      "false_negative_residues": 44,
+      "false_positive_residues": 19,
       "is_conditional": false,
       "n_disorder_residues": 64,
       "n_residues": 509
@@ -7271,9 +7271,9 @@
     {
       "acc": "P42574",
       "disprot_id": "DP03152",
-      "false_negative_residues": 35,
-      "false_positive_rate_of_disorder": 0.6428571428571429,
-      "false_positive_residues": 27,
+      "false_negative_rate_of_disorder": 0.6428571428571429,
+      "false_negative_residues": 27,
+      "false_positive_residues": 35,
       "is_conditional": false,
       "n_disorder_residues": 42,
       "n_residues": 277
@@ -7281,9 +7281,9 @@
     {
       "acc": "Q9Y258",
       "disprot_id": "DP00696",
-      "false_negative_residues": 22,
-      "false_positive_rate_of_disorder": 0.6363636363636364,
-      "false_positive_residues": 7,
+      "false_negative_rate_of_disorder": 0.6363636363636364,
+      "false_negative_residues": 7,
+      "false_positive_residues": 22,
       "is_conditional": false,
       "n_disorder_residues": 11,
       "n_residues": 94
@@ -7291,9 +7291,9 @@
     {
       "acc": "Q5T1C6",
       "disprot_id": "DP03348",
-      "false_negative_residues": 45,
-      "false_positive_rate_of_disorder": 0.6153846153846154,
-      "false_positive_residues": 16,
+      "false_negative_rate_of_disorder": 0.6153846153846154,
+      "false_negative_residues": 16,
+      "false_positive_residues": 45,
       "is_conditional": false,
       "n_disorder_residues": 26,
       "n_residues": 240
@@ -7301,9 +7301,9 @@
     {
       "acc": "Q14061",
       "disprot_id": "DP00543",
-      "false_negative_residues": 0,
-      "false_positive_rate_of_disorder": 0.6031746031746031,
-      "false_positive_residues": 38,
+      "false_negative_rate_of_disorder": 0.6031746031746031,
+      "false_negative_residues": 38,
+      "false_positive_residues": 0,
       "is_conditional": true,
       "n_disorder_residues": 63,
       "n_residues": 63
@@ -7311,9 +7311,9 @@
     {
       "acc": "P31751",
       "disprot_id": "DP00304",
-      "false_negative_residues": 57,
-      "false_positive_rate_of_disorder": 0.5797101449275363,
-      "false_positive_residues": 40,
+      "false_negative_rate_of_disorder": 0.5797101449275363,
+      "false_negative_residues": 40,
+      "false_positive_residues": 57,
       "is_conditional": false,
       "n_disorder_residues": 69,
       "n_residues": 481
@@ -7321,9 +7321,9 @@
     {
       "acc": "O95470",
       "disprot_id": "DP04107",
-      "false_negative_residues": 11,
-      "false_positive_rate_of_disorder": 0.5714285714285714,
-      "false_positive_residues": 36,
+      "false_negative_rate_of_disorder": 0.5714285714285714,
+      "false_negative_residues": 36,
+      "false_positive_residues": 11,
       "is_conditional": false,
       "n_disorder_residues": 63,
       "n_residues": 568
@@ -7331,9 +7331,9 @@
     {
       "acc": "O00273",
       "disprot_id": "DP00173",
-      "false_negative_residues": 77,
-      "false_positive_rate_of_disorder": 0.57,
-      "false_positive_residues": 57,
+      "false_negative_rate_of_disorder": 0.57,
+      "false_negative_residues": 57,
+      "false_positive_residues": 77,
       "is_conditional": true,
       "n_disorder_residues": 100,
       "n_residues": 331
@@ -7341,9 +7341,9 @@
     {
       "acc": "P29590",
       "disprot_id": "DP03104",
-      "false_negative_residues": 336,
-      "false_positive_rate_of_disorder": 0.5454545454545454,
-      "false_positive_residues": 6,
+      "false_negative_rate_of_disorder": 0.5454545454545454,
+      "false_negative_residues": 6,
+      "false_positive_residues": 336,
       "is_conditional": false,
       "n_disorder_residues": 11,
       "n_residues": 882
@@ -7351,9 +7351,9 @@
     {
       "acc": "Q96GC6",
       "disprot_id": "DP01556",
-      "false_negative_residues": 238,
-      "false_positive_rate_of_disorder": 0.5349794238683128,
-      "false_positive_residues": 130,
+      "false_negative_rate_of_disorder": 0.5349794238683128,
+      "false_negative_residues": 130,
+      "false_positive_residues": 238,
       "is_conditional": false,
       "n_disorder_residues": 243,
       "n_residues": 653
@@ -7361,9 +7361,9 @@
     {
       "acc": "P01730",
       "disprot_id": "DP00123",
-      "false_negative_residues": 58,
-      "false_positive_rate_of_disorder": 0.5263157894736842,
-      "false_positive_residues": 20,
+      "false_negative_rate_of_disorder": 0.5263157894736842,
+      "false_negative_residues": 20,
+      "false_positive_residues": 58,
       "is_conditional": true,
       "n_disorder_residues": 38,
       "n_residues": 458
@@ -7371,9 +7371,9 @@
     {
       "acc": "Q9Y6K9",
       "disprot_id": "DP02269",
-      "false_negative_residues": 49,
-      "false_positive_rate_of_disorder": 0.514018691588785,
-      "false_positive_residues": 55,
+      "false_negative_rate_of_disorder": 0.514018691588785,
+      "false_negative_residues": 55,
+      "false_positive_residues": 49,
       "is_conditional": false,
       "n_disorder_residues": 107,
       "n_residues": 419
@@ -7381,9 +7381,9 @@
     {
       "acc": "A0A1B0GTR3",
       "disprot_id": "DP03704",
-      "false_negative_residues": 0,
-      "false_positive_rate_of_disorder": 0.5092592592592593,
-      "false_positive_residues": 55,
+      "false_negative_rate_of_disorder": 0.5092592592592593,
+      "false_negative_residues": 55,
+      "false_positive_residues": 0,
       "is_conditional": false,
       "n_disorder_residues": 108,
       "n_residues": 108
@@ -7391,9 +7391,9 @@
     {
       "acc": "P00734",
       "disprot_id": "DP03299",
-      "false_negative_residues": 71,
-      "false_positive_rate_of_disorder": 0.5076923076923077,
-      "false_positive_residues": 33,
+      "false_negative_rate_of_disorder": 0.5076923076923077,
+      "false_negative_residues": 33,
+      "false_positive_residues": 71,
       "is_conditional": false,
       "n_disorder_residues": 65,
       "n_residues": 622
@@ -7401,9 +7401,9 @@
     {
       "acc": "P53350",
       "disprot_id": "DP00428",
-      "false_negative_residues": 92,
-      "false_positive_rate_of_disorder": 0.5,
-      "false_positive_residues": 9,
+      "false_negative_rate_of_disorder": 0.5,
+      "false_negative_residues": 9,
+      "false_positive_residues": 92,
       "is_conditional": true,
       "n_disorder_residues": 18,
       "n_residues": 603
@@ -7411,9 +7411,9 @@
     {
       "acc": "Q13586",
       "disprot_id": "DP03922",
-      "false_negative_residues": 296,
-      "false_positive_rate_of_disorder": 0.5,
-      "false_positive_residues": 5,
+      "false_negative_rate_of_disorder": 0.5,
+      "false_negative_residues": 5,
+      "false_positive_residues": 296,
       "is_conditional": false,
       "n_disorder_residues": 10,
       "n_residues": 685
@@ -7421,9 +7421,9 @@
     {
       "acc": "Q92900-2",
       "disprot_id": "DP03233",
-      "false_negative_residues": 331,
-      "false_positive_rate_of_disorder": 0.5,
-      "false_positive_residues": 5,
+      "false_negative_rate_of_disorder": 0.5,
+      "false_negative_residues": 5,
+      "false_positive_residues": 331,
       "is_conditional": true,
       "n_disorder_residues": 10,
       "n_residues": 1118
@@ -7431,9 +7431,9 @@
     {
       "acc": "Q9H3L0",
       "disprot_id": "DP03868",
-      "false_negative_residues": 85,
-      "false_positive_rate_of_disorder": 0.5,
-      "false_positive_residues": 13,
+      "false_negative_rate_of_disorder": 0.5,
+      "false_negative_residues": 13,
+      "false_positive_residues": 85,
       "is_conditional": false,
       "n_disorder_residues": 26,
       "n_residues": 296
@@ -7441,9 +7441,9 @@
     {
       "acc": "Q9UKT5",
       "disprot_id": "DP01884",
-      "false_negative_residues": 99,
-      "false_positive_rate_of_disorder": 0.5,
-      "false_positive_residues": 15,
+      "false_negative_rate_of_disorder": 0.5,
+      "false_negative_residues": 15,
+      "false_positive_residues": 99,
       "is_conditional": false,
       "n_disorder_residues": 30,
       "n_residues": 387
@@ -7451,9 +7451,9 @@
     {
       "acc": "P26599",
       "disprot_id": "DP01601",
-      "false_negative_residues": 152,
-      "false_positive_rate_of_disorder": 0.4939759036144578,
-      "false_positive_residues": 41,
+      "false_negative_rate_of_disorder": 0.4939759036144578,
+      "false_negative_residues": 41,
+      "false_positive_residues": 152,
       "is_conditional": false,
       "n_disorder_residues": 83,
       "n_residues": 557
@@ -7461,9 +7461,9 @@
     {
       "acc": "Q01970",
       "disprot_id": "DP02477",
-      "false_negative_residues": 16,
-      "false_positive_rate_of_disorder": 0.4901098901098901,
-      "false_positive_residues": 223,
+      "false_negative_rate_of_disorder": 0.4901098901098901,
+      "false_negative_residues": 223,
+      "false_positive_residues": 16,
       "is_conditional": false,
       "n_disorder_residues": 455,
       "n_residues": 1234
@@ -7471,9 +7471,9 @@
     {
       "acc": "Q92905",
       "disprot_id": "DP02290",
-      "false_negative_residues": 26,
-      "false_positive_rate_of_disorder": 0.48484848484848486,
-      "false_positive_residues": 16,
+      "false_negative_rate_of_disorder": 0.48484848484848486,
+      "false_negative_residues": 16,
+      "false_positive_residues": 26,
       "is_conditional": false,
       "n_disorder_residues": 33,
       "n_residues": 334
@@ -7481,9 +7481,9 @@
     {
       "acc": "P56211",
       "disprot_id": "DP03404",
-      "false_negative_residues": 0,
-      "false_positive_rate_of_disorder": 0.48214285714285715,
-      "false_positive_residues": 54,
+      "false_negative_rate_of_disorder": 0.48214285714285715,
+      "false_negative_residues": 54,
+      "false_positive_residues": 0,
       "is_conditional": true,
       "n_disorder_residues": 112,
       "n_residues": 112
@@ -7491,9 +7491,9 @@
     {
       "acc": "P15927",
       "disprot_id": "DP01361",
-      "false_negative_residues": 10,
-      "false_positive_rate_of_disorder": 0.4782608695652174,
-      "false_positive_residues": 66,
+      "false_negative_rate_of_disorder": 0.4782608695652174,
+      "false_negative_residues": 66,
+      "false_positive_residues": 10,
       "is_conditional": false,
       "n_disorder_residues": 138,
       "n_residues": 270
@@ -7501,9 +7501,9 @@
     {
       "acc": "Q16740",
       "disprot_id": "DP03832",
-      "false_negative_residues": 56,
-      "false_positive_rate_of_disorder": 0.4772727272727273,
-      "false_positive_residues": 21,
+      "false_negative_rate_of_disorder": 0.4772727272727273,
+      "false_negative_residues": 21,
+      "false_positive_residues": 56,
       "is_conditional": false,
       "n_disorder_residues": 44,
       "n_residues": 277
@@ -7511,9 +7511,9 @@
     {
       "acc": "P16860",
       "disprot_id": "DP00551",
-      "false_negative_residues": 57,
-      "false_positive_rate_of_disorder": 0.4675324675324675,
-      "false_positive_residues": 36,
+      "false_negative_rate_of_disorder": 0.4675324675324675,
+      "false_negative_residues": 36,
+      "false_positive_residues": 57,
       "is_conditional": false,
       "n_disorder_residues": 77,
       "n_residues": 134
@@ -7521,9 +7521,9 @@
     {
       "acc": "Q9Y6X9",
       "disprot_id": "DP04074",
-      "false_negative_residues": 257,
-      "false_positive_rate_of_disorder": 0.4528301886792453,
-      "false_positive_residues": 24,
+      "false_negative_rate_of_disorder": 0.4528301886792453,
+      "false_negative_residues": 24,
+      "false_positive_residues": 257,
       "is_conditional": false,
       "n_disorder_residues": 53,
       "n_residues": 1032
@@ -7531,9 +7531,9 @@
     {
       "acc": "P09651",
       "disprot_id": "DP00324",
-      "false_negative_residues": 168,
-      "false_positive_rate_of_disorder": 0.4523809523809524,
-      "false_positive_residues": 19,
+      "false_negative_rate_of_disorder": 0.4523809523809524,
+      "false_negative_residues": 19,
+      "false_positive_residues": 168,
       "is_conditional": true,
       "n_disorder_residues": 42,
       "n_residues": 372
@@ -7541,9 +7541,9 @@
     {
       "acc": "P56962",
       "disprot_id": "DP03670",
-      "false_negative_residues": 99,
-      "false_positive_rate_of_disorder": 0.45217391304347826,
-      "false_positive_residues": 52,
+      "false_negative_rate_of_disorder": 0.45217391304347826,
+      "false_negative_residues": 52,
+      "false_positive_residues": 99,
       "is_conditional": true,
       "n_disorder_residues": 115,
       "n_residues": 302
@@ -7551,9 +7551,9 @@
     {
       "acc": "O14936",
       "disprot_id": "DP01438",
-      "false_negative_residues": 175,
-      "false_positive_rate_of_disorder": 0.44954128440366975,
-      "false_positive_residues": 49,
+      "false_negative_rate_of_disorder": 0.44954128440366975,
+      "false_negative_residues": 49,
+      "false_positive_residues": 175,
       "is_conditional": false,
       "n_disorder_residues": 109,
       "n_residues": 926
@@ -7561,9 +7561,9 @@
     {
       "acc": "Q14181",
       "disprot_id": "DP02759",
-      "false_negative_residues": 18,
-      "false_positive_rate_of_disorder": 0.44871794871794873,
-      "false_positive_residues": 70,
+      "false_negative_rate_of_disorder": 0.44871794871794873,
+      "false_negative_residues": 70,
+      "false_positive_residues": 18,
       "is_conditional": false,
       "n_disorder_residues": 156,
       "n_residues": 598
@@ -7571,9 +7571,9 @@
     {
       "acc": "Q6FI81",
       "disprot_id": "DP01137",
-      "false_negative_residues": 26,
-      "false_positive_rate_of_disorder": 0.44680851063829785,
-      "false_positive_residues": 42,
+      "false_negative_rate_of_disorder": 0.44680851063829785,
+      "false_negative_residues": 42,
+      "false_positive_residues": 26,
       "is_conditional": false,
       "n_disorder_residues": 94,
       "n_residues": 312
@@ -7581,9 +7581,9 @@
     {
       "acc": "Q9BZV1",
       "disprot_id": "DP04211",
-      "false_negative_residues": 23,
-      "false_positive_rate_of_disorder": 0.44155844155844154,
-      "false_positive_residues": 68,
+      "false_negative_rate_of_disorder": 0.44155844155844154,
+      "false_negative_residues": 68,
+      "false_positive_residues": 23,
       "is_conditional": false,
       "n_disorder_residues": 154,
       "n_residues": 441
@@ -7591,9 +7591,9 @@
     {
       "acc": "P11171",
       "disprot_id": "DP00678",
-      "false_negative_residues": 455,
-      "false_positive_rate_of_disorder": 0.4307692307692308,
-      "false_positive_residues": 28,
+      "false_negative_rate_of_disorder": 0.4307692307692308,
+      "false_negative_residues": 28,
+      "false_positive_residues": 455,
       "is_conditional": false,
       "n_disorder_residues": 65,
       "n_residues": 864
@@ -7601,9 +7601,9 @@
     {
       "acc": "Q13563",
       "disprot_id": "DP02758",
-      "false_negative_residues": 389,
-      "false_positive_rate_of_disorder": 0.42857142857142855,
-      "false_positive_residues": 12,
+      "false_negative_rate_of_disorder": 0.42857142857142855,
+      "false_negative_residues": 12,
+      "false_positive_residues": 389,
       "is_conditional": false,
       "n_disorder_residues": 28,
       "n_residues": 968
@@ -7611,9 +7611,9 @@
     {
       "acc": "Q14449",
       "disprot_id": "DP00230",
-      "false_negative_residues": 125,
-      "false_positive_rate_of_disorder": 0.4266666666666667,
-      "false_positive_residues": 32,
+      "false_negative_rate_of_disorder": 0.4266666666666667,
+      "false_negative_residues": 32,
+      "false_positive_residues": 125,
       "is_conditional": true,
       "n_disorder_residues": 75,
       "n_residues": 540
@@ -7621,9 +7621,9 @@
     {
       "acc": "P07237",
       "disprot_id": "DP02637",
-      "false_negative_residues": 20,
-      "false_positive_rate_of_disorder": 0.4230769230769231,
-      "false_positive_residues": 22,
+      "false_negative_rate_of_disorder": 0.4230769230769231,
+      "false_negative_residues": 22,
+      "false_positive_residues": 20,
       "is_conditional": false,
       "n_disorder_residues": 52,
       "n_residues": 508
@@ -7631,9 +7631,9 @@
     {
       "acc": "Q5D1E8",
       "disprot_id": "DP03010",
-      "false_negative_residues": 270,
-      "false_positive_rate_of_disorder": 0.4166666666666667,
-      "false_positive_residues": 25,
+      "false_negative_rate_of_disorder": 0.4166666666666667,
+      "false_negative_residues": 25,
+      "false_positive_residues": 270,
       "is_conditional": false,
       "n_disorder_residues": 60,
       "n_residues": 599
@@ -7641,9 +7641,9 @@
     {
       "acc": "P46527",
       "disprot_id": "DP00018",
-      "false_negative_residues": 0,
-      "false_positive_rate_of_disorder": 0.4090909090909091,
-      "false_positive_residues": 81,
+      "false_negative_rate_of_disorder": 0.4090909090909091,
+      "false_negative_residues": 81,
+      "false_positive_residues": 0,
       "is_conditional": true,
       "n_disorder_residues": 198,
       "n_residues": 198
@@ -7651,9 +7651,9 @@
     {
       "acc": "P05452",
       "disprot_id": "DP02801",
-      "false_negative_residues": 21,
-      "false_positive_rate_of_disorder": 0.4,
-      "false_positive_residues": 10,
+      "false_negative_rate_of_disorder": 0.4,
+      "false_negative_residues": 10,
+      "false_positive_residues": 21,
       "is_conditional": false,
       "n_disorder_residues": 25,
       "n_residues": 202
@@ -7661,9 +7661,9 @@
     {
       "acc": "P15941",
       "disprot_id": "DP01790",
-      "false_negative_residues": 1114,
-      "false_positive_rate_of_disorder": 0.4,
-      "false_positive_residues": 6,
+      "false_negative_rate_of_disorder": 0.4,
+      "false_negative_residues": 6,
+      "false_positive_residues": 1114,
       "is_conditional": false,
       "n_disorder_residues": 15,
       "n_residues": 1255
@@ -7671,9 +7671,9 @@
     {
       "acc": "P49915",
       "disprot_id": "DP03234",
-      "false_negative_residues": 74,
-      "false_positive_rate_of_disorder": 0.4,
-      "false_positive_residues": 4,
+      "false_negative_rate_of_disorder": 0.4,
+      "false_negative_residues": 4,
+      "false_positive_residues": 74,
       "is_conditional": false,
       "n_disorder_residues": 10,
       "n_residues": 693
@@ -7681,9 +7681,9 @@
     {
       "acc": "Q15046",
       "disprot_id": "DP02382",
-      "false_negative_residues": 20,
-      "false_positive_rate_of_disorder": 0.4,
-      "false_positive_residues": 28,
+      "false_negative_rate_of_disorder": 0.4,
+      "false_negative_residues": 28,
+      "false_positive_residues": 20,
       "is_conditional": true,
       "n_disorder_residues": 70,
       "n_residues": 597
@@ -7691,9 +7691,9 @@
     {
       "acc": "Q8IYT8",
       "disprot_id": "DP03729",
-      "false_negative_residues": 607,
-      "false_positive_rate_of_disorder": 0.4,
-      "false_positive_residues": 4,
+      "false_negative_rate_of_disorder": 0.4,
+      "false_negative_residues": 4,
+      "false_positive_residues": 607,
       "is_conditional": false,
       "n_disorder_residues": 10,
       "n_residues": 1036
@@ -7701,9 +7701,9 @@
     {
       "acc": "Q9UPR3",
       "disprot_id": "DP01878",
-      "false_negative_residues": 328,
-      "false_positive_rate_of_disorder": 0.391304347826087,
-      "false_positive_residues": 9,
+      "false_negative_rate_of_disorder": 0.391304347826087,
+      "false_negative_residues": 9,
+      "false_positive_residues": 328,
       "is_conditional": false,
       "n_disorder_residues": 23,
       "n_residues": 1016
@@ -7711,9 +7711,9 @@
     {
       "acc": "Q96G97",
       "disprot_id": "DP02471",
-      "false_negative_residues": 6,
-      "false_positive_rate_of_disorder": 0.3865546218487395,
-      "false_positive_residues": 92,
+      "false_negative_rate_of_disorder": 0.3865546218487395,
+      "false_negative_residues": 92,
+      "false_positive_residues": 6,
       "is_conditional": false,
       "n_disorder_residues": 238,
       "n_residues": 398
@@ -7721,8 +7721,8 @@
     {
       "acc": "P30542",
       "disprot_id": "DP02651",
+      "false_negative_rate_of_disorder": 0.38461538461538464,
       "false_negative_residues": 10,
-      "false_positive_rate_of_disorder": 0.38461538461538464,
       "false_positive_residues": 10,
       "is_conditional": false,
       "n_disorder_residues": 26,
@@ -7731,9 +7731,9 @@
     {
       "acc": "Q15843",
       "disprot_id": "DP02302",
-      "false_negative_residues": 0,
-      "false_positive_rate_of_disorder": 0.38461538461538464,
-      "false_positive_residues": 5,
+      "false_negative_rate_of_disorder": 0.38461538461538464,
+      "false_negative_residues": 5,
+      "false_positive_residues": 0,
       "is_conditional": true,
       "n_disorder_residues": 13,
       "n_residues": 81
@@ -7741,9 +7741,9 @@
     {
       "acc": "Q14318",
       "disprot_id": "DP03659",
-      "false_negative_residues": 84,
-      "false_positive_rate_of_disorder": 0.3835616438356164,
-      "false_positive_residues": 28,
+      "false_negative_rate_of_disorder": 0.3835616438356164,
+      "false_negative_residues": 28,
+      "false_positive_residues": 84,
       "is_conditional": false,
       "n_disorder_residues": 73,
       "n_residues": 412
@@ -7751,9 +7751,9 @@
     {
       "acc": "Q9NQS7",
       "disprot_id": "DP02390",
-      "false_negative_residues": 575,
-      "false_positive_rate_of_disorder": 0.38095238095238093,
-      "false_positive_residues": 8,
+      "false_negative_rate_of_disorder": 0.38095238095238093,
+      "false_negative_residues": 8,
+      "false_positive_residues": 575,
       "is_conditional": false,
       "n_disorder_residues": 21,
       "n_residues": 918
@@ -7761,9 +7761,9 @@
     {
       "acc": "Q13153",
       "disprot_id": "DP03433",
-      "false_negative_residues": 37,
-      "false_positive_rate_of_disorder": 0.3787878787878788,
-      "false_positive_residues": 100,
+      "false_negative_rate_of_disorder": 0.3787878787878788,
+      "false_negative_residues": 100,
+      "false_positive_residues": 37,
       "is_conditional": false,
       "n_disorder_residues": 264,
       "n_residues": 545
@@ -7771,9 +7771,9 @@
     {
       "acc": "P11166",
       "disprot_id": "DP02855",
-      "false_negative_residues": 7,
-      "false_positive_rate_of_disorder": 0.3783783783783784,
-      "false_positive_residues": 14,
+      "false_negative_rate_of_disorder": 0.3783783783783784,
+      "false_negative_residues": 14,
+      "false_positive_residues": 7,
       "is_conditional": false,
       "n_disorder_residues": 37,
       "n_residues": 492
@@ -7781,9 +7781,9 @@
     {
       "acc": "P49427",
       "disprot_id": "DP02094",
-      "false_negative_residues": 5,
-      "false_positive_rate_of_disorder": 0.37681159420289856,
-      "false_positive_residues": 26,
+      "false_negative_rate_of_disorder": 0.37681159420289856,
+      "false_negative_residues": 26,
+      "false_positive_residues": 5,
       "is_conditional": false,
       "n_disorder_residues": 69,
       "n_residues": 236
@@ -7791,9 +7791,9 @@
     {
       "acc": "P49902",
       "disprot_id": "DP03885",
-      "false_negative_residues": 2,
-      "false_positive_rate_of_disorder": 0.37606837606837606,
-      "false_positive_residues": 44,
+      "false_negative_rate_of_disorder": 0.37606837606837606,
+      "false_negative_residues": 44,
+      "false_positive_residues": 2,
       "is_conditional": true,
       "n_disorder_residues": 117,
       "n_residues": 561
@@ -7801,9 +7801,9 @@
     {
       "acc": "O43353",
       "disprot_id": "DP04299",
-      "false_negative_residues": 140,
-      "false_positive_rate_of_disorder": 0.375,
-      "false_positive_residues": 15,
+      "false_negative_rate_of_disorder": 0.375,
+      "false_negative_residues": 15,
+      "false_positive_residues": 140,
       "is_conditional": false,
       "n_disorder_residues": 40,
       "n_residues": 540
@@ -7811,9 +7811,9 @@
     {
       "acc": "P24385",
       "disprot_id": "DP02226",
-      "false_negative_residues": 2,
-      "false_positive_rate_of_disorder": 0.375,
-      "false_positive_residues": 24,
+      "false_negative_rate_of_disorder": 0.375,
+      "false_negative_residues": 24,
+      "false_positive_residues": 2,
       "is_conditional": false,
       "n_disorder_residues": 64,
       "n_residues": 295
@@ -7821,9 +7821,9 @@
     {
       "acc": "P50750",
       "disprot_id": "DP01309",
-      "false_negative_residues": 13,
-      "false_positive_rate_of_disorder": 0.375,
-      "false_positive_residues": 27,
+      "false_negative_rate_of_disorder": 0.375,
+      "false_negative_residues": 27,
+      "false_positive_residues": 13,
       "is_conditional": true,
       "n_disorder_residues": 72,
       "n_residues": 372
@@ -7831,9 +7831,9 @@
     {
       "acc": "Q9NQA5",
       "disprot_id": "DP01765",
-      "false_negative_residues": 37,
-      "false_positive_rate_of_disorder": 0.37410071942446044,
-      "false_positive_residues": 52,
+      "false_negative_rate_of_disorder": 0.37410071942446044,
+      "false_negative_residues": 52,
+      "false_positive_residues": 37,
       "is_conditional": false,
       "n_disorder_residues": 139,
       "n_residues": 729
@@ -7841,9 +7841,9 @@
     {
       "acc": "O75506",
       "disprot_id": "DP01643",
-      "false_negative_residues": 0,
-      "false_positive_rate_of_disorder": 0.37037037037037035,
-      "false_positive_residues": 10,
+      "false_negative_rate_of_disorder": 0.37037037037037035,
+      "false_negative_residues": 10,
+      "false_positive_residues": 0,
       "is_conditional": false,
       "n_disorder_residues": 27,
       "n_residues": 76
@@ -7851,9 +7851,9 @@
     {
       "acc": "P42768",
       "disprot_id": "DP01171",
-      "false_negative_residues": 208,
-      "false_positive_rate_of_disorder": 0.36764705882352944,
-      "false_positive_residues": 25,
+      "false_negative_rate_of_disorder": 0.36764705882352944,
+      "false_negative_residues": 25,
+      "false_positive_residues": 208,
       "is_conditional": true,
       "n_disorder_residues": 68,
       "n_residues": 502
@@ -7861,9 +7861,9 @@
     {
       "acc": "O00170",
       "disprot_id": "DP04492",
-      "false_negative_residues": 5,
-      "false_positive_rate_of_disorder": 0.36,
-      "false_positive_residues": 9,
+      "false_negative_rate_of_disorder": 0.36,
+      "false_negative_residues": 9,
+      "false_positive_residues": 5,
       "is_conditional": false,
       "n_disorder_residues": 25,
       "n_residues": 330
@@ -7871,9 +7871,9 @@
     {
       "acc": "P47710",
       "disprot_id": "DP02005",
-      "false_negative_residues": 0,
-      "false_positive_rate_of_disorder": 0.3567567567567568,
-      "false_positive_residues": 66,
+      "false_negative_rate_of_disorder": 0.3567567567567568,
+      "false_negative_residues": 66,
+      "false_positive_residues": 0,
       "is_conditional": false,
       "n_disorder_residues": 185,
       "n_residues": 185
@@ -7881,9 +7881,9 @@
     {
       "acc": "Q15418",
       "disprot_id": "DP01508",
-      "false_negative_residues": 157,
-      "false_positive_rate_of_disorder": 0.35384615384615387,
-      "false_positive_residues": 23,
+      "false_negative_rate_of_disorder": 0.35384615384615387,
+      "false_negative_residues": 23,
+      "false_positive_residues": 157,
       "is_conditional": false,
       "n_disorder_residues": 65,
       "n_residues": 735
@@ -7891,9 +7891,9 @@
     {
       "acc": "Q8N300",
       "disprot_id": "DP03251",
-      "false_negative_residues": 1,
-      "false_positive_rate_of_disorder": 0.34782608695652173,
-      "false_positive_residues": 8,
+      "false_negative_rate_of_disorder": 0.34782608695652173,
+      "false_negative_residues": 8,
+      "false_positive_residues": 1,
       "is_conditional": false,
       "n_disorder_residues": 23,
       "n_residues": 66
@@ -7901,9 +7901,9 @@
     {
       "acc": "Q9UKL0",
       "disprot_id": "DP02523",
-      "false_negative_residues": 3,
-      "false_positive_rate_of_disorder": 0.3465909090909091,
-      "false_positive_residues": 122,
+      "false_negative_rate_of_disorder": 0.3465909090909091,
+      "false_negative_residues": 122,
+      "false_positive_residues": 3,
       "is_conditional": false,
       "n_disorder_residues": 352,
       "n_residues": 485
@@ -7911,9 +7911,9 @@
     {
       "acc": "P11387",
       "disprot_id": "DP00075",
-      "false_negative_residues": 0,
-      "false_positive_rate_of_disorder": 0.3431372549019608,
-      "false_positive_residues": 105,
+      "false_negative_rate_of_disorder": 0.3431372549019608,
+      "false_negative_residues": 105,
+      "false_positive_residues": 0,
       "is_conditional": false,
       "n_disorder_residues": 306,
       "n_residues": 765
@@ -7921,9 +7921,9 @@
     {
       "acc": "Q00534",
       "disprot_id": "DP03829",
-      "false_negative_residues": 28,
-      "false_positive_rate_of_disorder": 0.34210526315789475,
-      "false_positive_residues": 13,
+      "false_negative_rate_of_disorder": 0.34210526315789475,
+      "false_negative_residues": 13,
+      "false_positive_residues": 28,
       "is_conditional": false,
       "n_disorder_residues": 38,
       "n_residues": 326
@@ -7931,9 +7931,9 @@
     {
       "acc": "Q9HAU5",
       "disprot_id": "DP00949",
-      "false_negative_residues": 158,
-      "false_positive_rate_of_disorder": 0.34098360655737703,
-      "false_positive_residues": 104,
+      "false_negative_rate_of_disorder": 0.34098360655737703,
+      "false_negative_residues": 104,
+      "false_positive_residues": 158,
       "is_conditional": true,
       "n_disorder_residues": 305,
       "n_residues": 1272
@@ -7941,9 +7941,9 @@
     {
       "acc": "Q13617",
       "disprot_id": "DP02753",
-      "false_negative_residues": 31,
-      "false_positive_rate_of_disorder": 0.3409090909090909,
-      "false_positive_residues": 15,
+      "false_negative_rate_of_disorder": 0.3409090909090909,
+      "false_negative_residues": 15,
+      "false_positive_residues": 31,
       "is_conditional": false,
       "n_disorder_residues": 44,
       "n_residues": 745
@@ -7951,9 +7951,9 @@
     {
       "acc": "P29375",
       "disprot_id": "DP02224",
-      "false_negative_residues": 435,
-      "false_positive_rate_of_disorder": 0.3333333333333333,
-      "false_positive_residues": 59,
+      "false_negative_rate_of_disorder": 0.3333333333333333,
+      "false_negative_residues": 59,
+      "false_positive_residues": 435,
       "is_conditional": false,
       "n_disorder_residues": 177,
       "n_residues": 1690
@@ -7961,9 +7961,9 @@
     {
       "acc": "Q16647",
       "disprot_id": "DP02578",
-      "false_negative_residues": 3,
-      "false_positive_rate_of_disorder": 0.3333333333333333,
-      "false_positive_residues": 4,
+      "false_negative_rate_of_disorder": 0.3333333333333333,
+      "false_negative_residues": 4,
+      "false_positive_residues": 3,
       "is_conditional": false,
       "n_disorder_residues": 12,
       "n_residues": 500
@@ -7971,9 +7971,9 @@
     {
       "acc": "Q9H981",
       "disprot_id": "DP00873",
-      "false_negative_residues": 33,
-      "false_positive_rate_of_disorder": 0.32710280373831774,
-      "false_positive_residues": 35,
+      "false_negative_rate_of_disorder": 0.32710280373831774,
+      "false_negative_residues": 35,
+      "false_positive_residues": 33,
       "is_conditional": false,
       "n_disorder_residues": 107,
       "n_residues": 624
@@ -7981,9 +7981,9 @@
     {
       "acc": "A8MTZ0",
       "disprot_id": "DP04116",
-      "false_negative_residues": 3,
-      "false_positive_rate_of_disorder": 0.32432432432432434,
-      "false_positive_residues": 12,
+      "false_negative_rate_of_disorder": 0.32432432432432434,
+      "false_negative_residues": 12,
+      "false_positive_residues": 3,
       "is_conditional": false,
       "n_disorder_residues": 37,
       "n_residues": 92
@@ -7991,9 +7991,9 @@
     {
       "acc": "P49918",
       "disprot_id": "DP00017",
-      "false_negative_residues": 0,
-      "false_positive_rate_of_disorder": 0.3227848101265823,
-      "false_positive_residues": 102,
+      "false_negative_rate_of_disorder": 0.3227848101265823,
+      "false_negative_residues": 102,
+      "false_positive_residues": 0,
       "is_conditional": false,
       "n_disorder_residues": 316,
       "n_residues": 316
@@ -8001,9 +8001,9 @@
     {
       "acc": "Q96BT7",
       "disprot_id": "DP03967",
-      "false_negative_residues": 122,
-      "false_positive_rate_of_disorder": 0.32,
-      "false_positive_residues": 8,
+      "false_negative_rate_of_disorder": 0.32,
+      "false_negative_residues": 8,
+      "false_positive_residues": 122,
       "is_conditional": false,
       "n_disorder_residues": 25,
       "n_residues": 664
@@ -8011,9 +8011,9 @@
     {
       "acc": "P54132",
       "disprot_id": "DP03061",
-      "false_negative_residues": 729,
-      "false_positive_rate_of_disorder": 0.3181818181818182,
-      "false_positive_residues": 14,
+      "false_negative_rate_of_disorder": 0.3181818181818182,
+      "false_negative_residues": 14,
+      "false_positive_residues": 729,
       "is_conditional": false,
       "n_disorder_residues": 44,
       "n_residues": 1417
@@ -8021,9 +8021,9 @@
     {
       "acc": "P16220",
       "disprot_id": "DP02003",
-      "false_negative_residues": 186,
-      "false_positive_rate_of_disorder": 0.31666666666666665,
-      "false_positive_residues": 19,
+      "false_negative_rate_of_disorder": 0.31666666666666665,
+      "false_negative_residues": 19,
+      "false_positive_residues": 186,
       "is_conditional": true,
       "n_disorder_residues": 60,
       "n_residues": 327
@@ -8031,9 +8031,9 @@
     {
       "acc": "Q05193",
       "disprot_id": "DP02976",
-      "false_negative_residues": 179,
-      "false_positive_rate_of_disorder": 0.31666666666666665,
-      "false_positive_residues": 19,
+      "false_negative_rate_of_disorder": 0.31666666666666665,
+      "false_negative_residues": 19,
+      "false_positive_residues": 179,
       "is_conditional": false,
       "n_disorder_residues": 60,
       "n_residues": 864
@@ -8041,9 +8041,9 @@
     {
       "acc": "P61244-2",
       "disprot_id": "DP01097",
-      "false_negative_residues": 9,
-      "false_positive_rate_of_disorder": 0.3088235294117647,
-      "false_positive_residues": 21,
+      "false_negative_rate_of_disorder": 0.3088235294117647,
+      "false_negative_residues": 21,
+      "false_positive_residues": 9,
       "is_conditional": false,
       "n_disorder_residues": 68,
       "n_residues": 151
@@ -8051,9 +8051,9 @@
     {
       "acc": "P55789",
       "disprot_id": "DP02875",
-      "false_negative_residues": 75,
-      "false_positive_rate_of_disorder": 0.3076923076923077,
-      "false_positive_residues": 4,
+      "false_negative_rate_of_disorder": 0.3076923076923077,
+      "false_negative_residues": 4,
+      "false_positive_residues": 75,
       "is_conditional": false,
       "n_disorder_residues": 13,
       "n_residues": 205
@@ -8061,9 +8061,9 @@
     {
       "acc": "Q9H9R9",
       "disprot_id": "DP03700",
-      "false_negative_residues": 0,
-      "false_positive_rate_of_disorder": 0.3037974683544304,
-      "false_positive_residues": 48,
+      "false_negative_rate_of_disorder": 0.3037974683544304,
+      "false_negative_residues": 48,
+      "false_positive_residues": 0,
       "is_conditional": false,
       "n_disorder_residues": 158,
       "n_residues": 158
@@ -8071,9 +8071,9 @@
     {
       "acc": "O43791",
       "disprot_id": "DP03293",
-      "false_negative_residues": 22,
-      "false_positive_rate_of_disorder": 0.2857142857142857,
-      "false_positive_residues": 8,
+      "false_negative_rate_of_disorder": 0.2857142857142857,
+      "false_negative_residues": 8,
+      "false_positive_residues": 22,
       "is_conditional": false,
       "n_disorder_residues": 28,
       "n_residues": 374
@@ -8081,9 +8081,9 @@
     {
       "acc": "P04035",
       "disprot_id": "DP02709",
-      "false_negative_residues": 313,
-      "false_positive_rate_of_disorder": 0.2857142857142857,
-      "false_positive_residues": 8,
+      "false_negative_rate_of_disorder": 0.2857142857142857,
+      "false_negative_residues": 8,
+      "false_positive_residues": 313,
       "is_conditional": false,
       "n_disorder_residues": 28,
       "n_residues": 888
@@ -8091,9 +8091,9 @@
     {
       "acc": "P78563",
       "disprot_id": "DP03822",
-      "false_negative_residues": 201,
-      "false_positive_rate_of_disorder": 0.2857142857142857,
-      "false_positive_residues": 14,
+      "false_negative_rate_of_disorder": 0.2857142857142857,
+      "false_negative_residues": 14,
+      "false_positive_residues": 201,
       "is_conditional": true,
       "n_disorder_residues": 49,
       "n_residues": 741
@@ -8101,9 +8101,9 @@
     {
       "acc": "Q9P2K3-3",
       "disprot_id": "DP02408",
-      "false_negative_residues": 1,
-      "false_positive_rate_of_disorder": 0.2833333333333333,
-      "false_positive_residues": 119,
+      "false_negative_rate_of_disorder": 0.2833333333333333,
+      "false_negative_residues": 119,
+      "false_positive_residues": 1,
       "is_conditional": false,
       "n_disorder_residues": 420,
       "n_residues": 553
@@ -8111,9 +8111,9 @@
     {
       "acc": "P40818",
       "disprot_id": "DP03012",
-      "false_negative_residues": 372,
-      "false_positive_rate_of_disorder": 0.28205128205128205,
-      "false_positive_residues": 11,
+      "false_negative_rate_of_disorder": 0.28205128205128205,
+      "false_negative_residues": 11,
+      "false_positive_residues": 372,
       "is_conditional": false,
       "n_disorder_residues": 39,
       "n_residues": 1118
@@ -8121,9 +8121,9 @@
     {
       "acc": "Q9Y613",
       "disprot_id": "DP00448",
-      "false_negative_residues": 442,
-      "false_positive_rate_of_disorder": 0.2786885245901639,
-      "false_positive_residues": 17,
+      "false_negative_rate_of_disorder": 0.2786885245901639,
+      "false_negative_residues": 17,
+      "false_positive_residues": 442,
       "is_conditional": true,
       "n_disorder_residues": 61,
       "n_residues": 1164
@@ -8131,9 +8131,9 @@
     {
       "acc": "O00268",
       "disprot_id": "DP01170",
-      "false_negative_residues": 460,
-      "false_positive_rate_of_disorder": 0.27610208816705334,
-      "false_positive_residues": 119,
+      "false_negative_rate_of_disorder": 0.27610208816705334,
+      "false_negative_residues": 119,
+      "false_positive_residues": 460,
       "is_conditional": false,
       "n_disorder_residues": 431,
       "n_residues": 1085
@@ -8141,9 +8141,9 @@
     {
       "acc": "P00740",
       "disprot_id": "DP03311",
-      "false_negative_residues": 107,
-      "false_positive_rate_of_disorder": 0.2727272727272727,
-      "false_positive_residues": 3,
+      "false_negative_rate_of_disorder": 0.2727272727272727,
+      "false_negative_residues": 3,
+      "false_positive_residues": 107,
       "is_conditional": true,
       "n_disorder_residues": 11,
       "n_residues": 461
@@ -8151,9 +8151,9 @@
     {
       "acc": "P54578",
       "disprot_id": "DP03158",
-      "false_negative_residues": 78,
-      "false_positive_rate_of_disorder": 0.2727272727272727,
-      "false_positive_residues": 3,
+      "false_negative_rate_of_disorder": 0.2727272727272727,
+      "false_negative_residues": 3,
+      "false_positive_residues": 78,
       "is_conditional": false,
       "n_disorder_residues": 11,
       "n_residues": 494
@@ -8161,9 +8161,9 @@
     {
       "acc": "Q8IW75",
       "disprot_id": "DP03303",
-      "false_negative_residues": 38,
-      "false_positive_rate_of_disorder": 0.2727272727272727,
-      "false_positive_residues": 3,
+      "false_negative_rate_of_disorder": 0.2727272727272727,
+      "false_negative_residues": 3,
+      "false_positive_residues": 38,
       "is_conditional": false,
       "n_disorder_residues": 11,
       "n_residues": 414
@@ -8171,9 +8171,9 @@
     {
       "acc": "P13693",
       "disprot_id": "DP01972",
-      "false_negative_residues": 0,
-      "false_positive_rate_of_disorder": 0.25,
-      "false_positive_residues": 8,
+      "false_negative_rate_of_disorder": 0.25,
+      "false_negative_residues": 8,
+      "false_positive_residues": 0,
       "is_conditional": false,
       "n_disorder_residues": 32,
       "n_residues": 172
@@ -8181,9 +8181,9 @@
     {
       "acc": "Q86YV5",
       "disprot_id": "DP02420",
-      "false_negative_residues": 998,
-      "false_positive_rate_of_disorder": 0.24285714285714285,
-      "false_positive_residues": 17,
+      "false_negative_rate_of_disorder": 0.24285714285714285,
+      "false_negative_residues": 17,
+      "false_positive_residues": 998,
       "is_conditional": false,
       "n_disorder_residues": 70,
       "n_residues": 1406
@@ -8191,9 +8191,9 @@
     {
       "acc": "Q99250",
       "disprot_id": "DP03178",
-      "false_negative_residues": 89,
-      "false_positive_rate_of_disorder": 0.23657142857142857,
-      "false_positive_residues": 207,
+      "false_negative_rate_of_disorder": 0.23657142857142857,
+      "false_negative_residues": 207,
+      "false_positive_residues": 89,
       "is_conditional": false,
       "n_disorder_residues": 875,
       "n_residues": 2005
@@ -8201,9 +8201,9 @@
     {
       "acc": "P61328-2",
       "disprot_id": "DP02160",
-      "false_negative_residues": 6,
-      "false_positive_rate_of_disorder": 0.23529411764705882,
-      "false_positive_residues": 8,
+      "false_negative_rate_of_disorder": 0.23529411764705882,
+      "false_negative_residues": 8,
+      "false_positive_residues": 6,
       "is_conditional": false,
       "n_disorder_residues": 34,
       "n_residues": 181
@@ -8211,9 +8211,9 @@
     {
       "acc": "Q68D10",
       "disprot_id": "DP03243",
-      "false_negative_residues": 490,
-      "false_positive_rate_of_disorder": 0.23529411764705882,
-      "false_positive_residues": 8,
+      "false_negative_rate_of_disorder": 0.23529411764705882,
+      "false_negative_residues": 8,
+      "false_positive_residues": 490,
       "is_conditional": false,
       "n_disorder_residues": 34,
       "n_residues": 685
@@ -8221,9 +8221,9 @@
     {
       "acc": "P21246",
       "disprot_id": "DP00887",
-      "false_negative_residues": 9,
-      "false_positive_rate_of_disorder": 0.23214285714285715,
-      "false_positive_residues": 13,
+      "false_negative_rate_of_disorder": 0.23214285714285715,
+      "false_negative_residues": 13,
+      "false_positive_residues": 9,
       "is_conditional": false,
       "n_disorder_residues": 56,
       "n_residues": 168
@@ -8231,9 +8231,9 @@
     {
       "acc": "O00411",
       "disprot_id": "DP02703",
-      "false_negative_residues": 50,
-      "false_positive_rate_of_disorder": 0.228,
-      "false_positive_residues": 57,
+      "false_negative_rate_of_disorder": 0.228,
+      "false_negative_residues": 57,
+      "false_positive_residues": 50,
       "is_conditional": false,
       "n_disorder_residues": 250,
       "n_residues": 1230
@@ -8241,9 +8241,9 @@
     {
       "acc": "P61244",
       "disprot_id": "DP00084",
-      "false_negative_residues": 0,
-      "false_positive_rate_of_disorder": 0.22784810126582278,
-      "false_positive_residues": 18,
+      "false_negative_rate_of_disorder": 0.22784810126582278,
+      "false_negative_residues": 18,
+      "false_positive_residues": 0,
       "is_conditional": false,
       "n_disorder_residues": 79,
       "n_residues": 160
@@ -8251,9 +8251,9 @@
     {
       "acc": "O00214",
       "disprot_id": "DP03345",
-      "false_negative_residues": 13,
-      "false_positive_rate_of_disorder": 0.22727272727272727,
-      "false_positive_residues": 5,
+      "false_negative_rate_of_disorder": 0.22727272727272727,
+      "false_negative_residues": 5,
+      "false_positive_residues": 13,
       "is_conditional": false,
       "n_disorder_residues": 22,
       "n_residues": 317
@@ -8261,9 +8261,9 @@
     {
       "acc": "Q96AC1",
       "disprot_id": "DP01613",
-      "false_negative_residues": 111,
-      "false_positive_rate_of_disorder": 0.22727272727272727,
-      "false_positive_residues": 15,
+      "false_negative_rate_of_disorder": 0.22727272727272727,
+      "false_negative_residues": 15,
+      "false_positive_residues": 111,
       "is_conditional": false,
       "n_disorder_residues": 66,
       "n_residues": 680
@@ -8271,9 +8271,9 @@
     {
       "acc": "P33897",
       "disprot_id": "DP03955",
-      "false_negative_residues": 13,
-      "false_positive_rate_of_disorder": 0.22674418604651161,
-      "false_positive_residues": 39,
+      "false_negative_rate_of_disorder": 0.22674418604651161,
+      "false_negative_residues": 39,
+      "false_positive_residues": 13,
       "is_conditional": false,
       "n_disorder_residues": 172,
       "n_residues": 745
@@ -8281,9 +8281,9 @@
     {
       "acc": "Q9NZC2",
       "disprot_id": "DP04132",
-      "false_negative_residues": 41,
-      "false_positive_rate_of_disorder": 0.22580645161290322,
-      "false_positive_residues": 14,
+      "false_negative_rate_of_disorder": 0.22580645161290322,
+      "false_negative_residues": 14,
+      "false_positive_residues": 41,
       "is_conditional": true,
       "n_disorder_residues": 62,
       "n_residues": 230
@@ -8291,9 +8291,9 @@
     {
       "acc": "Q8TEA8",
       "disprot_id": "DP02452",
-      "false_negative_residues": 3,
-      "false_positive_rate_of_disorder": 0.22413793103448276,
-      "false_positive_residues": 13,
+      "false_negative_rate_of_disorder": 0.22413793103448276,
+      "false_negative_residues": 13,
+      "false_positive_residues": 3,
       "is_conditional": true,
       "n_disorder_residues": 58,
       "n_residues": 209
@@ -8301,9 +8301,9 @@
     {
       "acc": "Q9H832",
       "disprot_id": "DP00953",
-      "false_negative_residues": 0,
-      "false_positive_rate_of_disorder": 0.2204724409448819,
-      "false_positive_residues": 28,
+      "false_negative_rate_of_disorder": 0.2204724409448819,
+      "false_negative_residues": 28,
+      "false_positive_residues": 0,
       "is_conditional": false,
       "n_disorder_residues": 127,
       "n_residues": 354
@@ -8311,9 +8311,9 @@
     {
       "acc": "Q9UBB9",
       "disprot_id": "DP04300",
-      "false_negative_residues": 40,
-      "false_positive_rate_of_disorder": 0.22,
-      "false_positive_residues": 77,
+      "false_negative_rate_of_disorder": 0.22,
+      "false_negative_residues": 77,
+      "false_positive_residues": 40,
       "is_conditional": false,
       "n_disorder_residues": 350,
       "n_residues": 837
@@ -8321,9 +8321,9 @@
     {
       "acc": "P15498",
       "disprot_id": "DP03231",
-      "false_negative_residues": 70,
-      "false_positive_rate_of_disorder": 0.21875,
-      "false_positive_residues": 7,
+      "false_negative_rate_of_disorder": 0.21875,
+      "false_negative_residues": 7,
+      "false_positive_residues": 70,
       "is_conditional": false,
       "n_disorder_residues": 32,
       "n_residues": 845
@@ -8331,9 +8331,9 @@
     {
       "acc": "P01732",
       "disprot_id": "DP03693",
-      "false_negative_residues": 35,
-      "false_positive_rate_of_disorder": 0.21818181818181817,
-      "false_positive_residues": 12,
+      "false_negative_rate_of_disorder": 0.21818181818181817,
+      "false_negative_residues": 12,
+      "false_positive_residues": 35,
       "is_conditional": false,
       "n_disorder_residues": 55,
       "n_residues": 235
@@ -8341,9 +8341,9 @@
     {
       "acc": "P02686-5",
       "disprot_id": "DP02078",
-      "false_negative_residues": 0,
-      "false_positive_rate_of_disorder": 0.21052631578947367,
-      "false_positive_residues": 36,
+      "false_negative_rate_of_disorder": 0.21052631578947367,
+      "false_negative_residues": 36,
+      "false_positive_residues": 0,
       "is_conditional": true,
       "n_disorder_residues": 171,
       "n_residues": 171
@@ -8351,9 +8351,9 @@
     {
       "acc": "Q5FWF5",
       "disprot_id": "DP02851",
-      "false_negative_residues": 586,
-      "false_positive_rate_of_disorder": 0.20689655172413793,
-      "false_positive_residues": 6,
+      "false_negative_rate_of_disorder": 0.20689655172413793,
+      "false_negative_residues": 6,
+      "false_positive_residues": 586,
       "is_conditional": false,
       "n_disorder_residues": 29,
       "n_residues": 840
@@ -8361,9 +8361,9 @@
     {
       "acc": "Q13546",
       "disprot_id": "DP04298",
-      "false_negative_residues": 50,
-      "false_positive_rate_of_disorder": 0.2007042253521127,
-      "false_positive_residues": 57,
+      "false_negative_rate_of_disorder": 0.2007042253521127,
+      "false_negative_residues": 57,
+      "false_positive_residues": 50,
       "is_conditional": true,
       "n_disorder_residues": 284,
       "n_residues": 671
@@ -8371,9 +8371,9 @@
     {
       "acc": "O15550",
       "disprot_id": "DP03627",
-      "false_negative_residues": 510,
-      "false_positive_rate_of_disorder": 0.2,
-      "false_positive_residues": 6,
+      "false_negative_rate_of_disorder": 0.2,
+      "false_negative_residues": 6,
+      "false_positive_residues": 510,
       "is_conditional": false,
       "n_disorder_residues": 30,
       "n_residues": 1401
@@ -8381,9 +8381,9 @@
     {
       "acc": "P05107",
       "disprot_id": "DP01848",
-      "false_negative_residues": 50,
-      "false_positive_rate_of_disorder": 0.2,
-      "false_positive_residues": 7,
+      "false_negative_rate_of_disorder": 0.2,
+      "false_negative_residues": 7,
+      "false_positive_residues": 50,
       "is_conditional": true,
       "n_disorder_residues": 35,
       "n_residues": 769
@@ -8391,9 +8391,9 @@
     {
       "acc": "P06132",
       "disprot_id": "DP00308",
-      "false_negative_residues": 1,
-      "false_positive_rate_of_disorder": 0.2,
-      "false_positive_residues": 2,
+      "false_negative_rate_of_disorder": 0.2,
+      "false_negative_residues": 2,
+      "false_positive_residues": 1,
       "is_conditional": false,
       "n_disorder_residues": 10,
       "n_residues": 367
@@ -8401,9 +8401,9 @@
     {
       "acc": "P19827",
       "disprot_id": "DP03280",
-      "false_negative_residues": 80,
-      "false_positive_rate_of_disorder": 0.2,
-      "false_positive_residues": 6,
+      "false_negative_rate_of_disorder": 0.2,
+      "false_negative_residues": 6,
+      "false_positive_residues": 80,
       "is_conditional": false,
       "n_disorder_residues": 30,
       "n_residues": 911
@@ -8411,9 +8411,9 @@
     {
       "acc": "Q9UJX3",
       "disprot_id": "DP01479",
-      "false_negative_residues": 6,
-      "false_positive_rate_of_disorder": 0.2,
-      "false_positive_residues": 16,
+      "false_negative_rate_of_disorder": 0.2,
+      "false_negative_residues": 16,
+      "false_positive_residues": 6,
       "is_conditional": false,
       "n_disorder_residues": 80,
       "n_residues": 565
@@ -8421,9 +8421,9 @@
     {
       "acc": "P27694",
       "disprot_id": "DP00061",
-      "false_negative_residues": 29,
-      "false_positive_rate_of_disorder": 0.19736842105263158,
-      "false_positive_residues": 15,
+      "false_negative_rate_of_disorder": 0.19736842105263158,
+      "false_negative_residues": 15,
+      "false_positive_residues": 29,
       "is_conditional": false,
       "n_disorder_residues": 76,
       "n_residues": 616
@@ -8431,9 +8431,9 @@
     {
       "acc": "P55957",
       "disprot_id": "DP01662",
-      "false_negative_residues": 62,
-      "false_positive_rate_of_disorder": 0.19736842105263158,
-      "false_positive_residues": 15,
+      "false_negative_rate_of_disorder": 0.19736842105263158,
+      "false_negative_residues": 15,
+      "false_positive_residues": 62,
       "is_conditional": true,
       "n_disorder_residues": 76,
       "n_residues": 195
@@ -8441,9 +8441,9 @@
     {
       "acc": "P11912",
       "disprot_id": "DP01486",
-      "false_negative_residues": 33,
-      "false_positive_rate_of_disorder": 0.19672131147540983,
-      "false_positive_residues": 12,
+      "false_negative_rate_of_disorder": 0.19672131147540983,
+      "false_negative_residues": 12,
+      "false_positive_residues": 33,
       "is_conditional": false,
       "n_disorder_residues": 61,
       "n_residues": 226
@@ -8451,9 +8451,9 @@
     {
       "acc": "Q9NYB9",
       "disprot_id": "DP02386",
-      "false_negative_residues": 0,
-      "false_positive_rate_of_disorder": 0.19273743016759776,
-      "false_positive_residues": 69,
+      "false_negative_rate_of_disorder": 0.19273743016759776,
+      "false_negative_residues": 69,
+      "false_positive_residues": 0,
       "is_conditional": false,
       "n_disorder_residues": 358,
       "n_residues": 513
@@ -8461,9 +8461,9 @@
     {
       "acc": "P23771",
       "disprot_id": "DP02798",
-      "false_negative_residues": 334,
-      "false_positive_rate_of_disorder": 0.18181818181818182,
-      "false_positive_residues": 2,
+      "false_negative_rate_of_disorder": 0.18181818181818182,
+      "false_negative_residues": 2,
+      "false_positive_residues": 334,
       "is_conditional": false,
       "n_disorder_residues": 11,
       "n_residues": 443
@@ -8471,9 +8471,9 @@
     {
       "acc": "Q92871",
       "disprot_id": "DP03749",
-      "false_negative_residues": 3,
-      "false_positive_rate_of_disorder": 0.18181818181818182,
-      "false_positive_residues": 2,
+      "false_negative_rate_of_disorder": 0.18181818181818182,
+      "false_negative_residues": 2,
+      "false_positive_residues": 3,
       "is_conditional": false,
       "n_disorder_residues": 11,
       "n_residues": 262
@@ -8481,9 +8481,9 @@
     {
       "acc": "O60664",
       "disprot_id": "DP04560",
-      "false_negative_residues": 45,
-      "false_positive_rate_of_disorder": 0.18,
-      "false_positive_residues": 36,
+      "false_negative_rate_of_disorder": 0.18,
+      "false_negative_residues": 36,
+      "false_positive_residues": 45,
       "is_conditional": true,
       "n_disorder_residues": 200,
       "n_residues": 434
@@ -8491,9 +8491,9 @@
     {
       "acc": "Q53HL2",
       "disprot_id": "DP04318",
-      "false_negative_residues": 42,
-      "false_positive_rate_of_disorder": 0.18,
-      "false_positive_residues": 18,
+      "false_negative_rate_of_disorder": 0.18,
+      "false_negative_residues": 18,
+      "false_positive_residues": 42,
       "is_conditional": false,
       "n_disorder_residues": 100,
       "n_residues": 280
@@ -8501,9 +8501,9 @@
     {
       "acc": "Q86VY4",
       "disprot_id": "DP04388",
-      "false_negative_residues": 51,
-      "false_positive_rate_of_disorder": 0.17768595041322313,
-      "false_positive_residues": 43,
+      "false_negative_rate_of_disorder": 0.17768595041322313,
+      "false_negative_residues": 43,
+      "false_positive_residues": 51,
       "is_conditional": false,
       "n_disorder_residues": 242,
       "n_residues": 417
@@ -8511,9 +8511,9 @@
     {
       "acc": "Q09161",
       "disprot_id": "DP00392",
-      "false_negative_residues": 0,
-      "false_positive_rate_of_disorder": 0.17647058823529413,
-      "false_positive_residues": 9,
+      "false_negative_rate_of_disorder": 0.17647058823529413,
+      "false_negative_residues": 9,
+      "false_positive_residues": 0,
       "is_conditional": false,
       "n_disorder_residues": 51,
       "n_residues": 790
@@ -8521,9 +8521,9 @@
     {
       "acc": "Q15797",
       "disprot_id": "DP01206",
-      "false_negative_residues": 71,
-      "false_positive_rate_of_disorder": 0.17647058823529413,
-      "false_positive_residues": 9,
+      "false_negative_rate_of_disorder": 0.17647058823529413,
+      "false_negative_residues": 9,
+      "false_positive_residues": 71,
       "is_conditional": false,
       "n_disorder_residues": 51,
       "n_residues": 465
@@ -8531,9 +8531,9 @@
     {
       "acc": "Q8WXC6",
       "disprot_id": "DP04270",
-      "false_negative_residues": 0,
-      "false_positive_rate_of_disorder": 0.17543859649122806,
-      "false_positive_residues": 10,
+      "false_negative_rate_of_disorder": 0.17543859649122806,
+      "false_negative_residues": 10,
+      "false_positive_residues": 0,
       "is_conditional": false,
       "n_disorder_residues": 57,
       "n_residues": 57
@@ -8541,9 +8541,9 @@
     {
       "acc": "P05067",
       "disprot_id": "DP01280",
-      "false_negative_residues": 310,
-      "false_positive_rate_of_disorder": 0.175,
-      "false_positive_residues": 7,
+      "false_negative_rate_of_disorder": 0.175,
+      "false_negative_residues": 7,
+      "false_positive_residues": 310,
       "is_conditional": true,
       "n_disorder_residues": 40,
       "n_residues": 770
@@ -8551,9 +8551,9 @@
     {
       "acc": "P14678",
       "disprot_id": "DP03851",
-      "false_negative_residues": 5,
-      "false_positive_rate_of_disorder": 0.1744186046511628,
-      "false_positive_residues": 30,
+      "false_negative_rate_of_disorder": 0.1744186046511628,
+      "false_negative_residues": 30,
+      "false_positive_residues": 5,
       "is_conditional": false,
       "n_disorder_residues": 172,
       "n_residues": 240
@@ -8561,9 +8561,9 @@
     {
       "acc": "Q9NP98",
       "disprot_id": "DP03529",
-      "false_negative_residues": 0,
-      "false_positive_rate_of_disorder": 0.1705685618729097,
-      "false_positive_residues": 51,
+      "false_negative_rate_of_disorder": 0.1705685618729097,
+      "false_negative_residues": 51,
+      "false_positive_residues": 0,
       "is_conditional": false,
       "n_disorder_residues": 299,
       "n_residues": 299
@@ -8571,9 +8571,9 @@
     {
       "acc": "P36952",
       "disprot_id": "DP03304",
-      "false_negative_residues": 0,
-      "false_positive_rate_of_disorder": 0.16666666666666666,
-      "false_positive_residues": 2,
+      "false_negative_rate_of_disorder": 0.16666666666666666,
+      "false_negative_residues": 2,
+      "false_positive_residues": 0,
       "is_conditional": false,
       "n_disorder_residues": 12,
       "n_residues": 375
@@ -8581,9 +8581,9 @@
     {
       "acc": "Q9BXW4",
       "disprot_id": "DP03711",
-      "false_negative_residues": 23,
-      "false_positive_rate_of_disorder": 0.16666666666666666,
-      "false_positive_residues": 2,
+      "false_negative_rate_of_disorder": 0.16666666666666666,
+      "false_negative_residues": 2,
+      "false_positive_residues": 23,
       "is_conditional": false,
       "n_disorder_residues": 12,
       "n_residues": 147
@@ -8591,9 +8591,9 @@
     {
       "acc": "P49815-5",
       "disprot_id": "DP04279",
-      "false_negative_residues": 140,
-      "false_positive_rate_of_disorder": 0.16159695817490494,
-      "false_positive_residues": 85,
+      "false_negative_rate_of_disorder": 0.16159695817490494,
+      "false_negative_residues": 85,
+      "false_positive_residues": 140,
       "is_conditional": false,
       "n_disorder_residues": 526,
       "n_residues": 1740
@@ -8601,9 +8601,9 @@
     {
       "acc": "Q13547",
       "disprot_id": "DP02233",
-      "false_negative_residues": 8,
-      "false_positive_rate_of_disorder": 0.16037735849056603,
-      "false_positive_residues": 17,
+      "false_negative_rate_of_disorder": 0.16037735849056603,
+      "false_negative_residues": 17,
+      "false_positive_residues": 8,
       "is_conditional": false,
       "n_disorder_residues": 106,
       "n_residues": 482
@@ -8611,9 +8611,9 @@
     {
       "acc": "Q969F2",
       "disprot_id": "DP00520",
-      "false_negative_residues": 190,
-      "false_positive_rate_of_disorder": 0.15668202764976957,
-      "false_positive_residues": 34,
+      "false_negative_rate_of_disorder": 0.15668202764976957,
+      "false_negative_residues": 34,
+      "false_positive_residues": 190,
       "is_conditional": false,
       "n_disorder_residues": 217,
       "n_residues": 451
@@ -8621,9 +8621,9 @@
     {
       "acc": "Q9HD26",
       "disprot_id": "DP02150",
-      "false_negative_residues": 170,
-      "false_positive_rate_of_disorder": 0.15625,
-      "false_positive_residues": 5,
+      "false_negative_rate_of_disorder": 0.15625,
+      "false_negative_residues": 5,
+      "false_positive_residues": 170,
       "is_conditional": false,
       "n_disorder_residues": 32,
       "n_residues": 462
@@ -8631,9 +8631,9 @@
     {
       "acc": "P78352",
       "disprot_id": "DP03924",
-      "false_negative_residues": 124,
-      "false_positive_rate_of_disorder": 0.15492957746478872,
-      "false_positive_residues": 11,
+      "false_negative_rate_of_disorder": 0.15492957746478872,
+      "false_negative_residues": 11,
+      "false_positive_residues": 124,
       "is_conditional": false,
       "n_disorder_residues": 71,
       "n_residues": 724
@@ -8641,9 +8641,9 @@
     {
       "acc": "Q16595",
       "disprot_id": "DP00607",
-      "false_negative_residues": 68,
-      "false_positive_rate_of_disorder": 0.15384615384615385,
-      "false_positive_residues": 4,
+      "false_negative_rate_of_disorder": 0.15384615384615385,
+      "false_negative_residues": 4,
+      "false_positive_residues": 68,
       "is_conditional": false,
       "n_disorder_residues": 26,
       "n_residues": 210
@@ -8651,9 +8651,9 @@
     {
       "acc": "O14977",
       "disprot_id": "DP02675",
-      "false_negative_residues": 23,
-      "false_positive_rate_of_disorder": 0.15151515151515152,
-      "false_positive_residues": 5,
+      "false_negative_rate_of_disorder": 0.15151515151515152,
+      "false_negative_residues": 5,
+      "false_positive_residues": 23,
       "is_conditional": false,
       "n_disorder_residues": 33,
       "n_residues": 448
@@ -8661,9 +8661,9 @@
     {
       "acc": "P18206-2",
       "disprot_id": "DP02858",
-      "false_negative_residues": 34,
-      "false_positive_rate_of_disorder": 0.15151515151515152,
-      "false_positive_residues": 5,
+      "false_negative_rate_of_disorder": 0.15151515151515152,
+      "false_negative_residues": 5,
+      "false_positive_residues": 34,
       "is_conditional": true,
       "n_disorder_residues": 33,
       "n_residues": 1066
@@ -8671,9 +8671,9 @@
     {
       "acc": "P11142",
       "disprot_id": "DP04445",
-      "false_negative_residues": 18,
-      "false_positive_rate_of_disorder": 0.15,
-      "false_positive_residues": 6,
+      "false_negative_rate_of_disorder": 0.15,
+      "false_negative_residues": 6,
+      "false_positive_residues": 18,
       "is_conditional": false,
       "n_disorder_residues": 40,
       "n_residues": 646
@@ -8681,9 +8681,9 @@
     {
       "acc": "P09012",
       "disprot_id": "DP01857",
-      "false_negative_residues": 5,
-      "false_positive_rate_of_disorder": 0.14678899082568808,
-      "false_positive_residues": 16,
+      "false_negative_rate_of_disorder": 0.14678899082568808,
+      "false_negative_residues": 16,
+      "false_positive_residues": 5,
       "is_conditional": false,
       "n_disorder_residues": 109,
       "n_residues": 282
@@ -8691,9 +8691,9 @@
     {
       "acc": "O14965",
       "disprot_id": "DP03125",
-      "false_negative_residues": 108,
-      "false_positive_rate_of_disorder": 0.14583333333333334,
-      "false_positive_residues": 7,
+      "false_negative_rate_of_disorder": 0.14583333333333334,
+      "false_negative_residues": 7,
+      "false_positive_residues": 108,
       "is_conditional": false,
       "n_disorder_residues": 48,
       "n_residues": 403
@@ -8701,9 +8701,9 @@
     {
       "acc": "P49765",
       "disprot_id": "DP02417",
-      "false_negative_residues": 42,
-      "false_positive_rate_of_disorder": 0.14492753623188406,
-      "false_positive_residues": 10,
+      "false_negative_rate_of_disorder": 0.14492753623188406,
+      "false_negative_residues": 10,
+      "false_positive_residues": 42,
       "is_conditional": true,
       "n_disorder_residues": 69,
       "n_residues": 207
@@ -8711,9 +8711,9 @@
     {
       "acc": "P41567",
       "disprot_id": "DP00910",
-      "false_negative_residues": 1,
-      "false_positive_rate_of_disorder": 0.14285714285714285,
-      "false_positive_residues": 4,
+      "false_negative_rate_of_disorder": 0.14285714285714285,
+      "false_negative_residues": 4,
+      "false_positive_residues": 1,
       "is_conditional": false,
       "n_disorder_residues": 28,
       "n_residues": 113
@@ -8721,9 +8721,9 @@
     {
       "acc": "P63000",
       "disprot_id": "DP03298",
-      "false_negative_residues": 0,
-      "false_positive_rate_of_disorder": 0.14285714285714285,
-      "false_positive_residues": 2,
+      "false_negative_rate_of_disorder": 0.14285714285714285,
+      "false_negative_residues": 2,
+      "false_positive_residues": 0,
       "is_conditional": false,
       "n_disorder_residues": 14,
       "n_residues": 192
@@ -8731,9 +8731,9 @@
     {
       "acc": "Q01105-2",
       "disprot_id": "DP04119",
-      "false_negative_residues": 75,
-      "false_positive_rate_of_disorder": 0.14285714285714285,
-      "false_positive_residues": 3,
+      "false_negative_rate_of_disorder": 0.14285714285714285,
+      "false_negative_residues": 3,
+      "false_positive_residues": 75,
       "is_conditional": false,
       "n_disorder_residues": 21,
       "n_residues": 277
@@ -8741,9 +8741,9 @@
     {
       "acc": "Q9NZI8",
       "disprot_id": "DP04257",
-      "false_negative_residues": 49,
-      "false_positive_rate_of_disorder": 0.1414141414141414,
-      "false_positive_residues": 14,
+      "false_negative_rate_of_disorder": 0.1414141414141414,
+      "false_negative_residues": 14,
+      "false_positive_residues": 49,
       "is_conditional": false,
       "n_disorder_residues": 99,
       "n_residues": 577
@@ -8751,9 +8751,9 @@
     {
       "acc": "Q14191",
       "disprot_id": "DP00443",
-      "false_negative_residues": 530,
-      "false_positive_rate_of_disorder": 0.13793103448275862,
-      "false_positive_residues": 4,
+      "false_negative_rate_of_disorder": 0.13793103448275862,
+      "false_negative_residues": 4,
+      "false_positive_residues": 530,
       "is_conditional": false,
       "n_disorder_residues": 29,
       "n_residues": 1432
@@ -8761,9 +8761,9 @@
     {
       "acc": "O00571",
       "disprot_id": "DP02192",
-      "false_negative_residues": 115,
-      "false_positive_rate_of_disorder": 0.1377245508982036,
-      "false_positive_residues": 23,
+      "false_negative_rate_of_disorder": 0.1377245508982036,
+      "false_negative_residues": 23,
+      "false_positive_residues": 115,
       "is_conditional": false,
       "n_disorder_residues": 167,
       "n_residues": 662
@@ -8771,9 +8771,9 @@
     {
       "acc": "P24522",
       "disprot_id": "DP00704",
-      "false_negative_residues": 10,
-      "false_positive_rate_of_disorder": 0.13333333333333333,
-      "false_positive_residues": 4,
+      "false_negative_rate_of_disorder": 0.13333333333333333,
+      "false_negative_residues": 4,
+      "false_positive_residues": 10,
       "is_conditional": false,
       "n_disorder_residues": 30,
       "n_residues": 165
@@ -8781,9 +8781,9 @@
     {
       "acc": "P31749",
       "disprot_id": "DP03300",
-      "false_negative_residues": 53,
-      "false_positive_rate_of_disorder": 0.12903225806451613,
-      "false_positive_residues": 4,
+      "false_negative_rate_of_disorder": 0.12903225806451613,
+      "false_negative_residues": 4,
+      "false_positive_residues": 53,
       "is_conditional": false,
       "n_disorder_residues": 31,
       "n_residues": 480
@@ -8791,9 +8791,9 @@
     {
       "acc": "P02686",
       "disprot_id": "DP00236",
-      "false_negative_residues": 131,
-      "false_positive_rate_of_disorder": 0.1286549707602339,
-      "false_positive_residues": 22,
+      "false_negative_rate_of_disorder": 0.1286549707602339,
+      "false_negative_residues": 22,
+      "false_positive_residues": 131,
       "is_conditional": true,
       "n_disorder_residues": 171,
       "n_residues": 304
@@ -8801,9 +8801,9 @@
     {
       "acc": "P41227",
       "disprot_id": "DP03148",
-      "false_negative_residues": 0,
-      "false_positive_rate_of_disorder": 0.12,
-      "false_positive_residues": 9,
+      "false_negative_rate_of_disorder": 0.12,
+      "false_negative_residues": 9,
+      "false_positive_residues": 0,
       "is_conditional": false,
       "n_disorder_residues": 75,
       "n_residues": 235
@@ -8811,9 +8811,9 @@
     {
       "acc": "Q12778",
       "disprot_id": "DP01132",
-      "false_negative_residues": 542,
-      "false_positive_rate_of_disorder": 0.12,
-      "false_positive_residues": 3,
+      "false_negative_rate_of_disorder": 0.12,
+      "false_negative_residues": 3,
+      "false_positive_residues": 542,
       "is_conditional": false,
       "n_disorder_residues": 25,
       "n_residues": 655
@@ -8821,9 +8821,9 @@
     {
       "acc": "Q14493",
       "disprot_id": "DP01987",
-      "false_negative_residues": 123,
-      "false_positive_rate_of_disorder": 0.12,
-      "false_positive_residues": 3,
+      "false_negative_rate_of_disorder": 0.12,
+      "false_negative_residues": 3,
+      "false_positive_residues": 123,
       "is_conditional": false,
       "n_disorder_residues": 25,
       "n_residues": 270
@@ -8831,9 +8831,9 @@
     {
       "acc": "P48740-3",
       "disprot_id": "DP02816",
-      "false_negative_residues": 24,
-      "false_positive_rate_of_disorder": 0.11764705882352941,
-      "false_positive_residues": 2,
+      "false_negative_rate_of_disorder": 0.11764705882352941,
+      "false_negative_residues": 2,
+      "false_positive_residues": 24,
       "is_conditional": false,
       "n_disorder_residues": 17,
       "n_residues": 380
@@ -8841,9 +8841,9 @@
     {
       "acc": "Q92558",
       "disprot_id": "DP02529",
-      "false_negative_residues": 14,
-      "false_positive_rate_of_disorder": 0.11714285714285715,
-      "false_positive_residues": 41,
+      "false_negative_rate_of_disorder": 0.11714285714285715,
+      "false_negative_residues": 41,
+      "false_positive_residues": 14,
       "is_conditional": false,
       "n_disorder_residues": 350,
       "n_residues": 559
@@ -8851,9 +8851,9 @@
     {
       "acc": "O60880",
       "disprot_id": "DP02714",
-      "false_negative_residues": 2,
-      "false_positive_rate_of_disorder": 0.11538461538461539,
-      "false_positive_residues": 3,
+      "false_negative_rate_of_disorder": 0.11538461538461539,
+      "false_negative_residues": 3,
+      "false_positive_residues": 2,
       "is_conditional": false,
       "n_disorder_residues": 26,
       "n_residues": 128
@@ -8861,9 +8861,9 @@
     {
       "acc": "P83731",
       "disprot_id": "DP01935",
-      "false_negative_residues": 9,
-      "false_positive_rate_of_disorder": 0.11428571428571428,
-      "false_positive_residues": 4,
+      "false_negative_rate_of_disorder": 0.11428571428571428,
+      "false_negative_residues": 4,
+      "false_positive_residues": 9,
       "is_conditional": false,
       "n_disorder_residues": 35,
       "n_residues": 157
@@ -8871,9 +8871,9 @@
     {
       "acc": "Q9Y6D6",
       "disprot_id": "DP02612",
-      "false_negative_residues": 467,
-      "false_positive_rate_of_disorder": 0.1111111111111111,
-      "false_positive_residues": 3,
+      "false_negative_rate_of_disorder": 0.1111111111111111,
+      "false_negative_residues": 3,
+      "false_positive_residues": 467,
       "is_conditional": false,
       "n_disorder_residues": 27,
       "n_residues": 1849
@@ -8881,9 +8881,9 @@
     {
       "acc": "Q9HC77",
       "disprot_id": "DP03120",
-      "false_negative_residues": 787,
-      "false_positive_rate_of_disorder": 0.11,
-      "false_positive_residues": 11,
+      "false_negative_rate_of_disorder": 0.11,
+      "false_negative_residues": 11,
+      "false_positive_residues": 787,
       "is_conditional": false,
       "n_disorder_residues": 100,
       "n_residues": 1338
@@ -8891,9 +8891,9 @@
     {
       "acc": "Q13635",
       "disprot_id": "DP03896",
-      "false_negative_residues": 10,
-      "false_positive_rate_of_disorder": 0.10973084886128365,
-      "false_positive_residues": 53,
+      "false_negative_rate_of_disorder": 0.10973084886128365,
+      "false_negative_residues": 53,
+      "false_positive_residues": 10,
       "is_conditional": false,
       "n_disorder_residues": 483,
       "n_residues": 1447
@@ -8901,9 +8901,9 @@
     {
       "acc": "Q9BUR4",
       "disprot_id": "DP04173",
-      "false_negative_residues": 7,
-      "false_positive_rate_of_disorder": 0.10964912280701754,
-      "false_positive_residues": 25,
+      "false_negative_rate_of_disorder": 0.10964912280701754,
+      "false_negative_residues": 25,
+      "false_positive_residues": 7,
       "is_conditional": false,
       "n_disorder_residues": 228,
       "n_residues": 548
@@ -8911,9 +8911,9 @@
     {
       "acc": "O43464",
       "disprot_id": "DP00315",
-      "false_negative_residues": 142,
-      "false_positive_rate_of_disorder": 0.10714285714285714,
-      "false_positive_residues": 3,
+      "false_negative_rate_of_disorder": 0.10714285714285714,
+      "false_negative_residues": 3,
+      "false_positive_residues": 142,
       "is_conditional": false,
       "n_disorder_residues": 28,
       "n_residues": 458
@@ -8921,9 +8921,9 @@
     {
       "acc": "P49736",
       "disprot_id": "DP01977",
-      "false_negative_residues": 75,
-      "false_positive_rate_of_disorder": 0.10625,
-      "false_positive_residues": 17,
+      "false_negative_rate_of_disorder": 0.10625,
+      "false_negative_residues": 17,
+      "false_positive_residues": 75,
       "is_conditional": true,
       "n_disorder_residues": 160,
       "n_residues": 904
@@ -8931,9 +8931,9 @@
     {
       "acc": "Q15717",
       "disprot_id": "DP02564",
-      "false_negative_residues": 61,
-      "false_positive_rate_of_disorder": 0.10526315789473684,
-      "false_positive_residues": 2,
+      "false_negative_rate_of_disorder": 0.10526315789473684,
+      "false_negative_residues": 2,
+      "false_positive_residues": 61,
       "is_conditional": false,
       "n_disorder_residues": 19,
       "n_residues": 326
@@ -8941,9 +8941,9 @@
     {
       "acc": "Q9UBU7",
       "disprot_id": "DP03042",
-      "false_negative_residues": 438,
-      "false_positive_rate_of_disorder": 0.10256410256410256,
-      "false_positive_residues": 4,
+      "false_negative_rate_of_disorder": 0.10256410256410256,
+      "false_negative_residues": 4,
+      "false_positive_residues": 438,
       "is_conditional": false,
       "n_disorder_residues": 39,
       "n_residues": 674
@@ -8951,9 +8951,9 @@
     {
       "acc": "Q07666",
       "disprot_id": "DP01705",
-      "false_negative_residues": 37,
-      "false_positive_rate_of_disorder": 0.10038610038610038,
-      "false_positive_residues": 26,
+      "false_negative_rate_of_disorder": 0.10038610038610038,
+      "false_negative_residues": 26,
+      "false_positive_residues": 37,
       "is_conditional": false,
       "n_disorder_residues": 259,
       "n_residues": 443
@@ -8961,9 +8961,9 @@
     {
       "acc": "O60701",
       "disprot_id": "DP02338",
-      "false_negative_residues": 0,
-      "false_positive_rate_of_disorder": 0.1,
-      "false_positive_residues": 3,
+      "false_negative_rate_of_disorder": 0.1,
+      "false_negative_residues": 3,
+      "false_positive_residues": 0,
       "is_conditional": false,
       "n_disorder_residues": 30,
       "n_residues": 494
@@ -8971,9 +8971,9 @@
     {
       "acc": "Q7KZF4",
       "disprot_id": "DP03232",
-      "false_negative_residues": 54,
-      "false_positive_rate_of_disorder": 0.1,
-      "false_positive_residues": 1,
+      "false_negative_rate_of_disorder": 0.1,
+      "false_negative_residues": 1,
+      "false_positive_residues": 54,
       "is_conditional": false,
       "n_disorder_residues": 10,
       "n_residues": 910
@@ -8981,9 +8981,9 @@
     {
       "acc": "Q8N1Q8",
       "disprot_id": "DP03196",
-      "false_negative_residues": 47,
-      "false_positive_rate_of_disorder": 0.1,
-      "false_positive_residues": 1,
+      "false_negative_rate_of_disorder": 0.1,
+      "false_negative_residues": 1,
+      "false_positive_residues": 47,
       "is_conditional": false,
       "n_disorder_residues": 10,
       "n_residues": 247
@@ -8991,9 +8991,9 @@
     {
       "acc": "Q9NT62",
       "disprot_id": "DP01720",
-      "false_negative_residues": 99,
-      "false_positive_rate_of_disorder": 0.1,
-      "false_positive_residues": 3,
+      "false_negative_rate_of_disorder": 0.1,
+      "false_negative_residues": 3,
+      "false_positive_residues": 99,
       "is_conditional": false,
       "n_disorder_residues": 30,
       "n_residues": 314
@@ -9001,9 +9001,9 @@
     {
       "acc": "P37173",
       "disprot_id": "DP01760",
-      "false_negative_residues": 109,
-      "false_positive_rate_of_disorder": 0.09523809523809523,
-      "false_positive_residues": 2,
+      "false_negative_rate_of_disorder": 0.09523809523809523,
+      "false_negative_residues": 2,
+      "false_positive_residues": 109,
       "is_conditional": true,
       "n_disorder_residues": 21,
       "n_residues": 567
@@ -9011,9 +9011,9 @@
     {
       "acc": "P54687",
       "disprot_id": "DP02698",
-      "false_negative_residues": 4,
-      "false_positive_rate_of_disorder": 0.09523809523809523,
-      "false_positive_residues": 2,
+      "false_negative_rate_of_disorder": 0.09523809523809523,
+      "false_negative_residues": 2,
+      "false_positive_residues": 4,
       "is_conditional": false,
       "n_disorder_residues": 21,
       "n_residues": 386
@@ -9021,9 +9021,9 @@
     {
       "acc": "Q9NRA2",
       "disprot_id": "DP04104",
-      "false_negative_residues": 17,
-      "false_positive_rate_of_disorder": 0.09375,
-      "false_positive_residues": 6,
+      "false_negative_rate_of_disorder": 0.09375,
+      "false_negative_residues": 6,
+      "false_positive_residues": 17,
       "is_conditional": false,
       "n_disorder_residues": 64,
       "n_residues": 495
@@ -9031,9 +9031,9 @@
     {
       "acc": "Q9NPF0",
       "disprot_id": "DP03134",
-      "false_negative_residues": 145,
-      "false_positive_rate_of_disorder": 0.09302325581395349,
-      "false_positive_residues": 4,
+      "false_negative_rate_of_disorder": 0.09302325581395349,
+      "false_negative_residues": 4,
+      "false_positive_residues": 145,
       "is_conditional": false,
       "n_disorder_residues": 43,
       "n_residues": 282
@@ -9041,9 +9041,9 @@
     {
       "acc": "P55072",
       "disprot_id": "DP03238",
-      "false_negative_residues": 47,
-      "false_positive_rate_of_disorder": 0.09210526315789473,
-      "false_positive_residues": 7,
+      "false_negative_rate_of_disorder": 0.09210526315789473,
+      "false_negative_residues": 7,
+      "false_positive_residues": 47,
       "is_conditional": false,
       "n_disorder_residues": 76,
       "n_residues": 806
@@ -9051,9 +9051,9 @@
     {
       "acc": "Q9Y6G9",
       "disprot_id": "DP02547",
-      "false_negative_residues": 197,
-      "false_positive_rate_of_disorder": 0.08823529411764706,
-      "false_positive_residues": 12,
+      "false_negative_rate_of_disorder": 0.08823529411764706,
+      "false_negative_residues": 12,
+      "false_positive_residues": 197,
       "is_conditional": false,
       "n_disorder_residues": 136,
       "n_residues": 523
@@ -9061,9 +9061,9 @@
     {
       "acc": "P43351",
       "disprot_id": "DP00437",
-      "false_negative_residues": 182,
-      "false_positive_rate_of_disorder": 0.08695652173913043,
-      "false_positive_residues": 2,
+      "false_negative_rate_of_disorder": 0.08695652173913043,
+      "false_negative_residues": 2,
+      "false_positive_residues": 182,
       "is_conditional": false,
       "n_disorder_residues": 23,
       "n_residues": 418
@@ -9071,9 +9071,9 @@
     {
       "acc": "Q02363",
       "disprot_id": "DP02697",
-      "false_negative_residues": 63,
-      "false_positive_rate_of_disorder": 0.08695652173913043,
-      "false_positive_residues": 2,
+      "false_negative_rate_of_disorder": 0.08695652173913043,
+      "false_negative_residues": 2,
+      "false_positive_residues": 63,
       "is_conditional": false,
       "n_disorder_residues": 23,
       "n_residues": 134
@@ -9081,9 +9081,9 @@
     {
       "acc": "Q8IWJ2",
       "disprot_id": "DP02732",
-      "false_negative_residues": 426,
-      "false_positive_rate_of_disorder": 0.08695652173913043,
-      "false_positive_residues": 2,
+      "false_negative_rate_of_disorder": 0.08695652173913043,
+      "false_negative_residues": 2,
+      "false_positive_residues": 426,
       "is_conditional": false,
       "n_disorder_residues": 23,
       "n_residues": 1684
@@ -9091,9 +9091,9 @@
     {
       "acc": "Q9UHD9",
       "disprot_id": "DP01110",
-      "false_negative_residues": 322,
-      "false_positive_rate_of_disorder": 0.08661417322834646,
-      "false_positive_residues": 11,
+      "false_negative_rate_of_disorder": 0.08661417322834646,
+      "false_negative_residues": 11,
+      "false_positive_residues": 322,
       "is_conditional": false,
       "n_disorder_residues": 127,
       "n_residues": 624
@@ -9101,9 +9101,9 @@
     {
       "acc": "Q96PU5",
       "disprot_id": "DP02292",
-      "false_negative_residues": 331,
-      "false_positive_rate_of_disorder": 0.08641975308641975,
-      "false_positive_residues": 7,
+      "false_negative_rate_of_disorder": 0.08641975308641975,
+      "false_negative_residues": 7,
+      "false_positive_residues": 331,
       "is_conditional": false,
       "n_disorder_residues": 81,
       "n_residues": 975
@@ -9111,9 +9111,9 @@
     {
       "acc": "P20963",
       "disprot_id": "DP00200",
-      "false_negative_residues": 17,
-      "false_positive_rate_of_disorder": 0.08620689655172414,
-      "false_positive_residues": 10,
+      "false_negative_rate_of_disorder": 0.08620689655172414,
+      "false_negative_residues": 10,
+      "false_positive_residues": 17,
       "is_conditional": false,
       "n_disorder_residues": 116,
       "n_residues": 164
@@ -9121,9 +9121,9 @@
     {
       "acc": "O43474",
       "disprot_id": "DP01174",
-      "false_negative_residues": 296,
-      "false_positive_rate_of_disorder": 0.08461538461538462,
-      "false_positive_residues": 11,
+      "false_negative_rate_of_disorder": 0.08461538461538462,
+      "false_negative_residues": 11,
+      "false_positive_residues": 296,
       "is_conditional": false,
       "n_disorder_residues": 130,
       "n_residues": 513
@@ -9131,9 +9131,9 @@
     {
       "acc": "Q92597",
       "disprot_id": "DP03990",
-      "false_negative_residues": 46,
-      "false_positive_rate_of_disorder": 0.08433734939759036,
-      "false_positive_residues": 7,
+      "false_negative_rate_of_disorder": 0.08433734939759036,
+      "false_negative_residues": 7,
+      "false_positive_residues": 46,
       "is_conditional": false,
       "n_disorder_residues": 83,
       "n_residues": 394
@@ -9141,9 +9141,9 @@
     {
       "acc": "P50616",
       "disprot_id": "DP00794",
-      "false_negative_residues": 0,
-      "false_positive_rate_of_disorder": 0.08260869565217391,
-      "false_positive_residues": 19,
+      "false_negative_rate_of_disorder": 0.08260869565217391,
+      "false_negative_residues": 19,
+      "false_positive_residues": 0,
       "is_conditional": false,
       "n_disorder_residues": 230,
       "n_residues": 345
@@ -9151,9 +9151,9 @@
     {
       "acc": "P28360",
       "disprot_id": "DP04347",
-      "false_negative_residues": 61,
-      "false_positive_rate_of_disorder": 0.08139534883720931,
-      "false_positive_residues": 14,
+      "false_negative_rate_of_disorder": 0.08139534883720931,
+      "false_negative_residues": 14,
+      "false_positive_residues": 61,
       "is_conditional": false,
       "n_disorder_residues": 172,
       "n_residues": 303
@@ -9161,9 +9161,9 @@
     {
       "acc": "Q12962",
       "disprot_id": "DP03622",
-      "false_negative_residues": 2,
-      "false_positive_rate_of_disorder": 0.08088235294117647,
-      "false_positive_residues": 11,
+      "false_negative_rate_of_disorder": 0.08088235294117647,
+      "false_negative_residues": 11,
+      "false_positive_residues": 2,
       "is_conditional": false,
       "n_disorder_residues": 136,
       "n_residues": 218
@@ -9171,9 +9171,9 @@
     {
       "acc": "Q9NPJ4",
       "disprot_id": "DP04297",
-      "false_negative_residues": 1,
-      "false_positive_rate_of_disorder": 0.07920792079207921,
-      "false_positive_residues": 8,
+      "false_negative_rate_of_disorder": 0.07920792079207921,
+      "false_negative_residues": 8,
+      "false_positive_residues": 1,
       "is_conditional": false,
       "n_disorder_residues": 101,
       "n_residues": 139
@@ -9181,9 +9181,9 @@
     {
       "acc": "P35269",
       "disprot_id": "DP03035",
-      "false_negative_residues": 310,
-      "false_positive_rate_of_disorder": 0.07894736842105263,
-      "false_positive_residues": 3,
+      "false_negative_rate_of_disorder": 0.07894736842105263,
+      "false_negative_residues": 3,
+      "false_positive_residues": 310,
       "is_conditional": false,
       "n_disorder_residues": 38,
       "n_residues": 517
@@ -9191,9 +9191,9 @@
     {
       "acc": "P68431",
       "disprot_id": "DP04281",
-      "false_negative_residues": 2,
-      "false_positive_rate_of_disorder": 0.07894736842105263,
-      "false_positive_residues": 3,
+      "false_negative_rate_of_disorder": 0.07894736842105263,
+      "false_negative_residues": 3,
+      "false_positive_residues": 2,
       "is_conditional": false,
       "n_disorder_residues": 38,
       "n_residues": 136
@@ -9201,9 +9201,9 @@
     {
       "acc": "P55011",
       "disprot_id": "DP03823",
-      "false_negative_residues": 92,
-      "false_positive_rate_of_disorder": 0.076158940397351,
-      "false_positive_residues": 23,
+      "false_negative_rate_of_disorder": 0.076158940397351,
+      "false_negative_residues": 23,
+      "false_positive_residues": 92,
       "is_conditional": false,
       "n_disorder_residues": 302,
       "n_residues": 1212
@@ -9211,9 +9211,9 @@
     {
       "acc": "Q15013",
       "disprot_id": "DP03192",
-      "false_negative_residues": 47,
-      "false_positive_rate_of_disorder": 0.075,
-      "false_positive_residues": 3,
+      "false_negative_rate_of_disorder": 0.075,
+      "false_negative_residues": 3,
+      "false_positive_residues": 47,
       "is_conditional": false,
       "n_disorder_residues": 40,
       "n_residues": 274
@@ -9221,9 +9221,9 @@
     {
       "acc": "Q8N807",
       "disprot_id": "DP02658",
-      "false_negative_residues": 24,
-      "false_positive_rate_of_disorder": 0.07291666666666667,
-      "false_positive_residues": 7,
+      "false_negative_rate_of_disorder": 0.07291666666666667,
+      "false_negative_residues": 7,
+      "false_positive_residues": 24,
       "is_conditional": false,
       "n_disorder_residues": 96,
       "n_residues": 584
@@ -9231,9 +9231,9 @@
     {
       "acc": "P28324",
       "disprot_id": "DP01329",
-      "false_negative_residues": 277,
-      "false_positive_rate_of_disorder": 0.06976744186046512,
-      "false_positive_residues": 3,
+      "false_negative_rate_of_disorder": 0.06976744186046512,
+      "false_negative_residues": 3,
+      "false_positive_residues": 277,
       "is_conditional": false,
       "n_disorder_residues": 43,
       "n_residues": 431
@@ -9241,9 +9241,9 @@
     {
       "acc": "Q8N114",
       "disprot_id": "DP04349",
-      "false_negative_residues": 83,
-      "false_positive_rate_of_disorder": 0.06956521739130435,
-      "false_positive_residues": 8,
+      "false_negative_rate_of_disorder": 0.06956521739130435,
+      "false_negative_residues": 8,
+      "false_positive_residues": 83,
       "is_conditional": false,
       "n_disorder_residues": 115,
       "n_residues": 240
@@ -9251,9 +9251,9 @@
     {
       "acc": "P28300",
       "disprot_id": "DP02075",
-      "false_negative_residues": 64,
-      "false_positive_rate_of_disorder": 0.06802721088435375,
-      "false_positive_residues": 10,
+      "false_negative_rate_of_disorder": 0.06802721088435375,
+      "false_negative_residues": 10,
+      "false_positive_residues": 64,
       "is_conditional": false,
       "n_disorder_residues": 147,
       "n_residues": 417
@@ -9261,9 +9261,9 @@
     {
       "acc": "O43312",
       "disprot_id": "DP01224",
-      "false_negative_residues": 479,
-      "false_positive_rate_of_disorder": 0.06666666666666667,
-      "false_positive_residues": 1,
+      "false_negative_rate_of_disorder": 0.06666666666666667,
+      "false_negative_residues": 1,
+      "false_positive_residues": 479,
       "is_conditional": false,
       "n_disorder_residues": 15,
       "n_residues": 755
@@ -9271,9 +9271,9 @@
     {
       "acc": "Q16539",
       "disprot_id": "DP04452",
-      "false_negative_residues": 15,
-      "false_positive_rate_of_disorder": 0.06666666666666667,
-      "false_positive_residues": 1,
+      "false_negative_rate_of_disorder": 0.06666666666666667,
+      "false_negative_residues": 1,
+      "false_positive_residues": 15,
       "is_conditional": false,
       "n_disorder_residues": 15,
       "n_residues": 360
@@ -9281,9 +9281,9 @@
     {
       "acc": "Q92574",
       "disprot_id": "DP02744",
-      "false_negative_residues": 598,
-      "false_positive_rate_of_disorder": 0.06666666666666667,
-      "false_positive_residues": 1,
+      "false_negative_rate_of_disorder": 0.06666666666666667,
+      "false_negative_residues": 1,
+      "false_positive_residues": 598,
       "is_conditional": false,
       "n_disorder_residues": 15,
       "n_residues": 1164
@@ -9291,9 +9291,9 @@
     {
       "acc": "P20020-1",
       "disprot_id": "DP02604",
-      "false_negative_residues": 197,
-      "false_positive_rate_of_disorder": 0.0663265306122449,
-      "false_positive_residues": 13,
+      "false_negative_rate_of_disorder": 0.0663265306122449,
+      "false_negative_residues": 13,
+      "false_positive_residues": 197,
       "is_conditional": false,
       "n_disorder_residues": 196,
       "n_residues": 1258
@@ -9301,9 +9301,9 @@
     {
       "acc": "P51788",
       "disprot_id": "DP04149",
-      "false_negative_residues": 45,
-      "false_positive_rate_of_disorder": 0.0661764705882353,
-      "false_positive_residues": 18,
+      "false_negative_rate_of_disorder": 0.0661764705882353,
+      "false_negative_residues": 18,
+      "false_positive_residues": 45,
       "is_conditional": true,
       "n_disorder_residues": 272,
       "n_residues": 898
@@ -9311,9 +9311,9 @@
     {
       "acc": "P11274",
       "disprot_id": "DP03016",
-      "false_negative_residues": 566,
-      "false_positive_rate_of_disorder": 0.058823529411764705,
-      "false_positive_residues": 1,
+      "false_negative_rate_of_disorder": 0.058823529411764705,
+      "false_negative_residues": 1,
+      "false_positive_residues": 566,
       "is_conditional": false,
       "n_disorder_residues": 17,
       "n_residues": 1271
@@ -9321,9 +9321,9 @@
     {
       "acc": "P41214",
       "disprot_id": "DP02704",
-      "false_negative_residues": 55,
-      "false_positive_rate_of_disorder": 0.058823529411764705,
-      "false_positive_residues": 6,
+      "false_negative_rate_of_disorder": 0.058823529411764705,
+      "false_negative_residues": 6,
+      "false_positive_residues": 55,
       "is_conditional": false,
       "n_disorder_residues": 102,
       "n_residues": 584
@@ -9331,9 +9331,9 @@
     {
       "acc": "Q92913-2",
       "disprot_id": "DP03875",
-      "false_negative_residues": 10,
-      "false_positive_rate_of_disorder": 0.058823529411764705,
-      "false_positive_residues": 2,
+      "false_negative_rate_of_disorder": 0.058823529411764705,
+      "false_negative_residues": 2,
+      "false_positive_residues": 10,
       "is_conditional": false,
       "n_disorder_residues": 34,
       "n_residues": 192
@@ -9341,9 +9341,9 @@
     {
       "acc": "P52948",
       "disprot_id": "DP02123",
-      "false_negative_residues": 178,
-      "false_positive_rate_of_disorder": 0.05835010060362173,
-      "false_positive_residues": 58,
+      "false_negative_rate_of_disorder": 0.05835010060362173,
+      "false_negative_residues": 58,
+      "false_positive_residues": 178,
       "is_conditional": false,
       "n_disorder_residues": 994,
       "n_residues": 1817
@@ -9351,9 +9351,9 @@
     {
       "acc": "P04183",
       "disprot_id": "DP02006",
-      "false_negative_residues": 2,
-      "false_positive_rate_of_disorder": 0.057971014492753624,
-      "false_positive_residues": 4,
+      "false_negative_rate_of_disorder": 0.057971014492753624,
+      "false_negative_residues": 4,
+      "false_positive_residues": 2,
       "is_conditional": false,
       "n_disorder_residues": 69,
       "n_residues": 234
@@ -9361,8 +9361,8 @@
     {
       "acc": "Q9Y4U1",
       "disprot_id": "DP03867",
+      "false_negative_rate_of_disorder": 0.057692307692307696,
       "false_negative_residues": 3,
-      "false_positive_rate_of_disorder": 0.057692307692307696,
       "false_positive_residues": 3,
       "is_conditional": false,
       "n_disorder_residues": 52,
@@ -9371,9 +9371,9 @@
     {
       "acc": "Q96ST2",
       "disprot_id": "DP03758",
-      "false_negative_residues": 442,
-      "false_positive_rate_of_disorder": 0.05583756345177665,
-      "false_positive_residues": 11,
+      "false_negative_rate_of_disorder": 0.05583756345177665,
+      "false_negative_residues": 11,
+      "false_positive_residues": 442,
       "is_conditional": false,
       "n_disorder_residues": 197,
       "n_residues": 819
@@ -9381,9 +9381,9 @@
     {
       "acc": "Q13480",
       "disprot_id": "DP03706",
-      "false_negative_residues": 19,
-      "false_positive_rate_of_disorder": 0.05363321799307959,
-      "false_positive_residues": 31,
+      "false_negative_rate_of_disorder": 0.05363321799307959,
+      "false_negative_residues": 31,
+      "false_positive_residues": 19,
       "is_conditional": false,
       "n_disorder_residues": 578,
       "n_residues": 694
@@ -9391,9 +9391,9 @@
     {
       "acc": "Q9BZE9",
       "disprot_id": "DP03237",
-      "false_negative_residues": 166,
-      "false_positive_rate_of_disorder": 0.05357142857142857,
-      "false_positive_residues": 3,
+      "false_negative_rate_of_disorder": 0.05357142857142857,
+      "false_negative_residues": 3,
+      "false_positive_residues": 166,
       "is_conditional": false,
       "n_disorder_residues": 56,
       "n_residues": 553
@@ -9401,9 +9401,9 @@
     {
       "acc": "Q8WVM7",
       "disprot_id": "DP03383",
-      "false_negative_residues": 7,
-      "false_positive_rate_of_disorder": 0.05345911949685535,
-      "false_positive_residues": 17,
+      "false_negative_rate_of_disorder": 0.05345911949685535,
+      "false_negative_residues": 17,
+      "false_positive_residues": 7,
       "is_conditional": false,
       "n_disorder_residues": 318,
       "n_residues": 1258
@@ -9411,9 +9411,9 @@
     {
       "acc": "P39905",
       "disprot_id": "DP02574",
-      "false_negative_residues": 48,
-      "false_positive_rate_of_disorder": 0.05,
-      "false_positive_residues": 2,
+      "false_negative_rate_of_disorder": 0.05,
+      "false_negative_residues": 2,
+      "false_positive_residues": 48,
       "is_conditional": false,
       "n_disorder_residues": 40,
       "n_residues": 211
@@ -9421,9 +9421,9 @@
     {
       "acc": "Q9UBU9",
       "disprot_id": "DP01451",
-      "false_negative_residues": 117,
-      "false_positive_rate_of_disorder": 0.043478260869565216,
-      "false_positive_residues": 1,
+      "false_negative_rate_of_disorder": 0.043478260869565216,
+      "false_negative_residues": 1,
+      "false_positive_residues": 117,
       "is_conditional": false,
       "n_disorder_residues": 23,
       "n_residues": 619
@@ -9431,9 +9431,9 @@
     {
       "acc": "Q5T848",
       "disprot_id": "DP04121",
-      "false_negative_residues": 438,
-      "false_positive_rate_of_disorder": 0.040955631399317405,
-      "false_positive_residues": 12,
+      "false_negative_rate_of_disorder": 0.040955631399317405,
+      "false_negative_residues": 12,
+      "false_positive_residues": 438,
       "is_conditional": true,
       "n_disorder_residues": 293,
       "n_residues": 1215
@@ -9441,9 +9441,9 @@
     {
       "acc": "O60888",
       "disprot_id": "DP00846",
-      "false_negative_residues": 44,
-      "false_positive_rate_of_disorder": 0.038461538461538464,
-      "false_positive_residues": 1,
+      "false_negative_rate_of_disorder": 0.038461538461538464,
+      "false_negative_residues": 1,
+      "false_positive_residues": 44,
       "is_conditional": false,
       "n_disorder_residues": 26,
       "n_residues": 179
@@ -9451,9 +9451,9 @@
     {
       "acc": "P05386",
       "disprot_id": "DP01253",
-      "false_negative_residues": 1,
-      "false_positive_rate_of_disorder": 0.038461538461538464,
-      "false_positive_residues": 2,
+      "false_negative_rate_of_disorder": 0.038461538461538464,
+      "false_negative_residues": 2,
+      "false_positive_residues": 1,
       "is_conditional": false,
       "n_disorder_residues": 52,
       "n_residues": 114
@@ -9461,9 +9461,9 @@
     {
       "acc": "Q6P3W2",
       "disprot_id": "DP00865",
-      "false_negative_residues": 13,
-      "false_positive_rate_of_disorder": 0.038461538461538464,
-      "false_positive_residues": 1,
+      "false_negative_rate_of_disorder": 0.038461538461538464,
+      "false_negative_residues": 1,
+      "false_positive_residues": 13,
       "is_conditional": false,
       "n_disorder_residues": 26,
       "n_residues": 149
@@ -9471,9 +9471,9 @@
     {
       "acc": "P02730",
       "disprot_id": "DP01167",
-      "false_negative_residues": 100,
-      "false_positive_rate_of_disorder": 0.037037037037037035,
-      "false_positive_residues": 2,
+      "false_negative_rate_of_disorder": 0.037037037037037035,
+      "false_negative_residues": 2,
+      "false_positive_residues": 100,
       "is_conditional": false,
       "n_disorder_residues": 54,
       "n_residues": 911
@@ -9481,9 +9481,9 @@
     {
       "acc": "P52799",
       "disprot_id": "DP01588",
-      "false_negative_residues": 80,
-      "false_positive_rate_of_disorder": 0.037037037037037035,
-      "false_positive_residues": 3,
+      "false_negative_rate_of_disorder": 0.037037037037037035,
+      "false_negative_residues": 3,
+      "false_positive_residues": 80,
       "is_conditional": false,
       "n_disorder_residues": 81,
       "n_residues": 333
@@ -9491,9 +9491,9 @@
     {
       "acc": "P40205",
       "disprot_id": "DP04244",
-      "false_negative_residues": 0,
-      "false_positive_rate_of_disorder": 0.03669724770642202,
-      "false_positive_residues": 4,
+      "false_negative_rate_of_disorder": 0.03669724770642202,
+      "false_negative_residues": 4,
+      "false_positive_residues": 0,
       "is_conditional": false,
       "n_disorder_residues": 109,
       "n_residues": 109
@@ -9501,9 +9501,9 @@
     {
       "acc": "Q03518",
       "disprot_id": "DP01306",
-      "false_negative_residues": 80,
-      "false_positive_rate_of_disorder": 0.03571428571428571,
-      "false_positive_residues": 4,
+      "false_negative_rate_of_disorder": 0.03571428571428571,
+      "false_negative_residues": 4,
+      "false_positive_residues": 80,
       "is_conditional": false,
       "n_disorder_residues": 112,
       "n_residues": 748
@@ -9511,8 +9511,8 @@
     {
       "acc": "O60825",
       "disprot_id": "DP03074",
+      "false_negative_rate_of_disorder": 0.03529411764705882,
       "false_negative_residues": 3,
-      "false_positive_rate_of_disorder": 0.03529411764705882,
       "false_positive_residues": 3,
       "is_conditional": false,
       "n_disorder_residues": 85,
@@ -9521,9 +9521,9 @@
     {
       "acc": "P45985",
       "disprot_id": "DP01400",
-      "false_negative_residues": 34,
-      "false_positive_rate_of_disorder": 0.03488372093023256,
-      "false_positive_residues": 3,
+      "false_negative_rate_of_disorder": 0.03488372093023256,
+      "false_negative_residues": 3,
+      "false_positive_residues": 34,
       "is_conditional": true,
       "n_disorder_residues": 86,
       "n_residues": 399
@@ -9531,9 +9531,9 @@
     {
       "acc": "Q9HCB6",
       "disprot_id": "DP03343",
-      "false_negative_residues": 196,
-      "false_positive_rate_of_disorder": 0.034482758620689655,
-      "false_positive_residues": 1,
+      "false_negative_rate_of_disorder": 0.034482758620689655,
+      "false_negative_residues": 1,
+      "false_positive_residues": 196,
       "is_conditional": false,
       "n_disorder_residues": 29,
       "n_residues": 807
@@ -9541,9 +9541,9 @@
     {
       "acc": "Q96NW4",
       "disprot_id": "DP02601",
-      "false_negative_residues": 335,
-      "false_positive_rate_of_disorder": 0.03225806451612903,
-      "false_positive_residues": 2,
+      "false_negative_rate_of_disorder": 0.03225806451612903,
+      "false_negative_residues": 2,
+      "false_positive_residues": 335,
       "is_conditional": false,
       "n_disorder_residues": 62,
       "n_residues": 1050
@@ -9551,9 +9551,9 @@
     {
       "acc": "P02671",
       "disprot_id": "DP02130",
-      "false_negative_residues": 157,
-      "false_positive_rate_of_disorder": 0.03142857142857143,
-      "false_positive_residues": 11,
+      "false_negative_rate_of_disorder": 0.03142857142857143,
+      "false_negative_residues": 11,
+      "false_positive_residues": 157,
       "is_conditional": false,
       "n_disorder_residues": 350,
       "n_residues": 866
@@ -9561,9 +9561,9 @@
     {
       "acc": "Q9UJX2",
       "disprot_id": "DP01240",
-      "false_negative_residues": 14,
-      "false_positive_rate_of_disorder": 0.03076923076923077,
-      "false_positive_residues": 2,
+      "false_negative_rate_of_disorder": 0.03076923076923077,
+      "false_negative_residues": 2,
+      "false_positive_residues": 14,
       "is_conditional": false,
       "n_disorder_residues": 65,
       "n_residues": 597
@@ -9571,9 +9571,9 @@
     {
       "acc": "Q14766",
       "disprot_id": "DP03379",
-      "false_negative_residues": 807,
-      "false_positive_rate_of_disorder": 0.028169014084507043,
-      "false_positive_residues": 2,
+      "false_negative_rate_of_disorder": 0.028169014084507043,
+      "false_negative_residues": 2,
+      "false_positive_residues": 807,
       "is_conditional": false,
       "n_disorder_residues": 71,
       "n_residues": 1721
@@ -9581,9 +9581,9 @@
     {
       "acc": "Q8N4Q1",
       "disprot_id": "DP00912",
-      "false_negative_residues": 14,
-      "false_positive_rate_of_disorder": 0.027777777777777776,
-      "false_positive_residues": 1,
+      "false_negative_rate_of_disorder": 0.027777777777777776,
+      "false_negative_residues": 1,
+      "false_positive_residues": 14,
       "is_conditional": false,
       "n_disorder_residues": 36,
       "n_residues": 142
@@ -9591,9 +9591,9 @@
     {
       "acc": "Q96F81",
       "disprot_id": "DP04070",
-      "false_negative_residues": 50,
-      "false_positive_rate_of_disorder": 0.02773497688751926,
-      "false_positive_residues": 18,
+      "false_negative_rate_of_disorder": 0.02773497688751926,
+      "false_negative_residues": 18,
+      "false_positive_residues": 50,
       "is_conditional": false,
       "n_disorder_residues": 649,
       "n_residues": 1524
@@ -9601,9 +9601,9 @@
     {
       "acc": "Q9BSQ5",
       "disprot_id": "DP02978",
-      "false_negative_residues": 145,
-      "false_positive_rate_of_disorder": 0.02666666666666667,
-      "false_positive_residues": 2,
+      "false_negative_rate_of_disorder": 0.02666666666666667,
+      "false_negative_residues": 2,
+      "false_positive_residues": 145,
       "is_conditional": false,
       "n_disorder_residues": 75,
       "n_residues": 444
@@ -9611,9 +9611,9 @@
     {
       "acc": "P05546",
       "disprot_id": "DP03353",
-      "false_negative_residues": 48,
-      "false_positive_rate_of_disorder": 0.024096385542168676,
-      "false_positive_residues": 2,
+      "false_negative_rate_of_disorder": 0.024096385542168676,
+      "false_negative_residues": 2,
+      "false_positive_residues": 48,
       "is_conditional": false,
       "n_disorder_residues": 83,
       "n_residues": 499
@@ -9621,9 +9621,9 @@
     {
       "acc": "P34741",
       "disprot_id": "DP03513",
-      "false_negative_residues": 30,
-      "false_positive_rate_of_disorder": 0.023809523809523808,
-      "false_positive_residues": 3,
+      "false_negative_rate_of_disorder": 0.023809523809523808,
+      "false_negative_residues": 3,
+      "false_positive_residues": 30,
       "is_conditional": false,
       "n_disorder_residues": 126,
       "n_residues": 201
@@ -9631,9 +9631,9 @@
     {
       "acc": "Q13426",
       "disprot_id": "DP00152",
-      "false_negative_residues": 0,
-      "false_positive_rate_of_disorder": 0.022222222222222223,
-      "false_positive_residues": 3,
+      "false_negative_rate_of_disorder": 0.022222222222222223,
+      "false_negative_residues": 3,
+      "false_positive_residues": 0,
       "is_conditional": false,
       "n_disorder_residues": 135,
       "n_residues": 336
@@ -9641,9 +9641,9 @@
     {
       "acc": "P17947",
       "disprot_id": "DP02918",
-      "false_negative_residues": 0,
-      "false_positive_rate_of_disorder": 0.022099447513812154,
-      "false_positive_residues": 4,
+      "false_negative_rate_of_disorder": 0.022099447513812154,
+      "false_negative_residues": 4,
+      "false_positive_residues": 0,
       "is_conditional": false,
       "n_disorder_residues": 181,
       "n_residues": 270
@@ -9651,9 +9651,9 @@
     {
       "acc": "Q9H4L7",
       "disprot_id": "DP03400",
-      "false_negative_residues": 325,
-      "false_positive_rate_of_disorder": 0.021505376344086023,
-      "false_positive_residues": 2,
+      "false_negative_rate_of_disorder": 0.021505376344086023,
+      "false_negative_residues": 2,
+      "false_positive_residues": 325,
       "is_conditional": false,
       "n_disorder_residues": 93,
       "n_residues": 1026
@@ -9661,9 +9661,9 @@
     {
       "acc": "Q92793",
       "disprot_id": "DP02004",
-      "false_negative_residues": 1040,
-      "false_positive_rate_of_disorder": 0.021207177814029365,
-      "false_positive_residues": 13,
+      "false_negative_rate_of_disorder": 0.021207177814029365,
+      "false_negative_residues": 13,
+      "false_positive_residues": 1040,
       "is_conditional": false,
       "n_disorder_residues": 613,
       "n_residues": 2442
@@ -9671,9 +9671,9 @@
     {
       "acc": "P55265",
       "disprot_id": "DP03221",
-      "false_negative_residues": 409,
-      "false_positive_rate_of_disorder": 0.021052631578947368,
-      "false_positive_residues": 2,
+      "false_negative_rate_of_disorder": 0.021052631578947368,
+      "false_negative_residues": 2,
+      "false_positive_residues": 409,
       "is_conditional": false,
       "n_disorder_residues": 95,
       "n_residues": 1226
@@ -9681,8 +9681,8 @@
     {
       "acc": "O15391",
       "disprot_id": "DP03369",
+      "false_negative_rate_of_disorder": 0.019762845849802372,
       "false_negative_residues": 5,
-      "false_positive_rate_of_disorder": 0.019762845849802372,
       "false_positive_residues": 5,
       "is_conditional": false,
       "n_disorder_residues": 253,
@@ -9691,9 +9691,9 @@
     {
       "acc": "P30793",
       "disprot_id": "DP03118",
-      "false_negative_residues": 0,
-      "false_positive_rate_of_disorder": 0.017543859649122806,
-      "false_positive_residues": 1,
+      "false_negative_rate_of_disorder": 0.017543859649122806,
+      "false_negative_residues": 1,
+      "false_positive_residues": 0,
       "is_conditional": false,
       "n_disorder_residues": 57,
       "n_residues": 250
@@ -9701,9 +9701,9 @@
     {
       "acc": "Q8NET8",
       "disprot_id": "DP03734",
-      "false_negative_residues": 99,
-      "false_positive_rate_of_disorder": 0.01694915254237288,
-      "false_positive_residues": 2,
+      "false_negative_rate_of_disorder": 0.01694915254237288,
+      "false_negative_residues": 2,
+      "false_positive_residues": 99,
       "is_conditional": false,
       "n_disorder_residues": 118,
       "n_residues": 790
@@ -9711,9 +9711,9 @@
     {
       "acc": "Q07955",
       "disprot_id": "DP01641",
-      "false_negative_residues": 33,
-      "false_positive_rate_of_disorder": 0.014925373134328358,
-      "false_positive_residues": 1,
+      "false_negative_rate_of_disorder": 0.014925373134328358,
+      "false_negative_residues": 1,
+      "false_positive_residues": 33,
       "is_conditional": true,
       "n_disorder_residues": 67,
       "n_residues": 248
@@ -9721,9 +9721,9 @@
     {
       "acc": "P07550",
       "disprot_id": "DP03692",
-      "false_negative_residues": 53,
-      "false_positive_rate_of_disorder": 0.013888888888888888,
-      "false_positive_residues": 1,
+      "false_negative_rate_of_disorder": 0.013888888888888888,
+      "false_negative_residues": 1,
+      "false_positive_residues": 53,
       "is_conditional": false,
       "n_disorder_residues": 72,
       "n_residues": 413
@@ -9731,9 +9731,9 @@
     {
       "acc": "Q9UMX1",
       "disprot_id": "DP01312",
-      "false_negative_residues": 36,
-      "false_positive_rate_of_disorder": 0.012195121951219513,
-      "false_positive_residues": 1,
+      "false_negative_rate_of_disorder": 0.012195121951219513,
+      "false_negative_residues": 1,
+      "false_positive_residues": 36,
       "is_conditional": false,
       "n_disorder_residues": 82,
       "n_residues": 484
@@ -9741,9 +9741,9 @@
     {
       "acc": "Q96RF0",
       "disprot_id": "DP02309",
-      "false_negative_residues": 109,
-      "false_positive_rate_of_disorder": 0.012048192771084338,
-      "false_positive_residues": 2,
+      "false_negative_rate_of_disorder": 0.012048192771084338,
+      "false_negative_residues": 2,
+      "false_positive_residues": 109,
       "is_conditional": false,
       "n_disorder_residues": 166,
       "n_residues": 628
@@ -9751,9 +9751,9 @@
     {
       "acc": "P04626",
       "disprot_id": "DP01484",
-      "false_negative_residues": 151,
-      "false_positive_rate_of_disorder": 0.011194029850746268,
-      "false_positive_residues": 3,
+      "false_negative_rate_of_disorder": 0.011194029850746268,
+      "false_negative_residues": 3,
+      "false_positive_residues": 151,
       "is_conditional": false,
       "n_disorder_residues": 268,
       "n_residues": 1255
@@ -9761,9 +9761,9 @@
     {
       "acc": "P02545",
       "disprot_id": "DP00716",
-      "false_negative_residues": 106,
-      "false_positive_rate_of_disorder": 0.01020408163265306,
-      "false_positive_residues": 1,
+      "false_negative_rate_of_disorder": 0.01020408163265306,
+      "false_negative_residues": 1,
+      "false_positive_residues": 106,
       "is_conditional": false,
       "n_disorder_residues": 98,
       "n_residues": 664
@@ -9771,9 +9771,9 @@
     {
       "acc": "P19634",
       "disprot_id": "DP01241",
-      "false_negative_residues": 212,
-      "false_positive_rate_of_disorder": 0.007352941176470588,
-      "false_positive_residues": 1,
+      "false_negative_rate_of_disorder": 0.007352941176470588,
+      "false_negative_residues": 1,
+      "false_positive_residues": 212,
       "is_conditional": true,
       "n_disorder_residues": 136,
       "n_residues": 815
@@ -9781,9 +9781,9 @@
     {
       "acc": "Q8WYP5",
       "disprot_id": "DP01549",
-      "false_negative_residues": 119,
-      "false_positive_rate_of_disorder": 0.006405124099279423,
-      "false_positive_residues": 8,
+      "false_negative_rate_of_disorder": 0.006405124099279423,
+      "false_negative_residues": 8,
+      "false_positive_residues": 119,
       "is_conditional": false,
       "n_disorder_residues": 1249,
       "n_residues": 2266
@@ -9791,9 +9791,9 @@
     {
       "acc": "Q16665",
       "disprot_id": "DP00262",
-      "false_negative_residues": 159,
-      "false_positive_rate_of_disorder": 0.005763688760806916,
-      "false_positive_residues": 2,
+      "false_negative_rate_of_disorder": 0.005763688760806916,
+      "false_negative_residues": 2,
+      "false_positive_residues": 159,
       "is_conditional": true,
       "n_disorder_residues": 347,
       "n_residues": 826
@@ -9801,8 +9801,8 @@
     {
       "acc": "Q13316",
       "disprot_id": "DP03323",
+      "false_negative_rate_of_disorder": 0.004024144869215292,
       "false_negative_residues": 2,
-      "false_positive_rate_of_disorder": 0.004024144869215292,
       "false_positive_residues": 2,
       "is_conditional": false,
       "n_disorder_residues": 497,
@@ -9811,9 +9811,9 @@
     {
       "acc": "Q9NP70",
       "disprot_id": "DP02558",
-      "false_negative_residues": 12,
-      "false_positive_rate_of_disorder": 0.0023752969121140144,
-      "false_positive_residues": 1,
+      "false_negative_rate_of_disorder": 0.0023752969121140144,
+      "false_negative_residues": 1,
+      "false_positive_residues": 12,
       "is_conditional": false,
       "n_disorder_residues": 421,
       "n_residues": 447
@@ -9821,9 +9821,9 @@
     {
       "acc": "O00204-2",
       "disprot_id": "DP01099",
-      "false_negative_residues": 43,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 43,
       "is_conditional": false,
       "n_disorder_residues": 22,
       "n_residues": 350
@@ -9831,9 +9831,9 @@
     {
       "acc": "O15264",
       "disprot_id": "DP04457",
-      "false_negative_residues": 27,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 27,
       "is_conditional": true,
       "n_disorder_residues": 10,
       "n_residues": 365
@@ -9841,9 +9841,9 @@
     {
       "acc": "O75165",
       "disprot_id": "DP04450",
-      "false_negative_residues": 253,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 253,
       "is_conditional": false,
       "n_disorder_residues": 46,
       "n_residues": 2243
@@ -9851,9 +9851,9 @@
     {
       "acc": "O94829",
       "disprot_id": "DP03553",
-      "false_negative_residues": 26,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 26,
       "is_conditional": false,
       "n_disorder_residues": 36,
       "n_residues": 963
@@ -9861,9 +9861,9 @@
     {
       "acc": "O95405",
       "disprot_id": "DP00141",
-      "false_negative_residues": 782,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 782,
       "is_conditional": false,
       "n_disorder_residues": 58,
       "n_residues": 1425
@@ -9871,9 +9871,9 @@
     {
       "acc": "O95696",
       "disprot_id": "DP03205",
-      "false_negative_residues": 377,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 377,
       "is_conditional": false,
       "n_disorder_residues": 18,
       "n_residues": 1058
@@ -9881,9 +9881,9 @@
     {
       "acc": "P04049",
       "disprot_id": "DP00171",
-      "false_negative_residues": 260,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 260,
       "is_conditional": false,
       "n_disorder_residues": 20,
       "n_residues": 648
@@ -9891,9 +9891,9 @@
     {
       "acc": "P04198",
       "disprot_id": "DP02413",
-      "false_negative_residues": 323,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 323,
       "is_conditional": false,
       "n_disorder_residues": 33,
       "n_residues": 464
@@ -9901,9 +9901,9 @@
     {
       "acc": "P04554",
       "disprot_id": "DP03372",
-      "false_negative_residues": 43,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 43,
       "is_conditional": true,
       "n_disorder_residues": 57,
       "n_residues": 102
@@ -9911,9 +9911,9 @@
     {
       "acc": "P07197",
       "disprot_id": "DP03630",
-      "false_negative_residues": 458,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 458,
       "is_conditional": false,
       "n_disorder_residues": 127,
       "n_residues": 916
@@ -9921,9 +9921,9 @@
     {
       "acc": "P07199",
       "disprot_id": "DP02465",
-      "false_negative_residues": 264,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 264,
       "is_conditional": false,
       "n_disorder_residues": 17,
       "n_residues": 599
@@ -9931,9 +9931,9 @@
     {
       "acc": "P12931",
       "disprot_id": "DP01570",
-      "false_negative_residues": 20,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 20,
       "is_conditional": false,
       "n_disorder_residues": 84,
       "n_residues": 536
@@ -9941,9 +9941,9 @@
     {
       "acc": "P13010",
       "disprot_id": "DP01255",
-      "false_negative_residues": 99,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 99,
       "is_conditional": false,
       "n_disorder_residues": 20,
       "n_residues": 732
@@ -9951,9 +9951,9 @@
     {
       "acc": "P17405",
       "disprot_id": "DP02027",
-      "false_negative_residues": 49,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 49,
       "is_conditional": false,
       "n_disorder_residues": 55,
       "n_residues": 631
@@ -9961,9 +9961,9 @@
     {
       "acc": "P20823",
       "disprot_id": "DP01620",
-      "false_negative_residues": 412,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 412,
       "is_conditional": false,
       "n_disorder_residues": 20,
       "n_residues": 631
@@ -9971,9 +9971,9 @@
     {
       "acc": "P25685",
       "disprot_id": "DP04447",
-      "false_negative_residues": 56,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 56,
       "is_conditional": false,
       "n_disorder_residues": 18,
       "n_residues": 340
@@ -9981,9 +9981,9 @@
     {
       "acc": "P30307",
       "disprot_id": "DP02126",
-      "false_negative_residues": 264,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 264,
       "is_conditional": true,
       "n_disorder_residues": 18,
       "n_residues": 473
@@ -9991,9 +9991,9 @@
     {
       "acc": "P30518",
       "disprot_id": "DP03690",
-      "false_negative_residues": 80,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 80,
       "is_conditional": false,
       "n_disorder_residues": 29,
       "n_residues": 371
@@ -10001,9 +10001,9 @@
     {
       "acc": "P35790",
       "disprot_id": "DP04076",
-      "false_negative_residues": 87,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 87,
       "is_conditional": false,
       "n_disorder_residues": 23,
       "n_residues": 457
@@ -10011,9 +10011,9 @@
     {
       "acc": "P37837",
       "disprot_id": "DP04027",
-      "false_negative_residues": 5,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 5,
       "is_conditional": false,
       "n_disorder_residues": 10,
       "n_residues": 337
@@ -10021,9 +10021,9 @@
     {
       "acc": "P49790",
       "disprot_id": "DP01799",
-      "false_negative_residues": 1245,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 1245,
       "is_conditional": false,
       "n_disorder_residues": 78,
       "n_residues": 1475
@@ -10031,9 +10031,9 @@
     {
       "acc": "P51513",
       "disprot_id": "DP03453",
-      "false_negative_residues": 266,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 266,
       "is_conditional": false,
       "n_disorder_residues": 19,
       "n_residues": 507
@@ -10041,9 +10041,9 @@
     {
       "acc": "P51825",
       "disprot_id": "DP02349",
-      "false_negative_residues": 914,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 914,
       "is_conditional": false,
       "n_disorder_residues": 23,
       "n_residues": 1210
@@ -10051,9 +10051,9 @@
     {
       "acc": "P52272",
       "disprot_id": "DP02015",
-      "false_negative_residues": 465,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 465,
       "is_conditional": true,
       "n_disorder_residues": 30,
       "n_residues": 730
@@ -10061,9 +10061,9 @@
     {
       "acc": "P52597",
       "disprot_id": "DP01736",
-      "false_negative_residues": 164,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 164,
       "is_conditional": false,
       "n_disorder_residues": 21,
       "n_residues": 415
@@ -10071,9 +10071,9 @@
     {
       "acc": "P54274",
       "disprot_id": "DP02415",
-      "false_negative_residues": 141,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 141,
       "is_conditional": false,
       "n_disorder_residues": 43,
       "n_residues": 439
@@ -10081,9 +10081,9 @@
     {
       "acc": "P63104",
       "disprot_id": "DP03654",
-      "false_negative_residues": 1,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 1,
       "is_conditional": false,
       "n_disorder_residues": 12,
       "n_residues": 245
@@ -10091,9 +10091,9 @@
     {
       "acc": "P63241",
       "disprot_id": "DP02594",
-      "false_negative_residues": 1,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 1,
       "is_conditional": false,
       "n_disorder_residues": 14,
       "n_residues": 154
@@ -10101,9 +10101,9 @@
     {
       "acc": "P78504",
       "disprot_id": "DP00418",
-      "false_negative_residues": 246,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 246,
       "is_conditional": false,
       "n_disorder_residues": 125,
       "n_residues": 1218
@@ -10111,9 +10111,9 @@
     {
       "acc": "P83916",
       "disprot_id": "DP02856",
-      "false_negative_residues": 21,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 21,
       "is_conditional": false,
       "n_disorder_residues": 45,
       "n_residues": 185
@@ -10121,9 +10121,9 @@
     {
       "acc": "Q07889",
       "disprot_id": "DP01534",
-      "false_negative_residues": 165,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 165,
       "is_conditional": false,
       "n_disorder_residues": 203,
       "n_residues": 1333
@@ -10131,9 +10131,9 @@
     {
       "acc": "Q09428",
       "disprot_id": "DP02881",
-      "false_negative_residues": 155,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 155,
       "is_conditional": false,
       "n_disorder_residues": 56,
       "n_residues": 1581
@@ -10141,9 +10141,9 @@
     {
       "acc": "Q13043",
       "disprot_id": "DP03682",
-      "false_negative_residues": 79,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 79,
       "is_conditional": false,
       "n_disorder_residues": 76,
       "n_residues": 487
@@ -10151,9 +10151,9 @@
     {
       "acc": "Q13148",
       "disprot_id": "DP01108",
-      "false_negative_residues": 45,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 45,
       "is_conditional": true,
       "n_disorder_residues": 152,
       "n_residues": 414
@@ -10161,9 +10161,9 @@
     {
       "acc": "Q13164",
       "disprot_id": "DP02831",
-      "false_negative_residues": 405,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 405,
       "is_conditional": false,
       "n_disorder_residues": 46,
       "n_residues": 816
@@ -10171,9 +10171,9 @@
     {
       "acc": "Q13469",
       "disprot_id": "DP01344",
-      "false_negative_residues": 468,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 468,
       "is_conditional": false,
       "n_disorder_residues": 164,
       "n_residues": 925
@@ -10181,9 +10181,9 @@
     {
       "acc": "Q13838",
       "disprot_id": "DP02724",
-      "false_negative_residues": 61,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 61,
       "is_conditional": false,
       "n_disorder_residues": 11,
       "n_residues": 428
@@ -10191,9 +10191,9 @@
     {
       "acc": "Q14118",
       "disprot_id": "DP02765",
-      "false_negative_residues": 401,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 401,
       "is_conditional": false,
       "n_disorder_residues": 28,
       "n_residues": 895
@@ -10201,9 +10201,9 @@
     {
       "acc": "Q15642",
       "disprot_id": "DP02473",
-      "false_negative_residues": 154,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 154,
       "is_conditional": false,
       "n_disorder_residues": 15,
       "n_residues": 601
@@ -10211,9 +10211,9 @@
     {
       "acc": "Q16831",
       "disprot_id": "DP03171",
-      "false_negative_residues": 1,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 1,
       "is_conditional": false,
       "n_disorder_residues": 15,
       "n_residues": 310
@@ -10221,9 +10221,9 @@
     {
       "acc": "Q5VZK9",
       "disprot_id": "DP01701",
-      "false_negative_residues": 586,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 586,
       "is_conditional": false,
       "n_disorder_residues": 16,
       "n_residues": 1371
@@ -10231,9 +10231,9 @@
     {
       "acc": "Q6DD88",
       "disprot_id": "DP03688",
-      "false_negative_residues": 34,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 34,
       "is_conditional": false,
       "n_disorder_residues": 21,
       "n_residues": 541
@@ -10241,9 +10241,9 @@
     {
       "acc": "Q6VY07",
       "disprot_id": "DP04587",
-      "false_negative_residues": 488,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 488,
       "is_conditional": false,
       "n_disorder_residues": 14,
       "n_residues": 963
@@ -10251,9 +10251,9 @@
     {
       "acc": "Q6ZNA4",
       "disprot_id": "DP03113",
-      "false_negative_residues": 776,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 776,
       "is_conditional": false,
       "n_disorder_residues": 98,
       "n_residues": 994
@@ -10261,9 +10261,9 @@
     {
       "acc": "Q86WV6",
       "disprot_id": "DP01602",
-      "false_negative_residues": 21,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 21,
       "is_conditional": false,
       "n_disorder_residues": 38,
       "n_residues": 379
@@ -10271,9 +10271,9 @@
     {
       "acc": "Q8IV16",
       "disprot_id": "DP01327",
-      "false_negative_residues": 55,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 55,
       "is_conditional": false,
       "n_disorder_residues": 34,
       "n_residues": 184
@@ -10281,9 +10281,9 @@
     {
       "acc": "Q8NBP7",
       "disprot_id": "DP02551",
-      "false_negative_residues": 97,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 97,
       "is_conditional": true,
       "n_disorder_residues": 30,
       "n_residues": 692
@@ -10291,9 +10291,9 @@
     {
       "acc": "Q8NER1",
       "disprot_id": "DP03732",
-      "false_negative_residues": 162,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 162,
       "is_conditional": false,
       "n_disorder_residues": 99,
       "n_residues": 839
@@ -10301,9 +10301,9 @@
     {
       "acc": "Q8TDX7",
       "disprot_id": "DP04284",
-      "false_negative_residues": 7,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 7,
       "is_conditional": false,
       "n_disorder_residues": 33,
       "n_residues": 302
@@ -10311,9 +10311,9 @@
     {
       "acc": "Q8WUN7",
       "disprot_id": "DP02694",
-      "false_negative_residues": 66,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 66,
       "is_conditional": false,
       "n_disorder_residues": 20,
       "n_residues": 234
@@ -10321,9 +10321,9 @@
     {
       "acc": "Q8WXE9",
       "disprot_id": "DP01368",
-      "false_negative_residues": 469,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 469,
       "is_conditional": false,
       "n_disorder_residues": 40,
       "n_residues": 905
@@ -10331,9 +10331,9 @@
     {
       "acc": "Q969R2",
       "disprot_id": "DP02559",
-      "false_negative_residues": 179,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 179,
       "is_conditional": false,
       "n_disorder_residues": 184,
       "n_residues": 916
@@ -10341,9 +10341,9 @@
     {
       "acc": "Q96B02",
       "disprot_id": "DP01337",
-      "false_negative_residues": 11,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 11,
       "is_conditional": false,
       "n_disorder_residues": 10,
       "n_residues": 151
@@ -10351,9 +10351,9 @@
     {
       "acc": "Q96C86",
       "disprot_id": "DP03588",
-      "false_negative_residues": 1,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 1,
       "is_conditional": false,
       "n_disorder_residues": 37,
       "n_residues": 337
@@ -10361,9 +10361,9 @@
     {
       "acc": "Q96EQ8",
       "disprot_id": "DP03216",
-      "false_negative_residues": 38,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 38,
       "is_conditional": false,
       "n_disorder_residues": 32,
       "n_residues": 232
@@ -10371,9 +10371,9 @@
     {
       "acc": "Q96GD4",
       "disprot_id": "DP02389",
-      "false_negative_residues": 77,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 77,
       "is_conditional": false,
       "n_disorder_residues": 16,
       "n_residues": 344
@@ -10381,9 +10381,9 @@
     {
       "acc": "Q96MS0",
       "disprot_id": "DP03308",
-      "false_negative_residues": 660,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 660,
       "is_conditional": false,
       "n_disorder_residues": 14,
       "n_residues": 1386
@@ -10391,9 +10391,9 @@
     {
       "acc": "Q9BTT0",
       "disprot_id": "DP02409",
-      "false_negative_residues": 83,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 83,
       "is_conditional": true,
       "n_disorder_residues": 28,
       "n_residues": 268
@@ -10401,9 +10401,9 @@
     {
       "acc": "Q9BU02",
       "disprot_id": "DP03814",
-      "false_negative_residues": 23,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 23,
       "is_conditional": false,
       "n_disorder_residues": 16,
       "n_residues": 230
@@ -10411,9 +10411,9 @@
     {
       "acc": "Q9H0W8",
       "disprot_id": "DP04101",
-      "false_negative_residues": 210,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 210,
       "is_conditional": false,
       "n_disorder_residues": 11,
       "n_residues": 520
@@ -10421,9 +10421,9 @@
     {
       "acc": "Q9H3M7",
       "disprot_id": "DP03075",
-      "false_negative_residues": 86,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 86,
       "is_conditional": false,
       "n_disorder_residues": 18,
       "n_residues": 391
@@ -10431,9 +10431,9 @@
     {
       "acc": "Q9H4H8",
       "disprot_id": "DP04220",
-      "false_negative_residues": 251,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 251,
       "is_conditional": false,
       "n_disorder_residues": 69,
       "n_residues": 585
@@ -10441,9 +10441,9 @@
     {
       "acc": "Q9HB71-2",
       "disprot_id": "DP00907",
-      "false_negative_residues": 1,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 1,
       "is_conditional": true,
       "n_disorder_residues": 33,
       "n_residues": 80
@@ -10451,9 +10451,9 @@
     {
       "acc": "Q9NQI0-2",
       "disprot_id": "DP01066",
-      "false_negative_residues": 70,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 70,
       "is_conditional": false,
       "n_disorder_residues": 204,
       "n_residues": 690
@@ -10461,9 +10461,9 @@
     {
       "acc": "Q9NWW9",
       "disprot_id": "DP02737",
-      "false_negative_residues": 48,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 48,
       "is_conditional": false,
       "n_disorder_residues": 12,
       "n_residues": 162
@@ -10471,9 +10471,9 @@
     {
       "acc": "Q9UKX7",
       "disprot_id": "DP02455",
-      "false_negative_residues": 214,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 214,
       "is_conditional": false,
       "n_disorder_residues": 62,
       "n_residues": 468
@@ -10481,9 +10481,9 @@
     {
       "acc": "Q9ULK4",
       "disprot_id": "DP04080",
-      "false_negative_residues": 81,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 81,
       "is_conditional": false,
       "n_disorder_residues": 34,
       "n_residues": 1368
@@ -10491,9 +10491,9 @@
     {
       "acc": "Q9UQ13",
       "disprot_id": "DP04077",
-      "false_negative_residues": 5,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 5,
       "is_conditional": false,
       "n_disorder_residues": 85,
       "n_residues": 582
@@ -10501,9 +10501,9 @@
     {
       "acc": "Q9Y4B6",
       "disprot_id": "DP04062",
-      "false_negative_residues": 434,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 434,
       "is_conditional": false,
       "n_disorder_residues": 14,
       "n_residues": 1507
@@ -10511,9 +10511,9 @@
     {
       "acc": "Q9Y4K0",
       "disprot_id": "DP03274",
-      "false_negative_residues": 75,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 75,
       "is_conditional": false,
       "n_disorder_residues": 12,
       "n_residues": 774
@@ -10521,9 +10521,9 @@
     {
       "acc": "Q9Y5C1",
       "disprot_id": "DP02665",
-      "false_negative_residues": 107,
-      "false_positive_rate_of_disorder": 0.0,
-      "false_positive_residues": 0,
+      "false_negative_rate_of_disorder": 0.0,
+      "false_negative_residues": 0,
+      "false_positive_residues": 107,
       "is_conditional": false,
       "n_disorder_residues": 10,
       "n_residues": 460

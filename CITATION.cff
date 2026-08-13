@@ -1,0 +1,48 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below. Please also cite DisProt and the AlphaFold Protein Structure Database separately (see data/provenance.json)."
+title: "Foldings Edge"
+type: software
+version: 0.1.0
+date-released: 2026-08-13
+authors:
+  - family-names: Lindgreen
+    given-names: David
+repository-code: "https://github.com/lindgreendavid/foldings-edge"
+license: MIT
+keywords:
+  - alphafold
+  - disprot
+  - intrinsic disorder
+  - structural biology
+  - reproducible research
+references:
+  - type: article
+    title: "Systematic identification of conditionally folded intrinsically disordered regions by AlphaFold2"
+    authors:
+      - family-names: Alderson
+        given-names: "T. Reid"
+      - family-names: Pritišanac
+        given-names: Iva
+      - family-names: Kolarić
+        given-names: Đesika
+      - family-names: Moses
+        given-names: "Alan M."
+      - family-names: Forman-Kay
+        given-names: "Julie D."
+    year: 2023
+    journal: "Proceedings of the National Academy of Sciences"
+    volume: 120
+    issue: 44
+    doi: "10.1073/pnas.2304302120"
+  - type: article
+    title: "Highly accurate protein structure prediction with AlphaFold"
+    authors:
+      - family-names: Jumper
+        given-names: John
+      - family-names: Evans
+        given-names: Richard
+      - name: "et al."
+    year: 2021
+    journal: "Nature"
+    volume: 596
+    doi: "10.1038/s41586-021-03819-2"

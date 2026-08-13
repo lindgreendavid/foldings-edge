@@ -57,7 +57,14 @@ def _classifier_dict(residues: list[Residue]) -> dict[str, Any]:
 
 
 def _protein_breakdown(residues: list[Residue]) -> list[dict[str, Any]]:
-    """Per-protein false-positive/false-negative counts, for the report's failure analysis."""
+    """Per-protein false-positive/false-negative counts, for the report's failure analysis.
+
+    Field names follow the same convention as `foldings_edge.stats.classifier_metrics`:
+    positive class = "residue is inside a DisProt disorder region", predicted positive =
+    pLDDT < threshold. So a false negative here is a curated-disorder residue that
+    nonetheless received a confident pLDDT (the "conditionally folded"-like failure
+    mode), and a false positive is a non-disorder residue that received a low pLDDT.
+    """
     by_protein: dict[str, list[Residue]] = {}
     for r in residues:
         by_protein.setdefault(r.acc, []).append(r)
@@ -70,10 +77,10 @@ def _protein_breakdown(residues: list[Residue]) -> list[dict[str, Any]]:
         disorder_n = sum(1 for r in prows if r.is_disorder)
         if disorder_n == 0:
             continue
-        false_positive = sum(
+        false_negative = sum(
             1 for r in prows if r.is_disorder and r.plddt >= PLDDT_CONFIDENT_THRESHOLD
         )
-        false_negative = sum(
+        false_positive = sum(
             1 for r in prows if not r.is_disorder and r.plddt < PLDDT_CONFIDENT_THRESHOLD
         )
         rows.append(
@@ -82,15 +89,15 @@ def _protein_breakdown(residues: list[Residue]) -> list[dict[str, Any]]:
                 "disprot_id": prows[0].disprot_id,
                 "n_residues": n,
                 "n_disorder_residues": disorder_n,
-                "false_positive_residues": false_positive,
-                "false_positive_rate_of_disorder": (
-                    false_positive / disorder_n if disorder_n else 0.0
-                ),
                 "false_negative_residues": false_negative,
+                "false_negative_rate_of_disorder": (
+                    false_negative / disorder_n if disorder_n else 0.0
+                ),
+                "false_positive_residues": false_positive,
                 "is_conditional": prows[0].is_conditional,
             }
         )
-    rows.sort(key=lambda r: float(r["false_positive_rate_of_disorder"]), reverse=True)
+    rows.sort(key=lambda r: float(r["false_negative_rate_of_disorder"]), reverse=True)
     return rows
 
 

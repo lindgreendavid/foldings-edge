@@ -1,0 +1,37 @@
+# Changelog
+
+All notable changes to this project are documented here. Format loosely follows
+[Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
+
+## [0.1.0] - 2026-08-13
+
+### Added
+
+- Preregistered research protocol (`docs/research-protocol.md`): data sources, exact sample
+  construction, exclusion criteria, ground-truth region definition, and exact statistical tests,
+  fixed before any analysis was run, plus an explicit framing of this project's relationship to
+  Alderson et al. 2023 (PNAS) as a qualitative, not numerical, comparison.
+- `scripts/fetch_data.py`: fetches human DisProt entries (`release=current`) and joins them to
+  AlphaFold DB per-residue pLDDT by UniProt accession, with disclosed exclusion logging.
+  Discovered and worked around two undocumented API behaviors during the real fetch: DisProt's
+  search endpoint ignoring `limit`/`offset` under an `organism` filter, and AlphaFold DB's
+  metadata endpoint returning UniProt isoform records rather than the expected long-protein
+  sequence-fragment records.
+- `data/provenance.json`: full data provenance for both sources, license status, sample
+  construction, and the structural verification performed.
+- `data/external/joined_residues.csv` and `data/external/exclusions_log.json`: the committed,
+  derived 387-protein / 228,662-residue joined dataset (CC BY 4.0 downstream of two CC BY 4.0
+  sources) and its exclusion log.
+- `src/foldings_edge`: joined-residue loading (`dataset.py`), the Mann–Whitney/KS/bootstrap/
+  classifier statistical pipeline (`stats.py`), the result-registry builder (`registry.py`), and
+  a small CLI (`cli.py`).
+- `reports/v0.1-foldings-edge-registry.json`: the frozen, reproducible v0.1.0 result registry,
+  generated from the real joined dataset.
+- `docs/research-report.md`: hypothesis-by-hypothesis findings, including where the pLDDT/
+  disorder relationship breaks down (by conditional-folding proxy, by DisProt evidence code, and
+  by individual protein), and full limitations.
+- `site/`: an accessible Next.js (vinext) interactive site covering the pLDDT-vs-disorder
+  distribution comparison, classifier performance with uncertainty, full data tables, and a
+  provenance page, built for Cloudflare Workers deployment as `foldings-edge-interactive`.
+- Full repository hygiene: `pyproject.toml` (ruff, mypy strict, pytest with a 95% coverage gate),
+  `CITATION.cff`, `ACCESSIBILITY.md`, and CI workflows (`ci.yml`, `codeql.yml`).
