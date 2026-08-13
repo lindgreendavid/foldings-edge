@@ -1,5 +1,9 @@
 # Foldings Edge
 
+<p><a href="https://github.com/lindgreendavid/lindgreendavid/tree/main/brand"><img src="https://raw.githubusercontent.com/lindgreendavid/lindgreendavid/main/brand/lab-notes-mark.svg" width="52" align="right" alt="Lab Notes research-cycle mark"></a></p>
+
+**Part of the [Lab Notes Research Portfolio](https://blog-interactive.lindgreendavid.workers.dev/)** · Structural biology · Question → evidence → finding → boundary
+
 A reproducible reanalysis testing whether AlphaFold2's per-residue pLDDT confidence score
 predicts experimentally-curated intrinsic disorder (DisProt) — and where that relationship
 breaks down.
