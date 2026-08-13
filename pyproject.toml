@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "foldings_edge"
-version = "0.1.0"
+version = "1.0.0"
 description = "A reproducible reanalysis of AlphaFold2 pLDDT vs. DisProt-curated intrinsic disorder"
 readme = "README.md"
 requires-python = ">=3.10"

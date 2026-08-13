@@ -10,6 +10,8 @@ breaks down.
 
 **[Open the live interactive site](https://foldings-edge-interactive.lindgreendavid.workers.dev)** · **[Read the plain-language write-up](https://blog-interactive.lindgreendavid.workers.dev/posts/foldings-edge-plddt-disorder)**
 
+**Stable product release:** [v1.0.0](https://github.com/lindgreendavid/foldings-edge/releases/tag/v1.0.0) · **Study:** unchanged frozen v0.1 registry.
+
 **Research question:** does AlphaFold2's pLDDT confidence score predict DisProt-curated
 intrinsic disorder for human proteins, and where does that relationship break down? This
 project is motivated by, but is **not a replication of**, T. Reid Alderson et al.'s 2023 PNAS
