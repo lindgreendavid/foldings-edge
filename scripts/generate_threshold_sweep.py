@@ -57,7 +57,11 @@ def _f1(precision: float, recall: float) -> float:
     return 2 * precision * recall / (precision + recall)
 
 
-def _metrics_at(threshold: int, disorder_sorted: list[float], non_disorder_sorted: list[float]) -> dict[str, Any]:
+def _metrics_at(
+    threshold: int,
+    disorder_sorted: list[float],
+    non_disorder_sorted: list[float],
+) -> dict[str, Any]:
     """Confusion counts + precision/recall/F1/MCC at one threshold.
 
     Predicted positive iff pLDDT < threshold, matching
