@@ -5,6 +5,16 @@ All notable changes to this project are documented here. Format loosely follows
 
 ## [Unreleased]
 
+### Fixed
+
+- Hardened the transitive `image-size` parsers against malformed ICNS and ISO-BMFF input,
+  added executable security regression probes, and kept the production audit strict for every
+  other high-severity advisory.
+- Made frozen-registry verification portable across operating systems by comparing floating-point
+  values with a narrow numerical tolerance, including an explicitly bounded tolerance for seeded
+  classifier-bootstrap interval boundaries, while retaining exact checks for all other data.
+- Aligned the Cloudflare compatibility date with the version supported by the pinned runtime.
+
 ### Added
 
 - `scripts/generate_threshold_sweep.py` and `site/app/threshold-explorer.tsx`: an interactive

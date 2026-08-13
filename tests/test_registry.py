@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-import json
 import subprocess
 import sys
 from pathlib import Path
@@ -54,7 +53,7 @@ def test_build_registry_evidence_code_breakdown_respects_minimum(
 
 
 def test_registry_generation_script_matches_frozen_registry() -> None:
-    """The committed reports/v0.1-foldings-edge-registry.json must be byte-reproducible."""
+    """The frozen registry must match within cross-platform float tolerance."""
     residues = REPO_ROOT / "data" / "external" / "joined_residues.csv"
     frozen = REPO_ROOT / "reports" / "v0.1-foldings-edge-registry.json"
     if not residues.exists():
@@ -74,6 +73,16 @@ def test_registry_generation_script_matches_frozen_registry() -> None:
         check=True,
     )
     assert result.returncode == 0
-    generated = json.loads(Path("/tmp/foldings-edge-registry-check.json").read_text())
-    frozen_data = json.loads(frozen.read_text())
-    assert generated == frozen_data
+    comparison = subprocess.run(
+        [
+            sys.executable,
+            str(REPO_ROOT / "scripts" / "compare_registry.py"),
+            str(frozen),
+            "/tmp/foldings-edge-registry-check.json",
+        ],
+        cwd=REPO_ROOT,
+        capture_output=True,
+        text=True,
+        check=True,
+    )
+    assert comparison.returncode == 0
