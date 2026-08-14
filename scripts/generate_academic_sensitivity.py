@@ -23,6 +23,11 @@ SEED = 20260814
 RESAMPLES = 10_000
 
 
+def _stable(value: float) -> float:
+    """Quantize computed results to a platform-stable scientific precision."""
+    return float(f"{float(value):.12g}")
+
+
 def _mcc(tp: np.ndarray, fp: np.ndarray, tn: np.ndarray, fn: np.ndarray) -> np.ndarray:
     numerator = tp * tn - fp * fn
     denominator = np.sqrt((tp + fp) * (tp + fn) * (tn + fp) * (tn + fn))
@@ -76,7 +81,7 @@ def main() -> None:
     mcc = _mcc(tp, fp, tn, fn)
 
     def interval(values: np.ndarray) -> list[float]:
-        return [float(value) for value in np.quantile(values, [0.025, 0.975])]
+        return [_stable(value) for value in np.quantile(values, [0.025, 0.975])]
 
     payload = {
         "schema_version": "1.0.0",
@@ -89,12 +94,12 @@ def main() -> None:
         },
         "h1_protein_paired_sensitivity": {
             "n_proteins_with_inside_and_outside_residues": int(paired_differences.size),
-            "median_within_protein_median_difference_outside_minus_inside": float(
+            "median_within_protein_median_difference_outside_minus_inside": _stable(
                 np.median(paired_differences)
             ),
             "protein_cluster_bootstrap_95_ci": interval(paired_bootstrap),
-            "two_sided_wilcoxon_statistic": float(signed_rank.statistic),
-            "two_sided_wilcoxon_p_value": float(signed_rank.pvalue),
+            "two_sided_wilcoxon_statistic": _stable(signed_rank.statistic),
+            "two_sided_wilcoxon_p_value": _stable(signed_rank.pvalue),
             "proteins_positive_difference": int(np.count_nonzero(paired_differences > 0)),
             "proteins_negative_difference": int(np.count_nonzero(paired_differences < 0)),
             "proteins_zero_difference": int(np.count_nonzero(paired_differences == 0)),

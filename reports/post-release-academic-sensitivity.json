@@ -15,7 +15,7 @@
       40.07
     ],
     "two_sided_wilcoxon_statistic": 3156.5,
-    "two_sided_wilcoxon_p_value": 6.031348091244756e-52,
+    "two_sided_wilcoxon_p_value": 6.03134809124e-52,
     "proteins_positive_difference": 332,
     "proteins_negative_difference": 39,
     "proteins_zero_difference": 1
@@ -23,20 +23,20 @@
   "h2_protein_cluster_bootstrap_95_ci": {
     "n_proteins": 387,
     "precision": [
-      0.2944591040685934,
-      0.390499751218754
+      0.294459104069,
+      0.390499751219
     ],
     "recall": [
-      0.7255162779288671,
-      0.8020533090213229
+      0.725516277929,
+      0.802053309021
     ],
     "f1": [
-      0.42177187885762035,
-      0.5208776150586241
+      0.421771878858,
+      0.520877615059
     ],
     "mcc": [
-      0.3202238486579644,
-      0.4152905408840301
+      0.320223848658,
+      0.415290540884
     ]
   },
   "interpretation": "The direction and moderate classifier performance survive protein-level resampling. Protein-cluster intervals, not residue-i.i.d. intervals, are the preferred uncertainty sensitivity because residues within a protein are correlated."
