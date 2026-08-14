@@ -24,8 +24,8 @@ RESAMPLES = 10_000
 
 
 def _stable(value: float) -> float:
-    """Quantize computed results to a platform-stable scientific precision."""
-    return float(f"{float(value):.12g}")
+    """Quantize computed results to eight platform-stable significant digits."""
+    return float(f"{float(value):.8g}")
 
 
 def _mcc(tp: np.ndarray, fp: np.ndarray, tn: np.ndarray, fn: np.ndarray) -> np.ndarray:
