@@ -22,16 +22,18 @@ on a fresh 2026 DisProt snapshot joined to real AlphaFold DB predictions, using 
 ground-truth scope, and classifier, and compares its results to that paper only qualitatively.
 
 **Headline finding (v0.1.0):** on 387 human proteins (228,662 residues, 400-of-1,339 fixed-seed
-DisProt sample), pLDDT is **significantly and substantially lower inside curated disorder
-regions** (median 45.1 vs. 88.8, Mann–Whitney and KS both p ≈ 0) — H1 confirmed unambiguously.
+DisProt sample), pLDDT is **substantially lower inside curated disorder regions** (median 45.1
+vs. 88.8). The direction survives a protein-level paired sensitivity (median within-protein
+difference 36.47, cluster-bootstrap 95% CI 34.29–40.07), so it is not an artifact of treating
+all 228,662 correlated residues as independent observations.
 A fixed pLDDT<70 classifier catches most curated disorder (76.5% recall) but is a **noisy, only
 moderately strong** predictor of it (34.1% precision, F1 0.472, MCC 0.367) — H2 confirmed above
 chance, not strongly. The classifier's precision and MCC both drop sharply on disorder regions
 that co-occur with a conditional-folding annotation elsewhere on the same protein, and on
-disorder supported by evidence types associated with partial/dynamic structure (hydrogen-
-deuterium exchange mass spectrometry weakest, 35.1% recall) — a pattern directionally consistent
-with Alderson et al.'s central finding, reported here as a qualitative match, not a numerical
-one. Full reasoning, every hypothesis's disposition, and every limitation: see
+disorder supported by hydrogen-deuterium exchange mass spectrometry (35.1% recall). Those
+subgroup patterns are exploratory and do not establish why performance differs; the overall
+direction is only a qualitative match to Alderson et al., not a numerical replication. Full
+reasoning, every hypothesis's disposition, and every limitation: see
 [`docs/research-report.md`](docs/research-report.md).
 
 ## What this contributes
