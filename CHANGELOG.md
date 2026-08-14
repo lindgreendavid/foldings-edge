@@ -3,6 +3,14 @@
 All notable changes to this project are documented here. Format loosely follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [Unreleased]
+
+### Fixed
+
+- Replace certainty language and residue-independence assumptions with a reproducible protein-
+  cluster sensitivity; distinguish DisProt reference annotations from complete biological ground
+  truth and label evidence-code mechanisms as exploratory.
+
 ## [1.0.0] - 2026-08-13
 
 ### Added

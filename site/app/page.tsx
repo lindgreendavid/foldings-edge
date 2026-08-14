@@ -277,26 +277,27 @@ export default function Home() {
           <div className="decision-reading">
             <article>
               <span>H1 — distribution</span>
-              <h3>Confirmed, unambiguously</h3>
+              <h3>Supported at the protein level</h3>
               <p>
-                Median pLDDT is 43.7 points lower inside curated disorder (Mann–Whitney and KS
-                both p ≈ 0). This direction is exactly what the underlying idea predicts.
+                The pooled-residue median gap is 43.7 points. A paired analysis across 372
+                proteins still finds a 36.47-point median gap (protein-cluster 95% CI
+                34.29–40.07), so the direction survives the dependence among residues.
               </p>
             </article>
             <article>
               <span>H2 — classifier</span>
               <h3>Real signal, moderate strength</h3>
               <p>
-                MCC 0.367, recall 76.5%, precision 34.1%. Performance drops sharply on
-                conditional-folding-flagged regions and on evidence types associated with
-                partial/dynamic structure (HDX-MS weakest, 35.1% recall).
+                MCC 0.367, recall 76.5%, precision 34.1%. Exploratory subgroup performance is
+                lower for conditional-folding-flagged proteins and HDX-MS-supported annotations,
+                but this analysis does not identify the cause of those differences.
               </p>
             </article>
             <article>
               <span>What this is not</span>
               <h3>Not a replication, not a verdict on AlphaFold</h3>
               <p>
-                Different sample, ground truth, and classifier from Alderson et al. (2023);
+                Different sample, reference labels, and classifier from Alderson et al. (2023);
                 compared to it only qualitatively. No claim about AlphaFold3 or IDPs generally.
               </p>
             </article>
@@ -322,7 +323,7 @@ export default function Home() {
               </p>
             </article>
             <article>
-              <span>Ground truth</span>
+              <span>Reference labels</span>
               <h3>Disclosed, narrow scope</h3>
               <p>
                 Only DisProt &quot;Structural state&quot;/&quot;disorder&quot; regions count as
@@ -376,7 +377,7 @@ export default function Home() {
               <b aria-hidden="true">→</b>
             </a>
             <a href="https://disprot.org">
-              <span>Ground truth</span>
+              <span>Reference labels</span>
               <strong>DisProt — intrinsically disordered protein database</strong>
               <p>CC BY 4.0 · human entries, release=current, accessed 2026-08-13</p>
               <b aria-hidden="true">→</b>

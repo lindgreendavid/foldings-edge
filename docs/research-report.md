@@ -29,12 +29,12 @@ initially expected — so "more than one record returned" mostly meant "has isof
 "fragmented," and the exclusion logic was corrected to filter on an exact accession match before
 deciding.
 
-## H1 — pLDDT is significantly lower inside curated disorder regions: **confirmed**
+## H1 — pLDDT is lower inside curated disorder regions: **supported in this sample**
 
 | Test | Statistic | p-value | Significant (α=0.05) |
 | --- | --- | --- | --- |
-| Mann–Whitney U (primary) | U = 5,476,452,882 | ≈ 0 | yes |
-| Kolmogorov–Smirnov (robustness) | D = 0.484 | ≈ 0 | yes |
+| Mann–Whitney U (primary) | U = 5,476,452,882 | below floating-point reporting limit | yes |
+| Kolmogorov–Smirnov (robustness) | D = 0.484 | below floating-point reporting limit | yes |
 
 | Median pLDDT, inside disorder | Median pLDDT, outside disorder | Median difference (outside − inside) | Bootstrap 95% CI |
 | --- | --- | --- | --- |
@@ -43,24 +43,38 @@ deciding.
 Residues inside a DisProt-curated disorder region have a median pLDDT 43.7 points lower than
 residues outside one, on a sample of 228,662 residues across 387 proteins, and both the
 preregistered primary test and the KS robustness check reject the null hypothesis of equal
-distributions at effectively p = 0. **H1 is confirmed, unambiguously, on this fresh sample.**
+pooled-residue distributions. A p-value is not the probability that the null hypothesis is true,
+and it is never interpreted here as certainty (Wasserstein & Lazar 2016, ASA statement,
+[doi:10.1080/00031305.2016.1154108](https://doi.org/10.1080/00031305.2016.1154108)).
+
+The frozen tests treat residues as rows even though residues within one protein are correlated.
+A post-release, protein-level sensitivity therefore compares the within-protein medians for the
+372 proteins that contain both annotated and unannotated residues. The median paired difference
+(outside minus inside) is **36.47 pLDDT points**, with a protein-cluster bootstrap 95% interval
+**[34.29, 40.07]**; 332 proteins have a positive difference, 39 a negative difference, and one
+is tied (two-sided paired Wilcoxon p = 6.03×10⁻⁵²). Thus the direction is strongly supported and
+does not depend on pretending that 228,662 residues are independent observations. The complete
+machine-readable sensitivity is in
+[`reports/post-release-academic-sensitivity.json`](../reports/post-release-academic-sensitivity.json).
 
 ## H2 — a pLDDT<70 classifier predicts DisProt disorder: **confirmed above chance, with a large, characterizable failure mode**
 
-| Metric | Point estimate | 95% CI |
-| --- | --- | --- |
-| Precision | 0.341 | [0.338, 0.344] |
-| Recall | 0.765 | [0.761, 0.770] |
-| F1 | 0.472 | [0.468, 0.475] |
-| MCC | 0.367 | [0.363, 0.371] |
+| Metric | Point estimate | Frozen residue-level 95% CI | Protein-cluster sensitivity 95% CI |
+| --- | ---: | ---: | ---: |
+| Precision | 0.341 | [0.338, 0.344] | [0.294, 0.390] |
+| Recall | 0.765 | [0.761, 0.770] | [0.726, 0.802] |
+| F1 | 0.472 | [0.468, 0.475] | [0.422, 0.521] |
+| MCC | 0.367 | [0.363, 0.371] | [0.320, 0.415] |
 
 Confusion counts (n = 228,662): TP = 28,306, FP = 54,760, TN = 136,914, FN = 8,682.
 
-The classifier catches most curated disorder (76.5% recall) but is a noisy predictor of it: only
-34.1% of "not confident" (pLDDT<70) residues are actually inside a curated disorder region — the
-rest are simply un-annotated regions of otherwise-ordered proteins, structured loops, termini, or
-regions DisProt has not curated at all. MCC (0.367) is a fairer single summary than F1 here
-given the large TN pool, and indicates a real but moderate, not strong, association.
+The classifier catches most curated disorder (76.5% recall) but is a noisy predictor of the
+curated label: only 34.1% of "not confident" (pLDDT<70) residues are inside a DisProt disorder
+region. The remaining residues are outside such an annotation; this analysis cannot determine
+how many are genuinely ordered, flexible but ordered, or disordered but not curated. MCC (0.367)
+is a fairer single summary than F1 here given the large TN pool, and indicates a real but moderate,
+not strong, association. Protein-level resampling widens every interval but leaves that reading
+unchanged.
 
 ### Qualitative comparison to Alderson et al. 2023 — not a numerical replication
 
@@ -123,15 +137,13 @@ across evidence codes uninformative, so recall is the metric to read in this tab
 Only evidence codes covering at least 200 disorder residues are shown, per the preregistered
 minimum. **The single weakest evidence code is hydrogen-deuterium exchange mass spectrometry
 (HDX-MS, ECO:0006236), where the classifier catches only 35.1% of curated-disorder residues.**
-HDX-MS is frequently used to characterize partially protected, dynamic, or transiently structured
-states rather than fully unfolded chains — precisely the kind of residual-structure-bearing
-disorder that would plausibly earn a higher, more "confident" pLDDT from AlphaFold2. X-ray- and
-cryo-EM-based "missing coordinates" evidence (regions unresolved in an experimental structure,
-which can include flexible-but-not-fully-disordered loops as well as genuinely disordered
-segments) and NMR/CD evidence also show comparatively low recall (70–78%), while indirect,
-lower-resolution methods (dynamic light scattering, gel filtration, author statement,
-chromatography) show near-total recall — plausibly because these methods are typically applied
-to, or reported for, more unambiguously and extensively disordered regions.
+HDX-MS can characterize protection and exchange in dynamic or transiently structured states, so
+residual structure is one possible explanation for the higher pLDDT in this subset. It is not
+identified by this analysis, however. Likewise, the differences across X-ray, cryo-EM, NMR/CD,
+light-scattering, gel-filtration, author-statement, and chromatography evidence are exploratory
+associations among overlapping annotations—not evidence that the experimental technique caused
+the classifier performance. Sample composition, protein identity, region length, and curation
+practice are plausible alternatives that this version does not separate.
 
 ### By protein — concrete examples
 
@@ -162,12 +174,12 @@ site's full accessible data table.
 
 ## Hypothesis dispositions
 
-- **H1 (pLDDT lower inside curated disorder): confirmed**, unambiguously, by both the primary
-  Mann–Whitney U test and the KS robustness check.
+- **H1 (pLDDT lower inside curated disorder): supported in this sample** by the frozen pooled-
+  residue tests and by the more conservative paired protein-level sensitivity.
 - **H2 (pLDDT<70 classifies curated disorder above chance): confirmed**, with moderate overall
-  performance (MCC 0.367) that degrades substantially and specifically on disorder regions
-  co-occurring with conditional-folding annotations and on regions supported by evidence types
-  associated with partial/dynamic structure (HDX-MS weakest at 35.1% recall).
+  performance (MCC 0.367). Exploratory subgroup performance is lower for disorder regions
+  co-occurring with conditional-folding annotations and for HDX-MS-supported annotations, but
+  this analysis does not identify the cause of those subgroup differences.
 - **Qualitative comparison to Alderson et al. 2023:** the ~23.5% "confidently-folded despite
   curated disorder" rate found here is directionally and roughly magnitude-consistent with the
   paper's own ~30% DisProt figure, despite a different sample, ground-truth scope, and
