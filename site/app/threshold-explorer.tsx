@@ -174,7 +174,7 @@ export function ThresholdExplorer({
       <p className="uncertainty-note threshold-note">
         {group === "overall"
           ? "Aggregate view — the headline numbers reported elsewhere on this page."
-          : "This split uses the same protein-level conditional-folding proxy as “Where it fails” below: notice how much further precision and MCC drop on the conditional-folding-flagged group at every threshold, not just at 70."}
+          : "This split uses the same protein-level conditional-folding proxy as “Where it fails” below. Compare recall, not precision or MCC: both groups are scored against the same shared pool of non-disorder residues, so their precision and MCC differ with group size even for an identical classifier."}
       </p>
 
       <EcdfChart

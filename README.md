@@ -28,13 +28,17 @@ difference 36.47, cluster-bootstrap 95% CI 34.29–40.07), so it is not an artif
 all 228,662 correlated residues as independent observations.
 A fixed pLDDT<70 classifier catches most curated disorder (76.5% recall) but is a **noisy, only
 moderately strong** predictor of it (34.1% precision, F1 0.472, MCC 0.367) — H2 confirmed above
-chance, not strongly. The classifier's precision and MCC both drop sharply on disorder regions
-that co-occur with a conditional-folding annotation elsewhere on the same protein, and on
-disorder supported by hydrogen-deuterium exchange mass spectrometry (35.1% recall). Those
-subgroup patterns are exploratory and do not establish why performance differs; the overall
+chance, not strongly. Recall is lower on disorder regions that co-occur with a conditional-folding annotation
+elsewhere on the same protein (0.681 vs 0.780; protein-clustered 95% interval of the difference 0.0005 to 0.212, AUC
+difference interval -0.005 to 0.115) and on disorder supported by hydrogen-deuterium exchange mass spectrometry
+(35.1% recall, but from only 4 proteins). (An earlier version of this README said precision and MCC "drop sharply" for
+the conditional-folding group; that is a size artifact of scoring each subgroup against a shared non-disorder pool, and
+is corrected in the report's erratum.) Those subgroup patterns are exploratory and do not establish why performance differs; the overall
 direction is only a qualitative match to Alderson et al., not a numerical replication. Full
 reasoning, every hypothesis's disposition, and every limitation: see
 [`docs/research-report.md`](docs/research-report.md).
+
+**Paper:** [When Precision Misleads (PDF)](paper/paper.pdf) · [citation and status](paper/README.md) · [version history](history.md)
 
 ## What this contributes
 
@@ -43,8 +47,8 @@ reasoning, every hypothesis's disposition, and every limitation: see
   than a restatement of the paper's own claims: does a simple pLDDT<70 classifier actually
   predict curated disorder on a fresh sample, and specifically where does it fail? (Answer: the
   distributional difference is unambiguous; the classifier works better than chance but is far
-  from a clean disorder detector, and its worst failures cluster exactly where the motivating
-  paper's own theory predicts they should.)
+  from a clean disorder detector, and recall is lower where the motivating
+  paper's own theory predicts it should be, though with 61 conditional proteins the evidence for that gap is weak.)
 - Two disclosed, real data-access deviations, found and fixed during the actual fetch rather than
   hidden: DisProt's search API ignores `limit`/`offset` under an `organism` filter, and AlphaFold
   DB's metadata endpoint returns UniProt isoform records rather than the long-protein sequence

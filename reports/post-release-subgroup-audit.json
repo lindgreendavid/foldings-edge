@@ -1,0 +1,207 @@
+{
+  "conditional_flag": {
+    "auc_difference_non_minus_conditional": {
+      "ci_95": [
+        -0.005110725989709169,
+        0.11498958620636865
+      ],
+      "point": 0.04922082840463926,
+      "resamples": 1000
+    },
+    "n_conditional_proteins": 61,
+    "n_proteins": 387,
+    "point": {
+      "auc_conditional": 0.7304704138722814,
+      "auc_non_conditional": 0.7796912422769207,
+      "recall_conditional": 0.6811407543698252,
+      "recall_non_conditional": 0.7797673755268912
+    },
+    "recall_difference_non_minus_conditional": {
+      "ci_95": [
+        0.00045238345891396157,
+        0.21169727182476727
+      ],
+      "point": 0.098626621157066,
+      "resamples": 10000
+    }
+  },
+  "evidence_codes": {
+    "ECO:0000302": {
+      "ec_name": "author statement used in manual assertion",
+      "n_disorder_residues": 882,
+      "n_proteins": 4,
+      "recall": 0.9863945578231292,
+      "recall_ci_95": [
+        0.9814814814814815,
+        0.9923857868020305
+      ]
+    },
+    "ECO:0001184": {
+      "ec_name": "gel-filtration evidence used in manual assertion",
+      "n_disorder_residues": 226,
+      "n_proteins": 2,
+      "recall": 0.995575221238938,
+      "recall_ci_95": [
+        0.98989898989899,
+        1.0
+      ]
+    },
+    "ECO:0005642": {
+      "ec_name": "heteronuclear single quantum coherence spectroscopy evidence used in manual assertion",
+      "n_disorder_residues": 308,
+      "n_proteins": 5,
+      "recall": 0.577922077922078,
+      "recall_ci_95": [
+        0.38837920489296635,
+        0.8627450980392157
+      ]
+    },
+    "ECO:0006003": {
+      "ec_name": "electron microscopy evidence used in manual assertion",
+      "n_disorder_residues": 1026,
+      "n_proteins": 2,
+      "recall": 0.7787524366471735,
+      "recall_ci_95": [
+        0.7621809744779582,
+        0.8658536585365854
+      ]
+    },
+    "ECO:0006165": {
+      "ec_name": "nuclear magnetic resonance spectroscopy evidence used in manual assertion",
+      "n_disorder_residues": 7563,
+      "n_proteins": 108,
+      "recall": 0.7720481290493191,
+      "recall_ci_95": [
+        0.7083268769051188,
+        0.8283485269856383
+      ]
+    },
+    "ECO:0006198": {
+      "ec_name": "proton-based nuclear magnetic resonance evidence used in manual assertion",
+      "n_disorder_residues": 375,
+      "n_proteins": 4,
+      "recall": 0.8906666666666667,
+      "recall_ci_95": [
+        0.5064935064935064,
+        0.9899328859060402
+      ]
+    },
+    "ECO:0006204": {
+      "ec_name": "far-UV circular dichroism evidence used in manual assertion",
+      "n_disorder_residues": 4337,
+      "n_proteins": 37,
+      "recall": 0.7572054415494581,
+      "recall_ci_95": [
+        0.6490321213184836,
+        0.8453916672514329
+      ]
+    },
+    "ECO:0006208": {
+      "ec_name": "cryogenic electron microscopy evidence used in manual assertion",
+      "n_disorder_residues": 238,
+      "n_proteins": 2,
+      "recall": 0.8949579831932774,
+      "recall_ci_95": [
+        0.8903508771929824,
+        1.0
+      ]
+    },
+    "ECO:0006220": {
+      "ec_name": "X-ray crystallography-based structural model with missing residue coordinates used in manual assertion",
+      "n_disorder_residues": 11817,
+      "n_proteins": 202,
+      "recall": 0.7022933062537023,
+      "recall_ci_95": [
+        0.6222933210201312,
+        0.7808468991292492
+      ]
+    },
+    "ECO:0006224": {
+      "ec_name": "cryogenic electron microscopy-based structural model with missing residue coordinates used in manual assertion",
+      "n_disorder_residues": 5547,
+      "n_proteins": 29,
+      "recall": 0.8667748332431945,
+      "recall_ci_95": [
+        0.7710820001054757,
+        0.9255828328757496
+      ]
+    },
+    "ECO:0006236": {
+      "ec_name": "protein hydrogen-deuterium exchange mass spectrometry evidence used in manual assertion",
+      "n_disorder_residues": 578,
+      "n_proteins": 4,
+      "recall": 0.35121107266435986,
+      "recall_ci_95": [
+        0.08633093525179857,
+        0.7242857142857143
+      ]
+    },
+    "ECO:0007064": {
+      "ec_name": "dynamic light scattering assay evidence used in manual assertion",
+      "n_disorder_residues": 384,
+      "n_proteins": 1,
+      "recall": 0.9973958333333334,
+      "recall_ci_95": [
+        0.9973958333333334,
+        0.9973958333333334
+      ]
+    },
+    "ECO:0007680": {
+      "ec_name": "chromatography evidence used in manual assertion",
+      "n_disorder_residues": 776,
+      "n_proteins": 4,
+      "recall": 0.9755154639175257,
+      "recall_ci_95": [
+        0.8210526315789474,
+        1.0
+      ]
+    },
+    "ECO:0007689": {
+      "ec_name": "sodium dodecyl sulfate polyacrylamide gel electrophoresis evidence used in manual assertion",
+      "n_disorder_residues": 631,
+      "n_proteins": 5,
+      "recall": 0.8605388272583201,
+      "recall_ci_95": [
+        0.6529284164859002,
+        0.9818941504178273
+      ]
+    },
+    "ECO:0007691": {
+      "ec_name": "cleavage assay evidence used in manual assertion",
+      "n_disorder_residues": 859,
+      "n_proteins": 13,
+      "recall": 0.519208381839348,
+      "recall_ci_95": [
+        0.33874740761705247,
+        0.7806148236899737
+      ]
+    },
+    "ECO:0008035": {
+      "ec_name": "author inference based on intrinsic disorder prediction used in manual assertion",
+      "n_disorder_residues": 629,
+      "n_proteins": 4,
+      "recall": 0.8966613672496025,
+      "recall_ci_95": [
+        0.8502617801047121,
+        0.9662650602409638
+      ]
+    }
+  },
+  "label": "POST-HOC (not preregistered): pool-independent subgroup audit",
+  "precision_size_artifact": {
+    "conditional": {
+      "equal_recall_precision": 0.07059270736001602,
+      "n_disorder_residues": 5435,
+      "observed_precision": 0.06332318429065034
+    },
+    "non_conditional": {
+      "equal_recall_precision": 0.30601609538074137,
+      "n_disorder_residues": 31553,
+      "observed_precision": 0.3100146161987803
+    },
+    "overall_recall": 0.7652752243971017,
+    "shared_false_positives": 54760
+  },
+  "schema_version": 1,
+  "seed": 20261009
+}

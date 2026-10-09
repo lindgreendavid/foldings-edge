@@ -259,7 +259,12 @@ export default function Home() {
             &quot;WITH a conditional-folding region elsewhere&quot; is a protein-level proxy (does
             this protein have any &quot;disorder to order&quot; annotation anywhere), not a
             region-level overlap with the classified residue itself — see the limitations in the
-            full report.
+            full report. Compare recall, not precision or MCC, across these two groups: both are
+            scored against the same shared pool of non-disorder residues, so precision and MCC
+            depend on group size (at the overall recall the smaller group would have precision
+            0.07 against 0.31). A post-hoc audit with protein-clustered intervals puts the recall
+            gap at 0.099 (95% interval 0.0005 to 0.212; 61 conditional proteins against 326). The
+            evidence-code table below likewise rests on very few proteins for several codes.
           </p>
           <EvidenceTable breakdown={h2_classifier.by_evidence_code} />
           <div style={{ height: "18px" }} />

@@ -6,6 +6,16 @@ actually shows, compared against the preregistered hypotheses in
 [`research-protocol.md`](research-protocol.md), reported without suppressing an adverse or
 unexpected result.
 
+> **Erratum (2026-10-09).** An earlier version of this report said precision and MCC were "substantially worse"
+> for disorder on proteins with a conditional-folding annotation and treated HDX-MS as "the single weakest evidence
+> code". Both statements over-read the data. (1) Each subgroup was scored against the *same* 191,674-residue
+> non-disorder pool, so subgroup precision and MCC depend mechanically on subgroup size: if both groups had the overall
+> recall (0.765), precision would still be 0.071 vs 0.306. Only recall and AUC are comparable across groups, and with
+> protein-clustered intervals the recall gap (0.681 vs 0.780) just excludes zero (95% interval 0.0005 to 0.212) while
+> the AUC gap (0.730 vs 0.780) does not (-0.005 to 0.115). (2) The HDX-MS recall of 35.1% rests on 4 proteins
+> (clustered 95% interval 0.09 to 0.72). No registry value changes; see "Amendment 2" and
+> `reports/post-release-subgroup-audit.json`.
+
 ## Sample
 
 400 human DisProt entries sampled (fixed seed 20260813) from **1,339 total human entries**
@@ -97,11 +107,15 @@ which this project never attempted to reproduce.
 | Disorder residues on a protein with a "disorder to order" region elsewhere | 197,109 | 0.063 | 0.681 | 0.116 | 0.142 |
 | Disorder residues on a protein with no such region | 223,227 | 0.310 | 0.780 | 0.444 | 0.360 |
 
-Both precision and MCC are substantially worse for disorder residues on proteins that also carry
-a conditional-folding annotation elsewhere. This is directionally consistent with Alderson et
-al.'s central finding: regions capable of folding given the right partner or PTM are exactly the
-regions where pLDDT is a less reliable signal of "curator called this disordered." **Caveat,
-stated plainly:** this flag is a *protein-level* proxy (does this protein have a "disorder to
+**Precision and MCC in this table are not comparable across the two groups.** Each row scores its
+disorder residues against the same shared pool of 191,674 non-disorder residues, so precision falls with
+subgroup size even for an identical classifier: at the overall recall of 0.765 the conditional group would have
+precision 0.071 and the other group 0.306 (observed: 0.063 and 0.310). The post-hoc audit (Amendment 2) compares
+the groups with size-independent quantities and protein-clustered intervals: recall 0.681 vs 0.780 (difference
+0.099, 95% interval 0.0005 to 0.212) and AUC 0.730 vs 0.780 (difference 0.049, 95% interval -0.005 to 0.115), with
+61 conditional proteins against 326 others. The direction matches Alderson et al.'s finding (regions capable of
+folding given a partner or modification are where pLDDT is a less reliable disorder signal), but the evidence for a
+gap is weak: the recall interval barely excludes zero and the AUC interval includes it. **Caveat, stated plainly:** this flag is a *protein-level* proxy (does this protein have a "disorder to
 order" region *anywhere*), not a *region-level* overlap with the specific disorder residue being
 classified, and is not identical to Alderson et al.'s own five-database conditionally-folded-IDR
 definition — a real region-level analysis is out of scope for v0.1.0 and is named directly as a
@@ -135,8 +149,10 @@ across evidence codes uninformative, so recall is the metric to read in this tab
 \* listed for completeness; see the frozen registry for the full, exact set.
 
 Only evidence codes covering at least 200 disorder residues are shown, per the preregistered
-minimum. **The single weakest evidence code is hydrogen-deuterium exchange mass spectrometry
-(HDX-MS, ECO:0006236), where the classifier catches only 35.1% of curated-disorder residues.**
+minimum. **The lowest-recall evidence code is hydrogen-deuterium exchange mass spectrometry
+(HDX-MS, ECO:0006236), where the classifier catches only 35.1% of curated-disorder residues, but those 578
+residues come from only 4 proteins (protein-clustered 95% interval 0.09 to 0.72), so the ranking among codes is not
+reliable; several other codes rest on 1 to 5 proteins (see the audit file).**
 HDX-MS can characterize protection and exchange in dynamic or transiently structured states, so
 residual structure is one possible explanation for the higher pLDDT in this subset. It is not
 identified by this analysis, however. Likewise, the differences across X-ray, cryo-EM, NMR/CD,
@@ -177,9 +193,10 @@ site's full accessible data table.
 - **H1 (pLDDT lower inside curated disorder): supported in this sample** by the frozen pooled-
   residue tests and by the more conservative paired protein-level sensitivity.
 - **H2 (pLDDT<70 classifies curated disorder above chance): confirmed**, with moderate overall
-  performance (MCC 0.367). Exploratory subgroup performance is lower for disorder regions
-  co-occurring with conditional-folding annotations and for HDX-MS-supported annotations, but
-  this analysis does not identify the cause of those subgroup differences.
+  performance (MCC 0.367). Subgroup performance is nominally lower for disorder regions
+  co-occurring with conditional-folding annotations (recall 0.681 vs 0.780; clustered interval of the
+  difference 0.0005 to 0.212) and for HDX-MS-supported annotations (4 proteins); neither is established, and
+  this analysis does not identify the cause of any subgroup difference.
 - **Qualitative comparison to Alderson et al. 2023:** the ~23.5% "confidently-folded despite
   curated disorder" rate found here is directionally and roughly magnitude-consistent with the
   paper's own ~30% DisProt figure, despite a different sample, ground-truth scope, and
@@ -200,9 +217,10 @@ site's full accessible data table.
   specific classified residue's region is the one that conditionally folds, and does not use
   Alderson et al.'s own five-database definition. A cleaner region-level replication of that
   specific analysis is out of scope for v0.1.0.
-- **Per-evidence-code precision is not informative for cross-code comparison** because every
-  breakdown shares the same large non-disorder residue pool as its precision denominator; only
-  recall is emphasized in that section.
+- **Subgroup precision and MCC are not informative for any subgroup comparison** (conditional-folding flag or
+  evidence code) because every breakdown shares the same large non-disorder residue pool as its
+  denominator; only recall and AUC with protein-clustered intervals are comparable. Many evidence codes rest on
+  very few proteins.
 - **DisProt annotation coverage, not just AlphaFold accuracy, drives the large false-positive
   count.** Most pLDDT<70 residues are not inside a curated disorder region (54,760 of 83,066
   "not confident" residues) — some of this is presumably genuine order, and some is presumably
@@ -221,3 +239,8 @@ No deviations from the preregistered protocol were made after results existed. T
 behavior) were discovered and fixed **before** the frozen registry was generated, not after
 seeing results, and are documented in `docs/research-protocol.md` and `data/provenance.json`
 rather than here.
+- 2026-10-09 (Amendment 2): while preparing a paper, the conditional-folding and evidence-code subgroup
+  comparisons were found to over-read shared-pool precision/MCC and tiny-protein-count recalls. A post-hoc,
+  pool-independent audit with protein-cluster bootstrap intervals was added
+  (`src/foldings_edge/subgroups.py`, `reports/post-release-subgroup-audit.json`; all results reported). The frozen v0.1
+  registry is unchanged and regenerates identically.
